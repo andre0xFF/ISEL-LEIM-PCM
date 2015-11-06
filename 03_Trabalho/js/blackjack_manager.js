@@ -1,6 +1,8 @@
 /** TODO
  * Display player and dealer score
- * Dynamically insert cards
+ * Terminate game when someone reaches >= 21
+ * Player can't play anymore when passes the game
+ * Show who won
  */
 
 var jogo;
@@ -25,36 +27,73 @@ function debugScore() {
 
 function novo_jogo() {
   jogo = new BlackJack();
+  cleanLayout();
   jogo.criar_baralho();
-  debugScore();
-  // give two cards to player and dealer
   jogada_player();
+  jogada_dealer();
   jogada_player();
 }
 
 function jogada_player() {
+  if(jogo.playerPass)
+    return;
+
   jogo.jogada_player();
   insertCardFace("player", jogo.cartas_player);
+  verifyScore(jogo.cartas_player);
+  //debugScore();
+
+}
+
+function jogada_dealer() {
   jogo.jogada_dealer();
   insertCardFace("dealer", jogo.cartas_dealer);
-  debugScore();
-  // TODO: verify score if any hand >= 21 end game
+  verifyScore(jogo.cartas_dealer);
 }
 
 function dealer_acaba() {
-  jogo.jogada_dealer();
-  insertCardFace("dealer", jogo.cartas_dealer);
-  debugScore();
-  // TODO: end game
+  jogo.playerPass = true;
+  document.getElementById("carta").disabled = jogo.playerPass;
+  debug(jogo.playerPass);
+  jogada_dealer();
+}
+
+function verifyScore(hand) {
+  var r = jogo.terminou(hand);
+
+  if(r[0] || r[1])
+    finaliza_butoes();
+
+}
+/*
+function insertCardFace(name, hand) {
+  document.getElementById(name.toString() + "Img" + hand.length.toString()).src = getCardFace(hand[hand.length - 1]);
+}
+*/
+
+function insertCardFace(name, hand) {
+  var img = document.createElement("IMG");
+  img.src = getCardFace(hand[hand.length - 1]);
+  document.getElementById(name + "Group").appendChild(img);
+}
+
+function cleanLayout() {
+  var elem = document.getElementById("playerGroup");
+  while (elem.firstChild) {
+      elem.removeChild(elem.firstChild);
+  }
+
+  var elem = document.getElementById("dealerGroup");
+  while (elem.firstChild) {
+      elem.removeChild(elem.firstChild);
+  }
+
+  inicializa_butoes();
 }
 
 function getCardFace(num) {
   var card = new faceFetcher();
   return card.faces[num - 1][Math.floor(Math.random() * 4)];
-}
-
-function insertCardFace(name, hand) {
-  document.getElementById(name.toString() + "Img" + hand.length.toString()).src = getCardFace(hand[hand.length - 1]);
 }
 
 function inicializa_butoes() {

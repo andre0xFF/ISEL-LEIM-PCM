@@ -2,6 +2,7 @@ function BlackJack() {
   this.baralho = [];
   this.cartas_dealer = [];
   this.cartas_player = [];
+  this.playerPass = false;
 
   this.criar_baralho = function() {
     this.cartas_dealer = [];
