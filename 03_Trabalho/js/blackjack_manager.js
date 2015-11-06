@@ -1,7 +1,4 @@
 /** TODO
- * Display player and dealer score
- * Terminate game when someone reaches >= 21
- * Player can't play anymore when passes the game
  * Show who won
  */
 
@@ -40,7 +37,11 @@ function jogada_player() {
 
   jogo.jogada_player();
   insertCardFace("player", jogo.cartas_player);
-  verifyScore(jogo.cartas_player);
+  //verifyScore(jogo.cartas_player);
+  if(verifyScore(jogo.cartas_player)) {
+    document.getElementById("player").style.color = "#C5DB5F";
+    document.getElementById("dealer").style.color = "#FF4200";
+  }
   //debugScore();
 
 }
@@ -48,21 +49,25 @@ function jogada_player() {
 function jogada_dealer() {
   jogo.jogada_dealer();
   insertCardFace("dealer", jogo.cartas_dealer);
-  verifyScore(jogo.cartas_dealer);
+  if(verifyScore(jogo.cartas_dealer)) {
+    document.getElementById("dealer").style.color = "#C5DB5F";
+    document.getElementById("player").style.color = "#FF4200";
+  }
 }
 
 function dealer_acaba() {
   jogo.playerPass = true;
   document.getElementById("carta").disabled = jogo.playerPass;
-  debug(jogo.playerPass);
   jogada_dealer();
 }
 
 function verifyScore(hand) {
   var r = jogo.terminou(hand);
 
-  if(r[0] || r[1])
+  if(r[0] || r[1]) {
     finaliza_butoes();
+    return true;
+  }
 
 }
 /*
@@ -78,6 +83,9 @@ function insertCardFace(name, hand) {
 }
 
 function cleanLayout() {
+  document.getElementById("dealer").style.color = "#000000";
+  document.getElementById("player").style.color = "#000000";
+
   var elem = document.getElementById("playerGroup");
   while (elem.firstChild) {
       elem.removeChild(elem.firstChild);
