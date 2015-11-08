@@ -1,7 +1,3 @@
-/** TODO
- * Show who won
- */
-
 var jogo;
 var debugMode = true;
 
@@ -37,12 +33,10 @@ function jogada_player() {
 
   jogo.jogada_player();
   insertCardFace("player", jogo.cartas_player);
-  //verifyScore(jogo.cartas_player);
   if(verifyScore(jogo.cartas_player)) {
     document.getElementById("player").style.color = "#C5DB5F";
     document.getElementById("dealer").style.color = "#FF4200";
   }
-  //debugScore();
 
 }
 
