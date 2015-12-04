@@ -10,7 +10,7 @@ function DrawingShape(x,y,color,cnvs)
     };
 
     this.overcheck = function (mx,my) {
-        if ( (mx>=this.x)&&(mx<=(this.x+this.w))&&(my>=this.y)&&(my<=(this.y+this.h))) {
+        if ((mx>=this.x)&&(mx<=(this.x+this.w))&&(my>=this.y)&&(my<=(this.y+this.h))) {
             return true;
         }
         return false;
@@ -163,7 +163,7 @@ Heart.prototype = Object.create(DrawingShape.prototype);
 Heart.prototype.constructor = Heart;
 
 function getSymmetry(coord, size) {
-  return (coord + size) / 2;
+  return coord + size / 2;
 }
 
 function Bear(x, y, width, height, color, canvas) {
@@ -187,7 +187,7 @@ function Bear(x, y, width, height, color, canvas) {
   var rMouth;
 
 
-  this.draw = function () {
+  this.draw = function() {
     square.draw();
     face.draw();
     lEye.draw();
@@ -197,3 +197,30 @@ function Bear(x, y, width, height, color, canvas) {
 
 Bear.prototype = Object.create(DrawingShape.prototype);
 Bear.prototype.constructor = Bear;
+
+function Monster(x, y, width, height, color, canvas) {
+  var xS = getSymmetry(x, width);
+  var yS = getSymmetry(y, height);
+
+  var radius = 4;
+
+  var square = new Rect(x, y, width, height, color, canvas);
+  var lEye = new Oval(xS - width / 4, yS - height / 8, 10, 1, 1, "white", canvas);
+  var rEye = new Oval(xS + width / 4, yS - height / 8, 10, 1, 1, "white", canvas);
+  var iReye = new Oval(xS - width / 3.5, yS - height / 10, radius, 1, 1, color, canvas);
+  var iLeye = new Oval(xS + width / 3.5 - radius*2, yS - height / 10, radius, 1, 1, color, canvas);
+
+  var pointer = new Rect(xS - width/3.5, yS-height / 8.7, 3, 3, "red", canvas);
+
+  this.draw = function() {
+    square.draw();
+    lEye.draw();
+    rEye.draw();
+    iReye.draw();
+    iLeye.draw();
+    // pointer.draw();
+  }
+}
+
+Monster.prototype = Object.create(DrawingShape.prototype);
+Monster.prototype.constructor = Monster;
