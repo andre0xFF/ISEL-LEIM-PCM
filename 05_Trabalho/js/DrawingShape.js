@@ -10,7 +10,7 @@ function DrawingShape(x,y,color,cnvs)
     };
 
     this.overcheck = function (mx,my) {
-        if ((mx>=this.x)&&(mx<=(this.x+this.w))&&(my>=this.y)&&(my<=(this.y+this.h))) {
+        if((mx>=this.x)&&(mx<=(this.x+this.w))&&(my>=this.y)&&(my<=(this.y+this.h))) {
             return true;
         }
         return false;
@@ -209,8 +209,10 @@ function Monster(x, y, width, height, color, canvas) {
   var rEye = new Oval(xS + width / 4, yS - height / 8, 10, 1, 1, "white", canvas);
   var iReye = new Oval(xS - width / 3.5, yS - height / 10, radius, 1, 1, color, canvas);
   var iLeye = new Oval(xS + width / 3.5 - radius*2, yS - height / 10, radius, 1, 1, color, canvas);
-
-  var pointer = new Rect(xS - width/3.5, yS-height / 8.7, 3, 3, "red", canvas);
+  // TODO: Head arc
+  // var lHead = new Arc(x + height / 4, yS - height / 4, 20, 180, 270, false, "red", "red", canvas);
+  // var rHead = new Arc();
+  var pointer = new Rect(x + height / 4, yS - height / 4, 3, 3, "red", canvas);
 
   this.draw = function() {
     square.draw();
@@ -218,9 +220,47 @@ function Monster(x, y, width, height, color, canvas) {
     rEye.draw();
     iReye.draw();
     iLeye.draw();
-    // pointer.draw();
+    lHead.draw();
+    rHead.draw();
+
+    pointer.draw();
   }
 }
 
 Monster.prototype = Object.create(DrawingShape.prototype);
 Monster.prototype.constructor = Monster;
+
+
+function Arc(xPos, yPos, radius, startAngle, endAngle, anticlockwise, lineColor, fillColor, cnvs) {
+    var startAngle = startAngle * (Math.PI/180);
+    var endAngle = endAngle * (Math.PI/180);
+    var radius = radius;
+
+    DrawingShape.call(this,xPos,yPos,fillColor,cnvs);
+
+    this.draw = function() {
+      this.ctx.strokeStyle = lineColor;
+      this.ctx.fillStyle = fillColor;
+      this.ctx.lineWidth = 1;
+
+      this.ctx.beginPath();
+      this.ctx.arc(xPos, yPos, radius, startAngle, endAngle, anticlockwise);
+      this.ctx.fill();
+      this.ctx.stroke();
+    }
+}
+
+Arc.prototype = Object.create(DrawingShape.prototype);
+Arc.prototype.constructor = Arc;
+
+function Face(x, y, width, height, color, canvas) {
+  // draw left arc
+  // draw right arc
+  // draw left eye
+  // draw right eye
+  // draw mouth
+  // draw flower - draw one side of the flower and replicate in a circle
+  this.draw = function() {
+
+  }
+}
