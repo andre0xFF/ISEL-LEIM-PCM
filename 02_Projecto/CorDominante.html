@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/appManager.js"></script>
+        <script type="text/javascript" src="js/xmlManager.js"></script>
+        <title>Google Images</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Google Images</h1>
+        </header>
+        <section id="nav">
+            <ul>
+                <li><a href="PalavraChave.html" onclick="changePageSound.play()" onmouseover="hoverSound.play()">Pesquisa por Palavra Chave</a></li>
+                <li><a href="CorDominante.html" onclick="changePageSound.play()" onmouseover="hoverSound.play()">Pesquisa por Cor Dominante</a></li>
+                <li><a href="ImagemSemelhante.html" onclick="changePageSound.play()" onmouseover="hoverSound.play()">Pesquisa por Imagem Semelhante</a></li>
+            </ul>
+        </section>
+        <h2>Pesquisa por cor dominante</h2>
+        <section id="tools">
+            <span>Seleccionar cor:</span>
+            <div class="color_wrapper">
+                <div id="Amarelo" style="background-color:#FFFF00" onmouseover="hoverSound.play()" onclick="dominantColorSearch(this)"></div>
+                <div id="Azul" style="background-color:#0000FF" onmouseover="hoverSound.play()" onclick="dominantColorSearch(this)"></div>
+                <div id="Branco" style="background-color:#FFFFFF" onmouseover="hoverSound.play()" onclick="dominantColorSearch(this)"></div>
+                <div id="Castanho" style="background-color:#885418" onmouseover="hoverSound.play()" onclick="dominantColorSearch(this)"></div>
+                <div id="Cinzento" style="background-color:#999999" onmouseover="hoverSound.play()" onclick="dominantColorSearch(this)"></div>
+                <div id="Laranja" style="background-color:#FB940B" onmouseover="hoverSound.play()" onclick="dominantColorSearch(this)"></div>
+                <div id="Preto" style="background-color:#000000" onmouseover="hoverSound.play()" onclick="dominantColorSearch(this)"></div>
+                <div id="Rosa" style="background-color:#FF98BF" onmouseover="hoverSound.play()" onclick="dominantColorSearch(this)"></div>
+                <div id="Roxo" style="background-color:#762CA7" onmouseover="hoverSound.play()" onclick="dominantColorSearch(this)"></div>
+                <div id="Verde" style="background-color:#00CC00" onmouseover="hoverSound.play()" onclick="dominantColorSearch(this)"></div>
+                <div id="Verde-Azulado" style="background-color:#03C0C6" onmouseover="hoverSound.play()" onclick="dominantColorSearch(this)"></div>
+                <div id="Vermelho" style="background-color:#CC0000" onmouseover="hoverSound.play()" onclick="dominantColorSearch(this)"></div>
+            </div>
+        </section>
+        <canvas id="canvas" width="1180"></canvas>
+    </body>
+</html> 

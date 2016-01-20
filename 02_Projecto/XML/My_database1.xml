@@ -1,0 +1,3902 @@
+<images>
+	<image class="beach">
+      <ID>2332997000</ID>
+      <path>Images/beach/img_1.jpg</path>
+      <title>........h..........O.......M......?.........................i....</title>
+      <description>null</description>
+      <latitude>52.109074</latitude>
+      <longitude>4.271836</longitude>
+      <date>Sun Feb 17 17:44:07 GMT 2008</date>
+      <dominantcolor>#A04000</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332172539</ID>
+      <path>Images/beach/img_2.jpg</path>
+      <title>Cannon Beach sunset clouds</title>
+      <description>null</description>
+      <latitude>45.88992</latitude>
+      <longitude>-123.96389</longitude>
+      <date>Sat Mar 01 17:55:01 GMT 2008</date>
+      <dominantcolor>#A0A080</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332172791</ID>
+      <path>Images/beach/img_3.jpg</path>
+      <title>Cannon Beach sunset clouds</title>
+      <description>null</description>
+      <latitude>45.88992</latitude>
+      <longitude>-123.96389</longitude>
+      <date>Sat Mar 01 17:56:05 GMT 2008</date>
+      <dominantcolor>#808080</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332991118</ID>
+      <path>Images/beach/img_4.jpg</path>
+      <title>The ocean approaches</title>
+      <description>null</description>
+      <latitude>45.88856</latitude>
+      <longitude>-123.96641</longitude>
+      <date>Sat Mar 01 11:03:27 GMT 2008</date>
+      <dominantcolor>#808080</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332994860</ID>
+      <path>Images/beach/img_5.jpg</path>
+      <title>Cannon Beach sunset wide</title>
+      <description>null</description>
+      <latitude>45.88992</latitude>
+      <longitude>-123.96389</longitude>
+      <date>Sat Mar 01 17:46:27 GMT 2008</date>
+      <dominantcolor>#406040</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332169155</ID>
+      <path>Images/beach/img_6.jpg</path>
+      <title>Cannon Beach sunset wide</title>
+      <description>null</description>
+      <latitude>45.88992</latitude>
+      <longitude>-123.96389</longitude>
+      <date>Sat Mar 01 17:43:25 GMT 2008</date>
+      <dominantcolor>#606080</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332171711</ID>
+      <path>Images/beach/img_7.jpg</path>
+      <title>Cannon Beach sunset wide</title>
+      <description>null</description>
+      <latitude>45.88992</latitude>
+      <longitude>-123.96389</longitude>
+      <date>Sat Mar 01 17:49:22 GMT 2008</date>
+      <dominantcolor>#606040</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332989762</ID>
+      <path>Images/beach/img_8.jpg</path>
+      <title>The ocean approaches</title>
+      <description>null</description>
+      <latitude>45.88856</latitude>
+      <longitude>-123.96641</longitude>
+      <date>Sat Mar 01 11:03:19 GMT 2008</date>
+      <dominantcolor>#808080</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332171049</ID>
+      <path>Images/beach/img_9.jpg</path>
+      <title>France 2008100</title>
+      <description>null</description>
+      <latitude>43.74318</latitude>
+      <longitude>7.4308</longitude>
+      <date>Fri Mar 14 03:34:00 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332989564</ID>
+      <path>Images/beach/img_10.jpg</path>
+      <title>Haystack mirrored</title>
+      <description>null</description>
+      <latitude>45.886284</latitude>
+      <longitude>-123.96535</longitude>
+      <date>Sat Mar 01 11:02:37 GMT 2008</date>
+      <dominantcolor>#202080</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332167541</ID>
+      <path>Images/beach/img_11.jpg</path>
+      <title>Up and down</title>
+      <description>null</description>
+      <latitude>45.882504</latitude>
+      <longitude>-123.9646</longitude>
+      <date>Sat Mar 01 11:05:41 GMT 2008</date>
+      <dominantcolor>#E0E0C0</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332170697</ID>
+      <path>Images/beach/img_12.jpg</path>
+      <title>Cannon Beach sunset wide</title>
+      <description>null</description>
+      <latitude>45.88992</latitude>
+      <longitude>-123.96389</longitude>
+      <date>Sat Mar 01 17:47:44 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332167001</ID>
+      <path>Images/beach/img_13.jpg</path>
+      <title>Feeble sun</title>
+      <description>null</description>
+      <latitude>45.881325</latitude>
+      <longitude>-123.96415</longitude>
+      <date>Sat Mar 01 11:05:26 GMT 2008</date>
+      <dominantcolor>#808080</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332995408</ID>
+      <path>Images/beach/img_14.jpg</path>
+      <title>Cannon Beach sunset</title>
+      <description>null</description>
+      <latitude>45.88992</latitude>
+      <longitude>-123.96389</longitude>
+      <date>Sat Mar 01 17:46:43 GMT 2008</date>
+      <dominantcolor>#808040</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332997350</ID>
+      <path>Images/beach/img_15.jpg</path>
+      <title>Cannon Beach sunset clouds</title>
+      <description>null</description>
+      <latitude>45.88992</latitude>
+      <longitude>-123.96389</longitude>
+      <date>Sat Mar 01 17:54:24 GMT 2008</date>
+      <dominantcolor>#606080</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332829640</ID>
+      <path>Images/beach/img_16.jpg</path>
+      <title>Lilliana on the Driftwood</title>
+      <description>null</description>
+      <latitude>43.541664</latitude>
+      <longitude>-70.32531</longitude>
+      <date>Thu Mar 13 14:46:40 GMT 2008</date>
+      <dominantcolor>#608080</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332001851</ID>
+      <path>Images/beach/img_17.jpg</path>
+      <title>Jumping</title>
+      <description>null</description>
+      <latitude>43.54103</latitude>
+      <longitude>-70.325195</longitude>
+      <date>Thu Mar 13 14:52:10 GMT 2008</date>
+      <dominantcolor>#204080</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332826926</ID>
+      <path>Images/beach/img_18.jpg</path>
+      <title>The Dunes</title>
+      <description>null</description>
+      <latitude>43.54137</latitude>
+      <longitude>-70.32525</longitude>
+      <date>Thu Mar 13 14:53:38 GMT 2008</date>
+      <dominantcolor>#408040</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332827898</ID>
+      <path>Images/beach/img_19.jpg</path>
+      <title>Running</title>
+      <description>null</description>
+      <latitude>43.54103</latitude>
+      <longitude>-70.325195</longitude>
+      <date>Thu Mar 13 14:52:03 GMT 2008</date>
+      <dominantcolor>#606040</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332828992</ID>
+      <path>Images/beach/img_20.jpg</path>
+      <title>Sand Strata</title>
+      <description>null</description>
+      <latitude>43.541664</latitude>
+      <longitude>-70.32531</longitude>
+      <date>Thu Mar 13 14:49:53 GMT 2008</date>
+      <dominantcolor>#402040</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2331979941</ID>
+      <path>Images/beach/img_21.jpg</path>
+      <title>Dornoch Cathedral from the beach</title>
+      <description>null</description>
+      <latitude>57.88001</latitude>
+      <longitude>-4.029541</longitude>
+      <date>Wed Mar 05 12:45:46 GMT 2008</date>
+      <dominantcolor>#80A080</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2331935529</ID>
+      <path>Images/beach/img_22.jpg</path>
+      <title>Scott marvels at the sea</title>
+      <description>null</description>
+      <latitude>37.72209</latitude>
+      <longitude>-122.50602</longitude>
+      <date>Thu Mar 13 17:43:35 GMT 2008</date>
+      <dominantcolor>#C0C080</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2332763048</ID>
+      <path>Images/beach/img_23.jpg</path>
+      <title>Scott and the rabbits</title>
+      <description>null</description>
+      <latitude>37.721855</latitude>
+      <longitude>-122.50579</longitude>
+      <date>Thu Mar 13 17:44:27 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2331937969</ID>
+      <path>Images/beach/img_24.jpg</path>
+      <title>Sam shows his first interest in birds</title>
+      <description>null</description>
+      <latitude>37.723545</latitude>
+      <longitude>-122.506294</longitude>
+      <date>Thu Mar 13 17:52:18 GMT 2008</date>
+      <dominantcolor>#2020C0</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2331140027</ID>
+      <path>Images/beach/img_25.jpg</path>
+      <title>The Calm Before the Storm - Braye Beach - Alderney</title>
+      <description>null</description>
+      <latitude>49.72108</latitude>
+      <longitude>-2.194562</longitude>
+      <date>Sun Mar 09 17:34:12 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>1677270080</ID>
+      <path>Images/beach/img_26.jpg</path>
+      <title>Cocktails on the beach</title>
+      <description>null</description>
+      <latitude>-3.632922</latitude>
+      <longitude>-38.713654</longitude>
+      <date>Sun Oct 21 16:28:01 BST 2007</date>
+      <dominantcolor>#E0C080</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2331881704</ID>
+      <path>Images/beach/img_27.jpg</path>
+      <title>Before the day starts</title>
+      <description>null</description>
+      <latitude>50.54432</latitude>
+      <longitude>-3.499295</longitude>
+      <date>Thu May 03 06:54:06 BST 2007</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2331891988</ID>
+      <path>Images/beach/img_28.jpg</path>
+      <title>Sunrise</title>
+      <description>null</description>
+      <latitude>50.54233</latitude>
+      <longitude>-3.495004</longitude>
+      <date>Sat May 12 06:02:21 BST 2007</date>
+      <dominantcolor>#200000</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2331881904</ID>
+      <path>Images/beach/img_29.jpg</path>
+      <title>Sunrise</title>
+      <description>null</description>
+      <latitude>50.54233</latitude>
+      <longitude>-3.495004</longitude>
+      <date>Sat May 12 05:57:23 BST 2007</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="beach">
+      <ID>2331062601</ID>
+      <path>Images/beach/img_30.jpg</path>
+      <title>Outgoing Tide</title>
+      <description>null</description>
+      <latitude>50.54233</latitude>
+      <longitude>-3.495004</longitude>
+      <date>Fri May 18 07:04:28 BST 2007</date>
+      <dominantcolor>#604040</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2340629390</ID>
+      <path>Images/face/img_1.jpg</path>
+      <title>P1000282</title>
+      <description>null</description>
+      <latitude>25.109306</latitude>
+      <longitude>121.84656</longitude>
+      <date>Sat Mar 15 15:56:04 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2339795855</ID>
+      <path>Images/face/img_2.jpg</path>
+      <title>P1000282-1</title>
+      <description>null</description>
+      <latitude>25.109306</latitude>
+      <longitude>121.84656</longitude>
+      <date>Sat Mar 15 15:56:04 GMT 2008</date>
+      <dominantcolor>#E02000</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2339407232</ID>
+      <path>Images/face/img_3.jpg</path>
+      <title>Earth Would Blaze</title>
+      <description>null</description>
+      <latitude>43.37771</latitude>
+      <longitude>-91.00027</longitude>
+      <date>Sat Mar 08 16:17:00 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2339138724</ID>
+      <path>Images/face/img_4.jpg</path>
+      <title>Grinch!!!!</title>
+      <description>null</description>
+      <latitude>41.014923</latitude>
+      <longitude>-75.244286</longitude>
+      <date>Tue Dec 26 20:33:41 GMT 2006</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2339114016</ID>
+      <path>Images/face/img_5.jpg</path>
+      <title>Perspectives</title>
+      <description>null</description>
+      <latitude>25.779488</latitude>
+      <longitude>-80.13633</longitude>
+      <date>Sun Feb 10 10:48:48 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2337586585</ID>
+      <path>Images/face/img_6.jpg</path>
+      <title>Red eyes...</title>
+      <description>null</description>
+      <latitude>56.02037</latitude>
+      <longitude>12.738153</longitude>
+      <date>Sun Mar 16 14:45:51 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2337437431</ID>
+      <path>Images/face/img_7.jpg</path>
+      <title>Alcohol affects the physiognomy</title>
+      <description>null</description>
+      <latitude>52.56224</latitude>
+      <longitude>0.088115</longitude>
+      <date>Sat Mar 15 15:16:45 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2338206308</ID>
+      <path>Images/face/img_8.jpg</path>
+      <title>trevor, squidward</title>
+      <description>null</description>
+      <latitude>34.37385</latitude>
+      <longitude>-119.475334</longitude>
+      <date>Sat Mar 08 16:28:54 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2336628352</ID>
+      <path>Images/face/img_9.jpg</path>
+      <title>The Beginning Of An Exploration</title>
+      <description>null</description>
+      <latitude>37.8005</latitude>
+      <longitude>-122.409</longitude>
+      <date>Wed Jan 23 16:55:15 GMT 2008</date>
+      <dominantcolor>#A0A080</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2335737517</ID>
+      <path>Images/face/img_10.jpg</path>
+      <title>Indoor Street Photography</title>
+      <description>null</description>
+      <latitude>40.761734</latitude>
+      <longitude>-73.97763</longitude>
+      <date>Sat Mar 15 14:14:54 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2336363264</ID>
+      <path>Images/face/img_11.jpg</path>
+      <title>Miss Grumpy-Pants</title>
+      <description>null</description>
+      <latitude>46.9094</latitude>
+      <longitude>-67.82771</longitude>
+      <date>Fri Aug 31 17:39:19 BST 2007</date>
+      <dominantcolor>#606040</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2335290433</ID>
+      <path>Images/face/img_12.jpg</path>
+      <title>Girl nude</title>
+      <description>null</description>
+      <latitude>25.779488</latitude>
+      <longitude>-80.13633</longitude>
+      <date>Sun Mar 02 18:08:45 GMT 2008</date>
+      <dominantcolor>#A04000</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2335861756</ID>
+      <path>Images/face/img_13.jpg</path>
+      <title>Rock Face</title>
+      <description>null</description>
+      <latitude>39.37842</latitude>
+      <longitude>-104.855705</longitude>
+      <date>Sat Mar 15 10:41:42 GMT 2008</date>
+      <dominantcolor>#4080C0</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2335747920</ID>
+      <path>Images/face/img_14.jpg</path>
+      <title>WOW!</title>
+      <description>null</description>
+      <latitude>46.65434</latitude>
+      <longitude>14.179412</longitude>
+      <date>Wed Mar 12 22:25:52 GMT 2008</date>
+      <dominantcolor>#600000</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2333696233</ID>
+      <path>Images/face/img_15.jpg</path>
+      <title>Wise Old Elephant</title>
+      <description>null</description>
+      <latitude>39.00564</latitude>
+      <longitude>-94.527245</longitude>
+      <date>Fri Mar 14 13:25:19 GMT 2008</date>
+      <dominantcolor>#604040</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2333635463</ID>
+      <path>Images/face/img_16.jpg</path>
+      <title>Leah H.</title>
+      <description>null</description>
+      <latitude>39.044003</latitude>
+      <longitude>-77.468</longitude>
+      <date>Sat Jul 07 19:20:28 BST 2007</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2333638461</ID>
+      <path>Images/face/img_17.jpg</path>
+      <title>Leah H.</title>
+      <description>null</description>
+      <latitude>39.044003</latitude>
+      <longitude>-77.468</longitude>
+      <date>Sat Jul 07 18:16:58 BST 2007</date>
+      <dominantcolor>#206040</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2334324736</ID>
+      <path>Images/face/img_18.jpg</path>
+      <title>A worried man</title>
+      <description>null</description>
+      <latitude>51.616962</latitude>
+      <longitude>-2.961791</longitude>
+      <date>Thu Mar 06 18:14:37 GMT 2008</date>
+      <dominantcolor>#806040</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2332815127</ID>
+      <path>Images/face/img_19.jpg</path>
+      <title>Have a Nice Weekend</title>
+      <description>null</description>
+      <latitude>39.285583</latitude>
+      <longitude>-76.61396</longitude>
+      <date>Wed Mar 12 16:54:13 GMT 2008</date>
+      <dominantcolor>#C0A000</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2332814241</ID>
+      <path>Images/face/img_20.jpg</path>
+      <title>Self-portrait 3 v2</title>
+      <description>null</description>
+      <latitude>56.553474</latitude>
+      <longitude>9.031405</longitude>
+      <date>Thu Mar 13 17:22:46 GMT 2008</date>
+      <dominantcolor>#A08040</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2332655459</ID>
+      <path>Images/face/img_21.jpg</path>
+      <title>p1010291</title>
+      <description>null</description>
+      <latitude>59.349216</latitude>
+      <longitude>18.069462</longitude>
+      <date>Fri Mar 14 23:32:05 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2332655439</ID>
+      <path>Images/face/img_22.jpg</path>
+      <title>p1010283</title>
+      <description>null</description>
+      <latitude>59.349216</latitude>
+      <longitude>18.069462</longitude>
+      <date>Fri Mar 14 23:22:47 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2332655467</ID>
+      <path>Images/face/img_23.jpg</path>
+      <title>p1010292</title>
+      <description>null</description>
+      <latitude>59.349216</latitude>
+      <longitude>18.069462</longitude>
+      <date>Fri Mar 14 23:32:12 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2332655441</ID>
+      <path>Images/face/img_24.jpg</path>
+      <title>p1010284</title>
+      <description>null</description>
+      <latitude>59.349216</latitude>
+      <longitude>18.069462</longitude>
+      <date>Fri Mar 14 23:23:28 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2332655447</ID>
+      <path>Images/face/img_25.jpg</path>
+      <title>p1010285</title>
+      <description>null</description>
+      <latitude>59.349216</latitude>
+      <longitude>18.069462</longitude>
+      <date>Fri Mar 14 23:24:27 GMT 2008</date>
+      <dominantcolor>#402000</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2332655455</ID>
+      <path>Images/face/img_26.jpg</path>
+      <title>p1010288</title>
+      <description>null</description>
+      <latitude>59.349216</latitude>
+      <longitude>18.069462</longitude>
+      <date>Fri Mar 14 23:27:21 GMT 2008</date>
+      <dominantcolor>#602040</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2332592467</ID>
+      <path>Images/face/img_27.jpg</path>
+      <title>Just What Drives You</title>
+      <description>null</description>
+      <latitude>37.789333</latitude>
+      <longitude>-122.411835</longitude>
+      <date>Fri Jan 18 08:30:36 GMT 2008</date>
+      <dominantcolor>#604040</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2333116460</ID>
+      <path>Images/face/img_28.jpg</path>
+      <title>Portrait of girls</title>
+      <description>null</description>
+      <latitude>25.77955</latitude>
+      <longitude>-80.133064</longitude>
+      <date>Thu Mar 13 15:11:13 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2332262779</ID>
+      <path>Images/face/img_29.jpg</path>
+      <title>Guy and his art</title>
+      <description>null</description>
+      <latitude>25.784077</latitude>
+      <longitude>-80.130005</longitude>
+      <date>Thu Mar 13 14:48:35 GMT 2008</date>
+      <dominantcolor>#606040</dominantcolor>
+   </image>
+   <image class="face">
+      <ID>2331526419</ID>
+      <path>Images/face/img_30.jpg</path>
+      <title>Penelope, me reflected</title>
+      <description>null</description>
+      <latitude>25.779806</latitude>
+      <longitude>-80.12917</longitude>
+      <date>Thu Mar 13 13:01:32 GMT 2008</date>
+      <dominantcolor>#C02040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2311094288</ID>
+      <path>Images/indoor/img_1.jpg</path>
+      <title>IMG_8558</title>
+      <description>null</description>
+      <latitude>50.540833</latitude>
+      <longitude>4.459429</longitude>
+      <date>Wed Feb 20 22:35:12 GMT 2008</date>
+      <dominantcolor>#002000</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2303718551</ID>
+      <path>Images/indoor/img_2.jpg</path>
+      <title>Caraydan Cascabel</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 14:19:51 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2304518144</ID>
+      <path>Images/indoor/img_3.jpg</path>
+      <title>Elli at the dog show</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 14:23:33 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2303709365</ID>
+      <path>Images/indoor/img_4.jpg</path>
+      <title>Waiting for results</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 14:38:35 GMT 2008</date>
+      <dominantcolor>#402040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2304509460</ID>
+      <path>Images/indoor/img_5.jpg</path>
+      <title>Zorrazo Pepita</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 14:39:58 GMT 2008</date>
+      <dominantcolor>#A0A080</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2303708411</ID>
+      <path>Images/indoor/img_6.jpg</path>
+      <title>Trying to calm down</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 14:16:45 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2303714139</ID>
+      <path>Images/indoor/img_7.jpg</path>
+      <title>Checking the teeth</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 14:23:17 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2303715099</ID>
+      <path>Images/indoor/img_8.jpg</path>
+      <title>Elli at the dog show</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 14:25:41 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2303716371</ID>
+      <path>Images/indoor/img_9.jpg</path>
+      <title>Elli at the dog show</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 14:23:55 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2303708017</ID>
+      <path>Images/indoor/img_10.jpg</path>
+      <title>Zorrazo Paloma</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 14:29:41 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2303707485</ID>
+      <path>Images/indoor/img_11.jpg</path>
+      <title>Zorrazo Pantera</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 14:30:39 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2303710463</ID>
+      <path>Images/indoor/img_12.jpg</path>
+      <title>Practising</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 13:29:58 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2304513292</ID>
+      <path>Images/indoor/img_13.jpg</path>
+      <title>Practising</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 13:21:23 GMT 2008</date>
+      <dominantcolor>#806040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2303706763</ID>
+      <path>Images/indoor/img_14.jpg</path>
+      <title>Zorrazo Quantanamera</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 14:40:11 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2304515172</ID>
+      <path>Images/indoor/img_15.jpg</path>
+      <title>Estornudo</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 14:09:20 GMT 2008</date>
+      <dominantcolor>#604040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2304515568</ID>
+      <path>Images/indoor/img_16.jpg</path>
+      <title>Estornudo</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 14:02:10 GMT 2008</date>
+      <dominantcolor>#A0A080</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2304511056</ID>
+      <path>Images/indoor/img_17.jpg</path>
+      <title>Perro Rizados Basilia</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 14:26:10 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2304519146</ID>
+      <path>Images/indoor/img_18.jpg</path>
+      <title>Elli at the dog show</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 14:24:31 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2303711941</ID>
+      <path>Images/indoor/img_19.jpg</path>
+      <title>Jailbird</title>
+      <description>null</description>
+      <latitude>60.161438</latitude>
+      <longitude>24.903206</longitude>
+      <date>Sun Mar 02 13:16:37 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2300991302</ID>
+      <path>Images/indoor/img_20.jpg</path>
+      <title>The Kalahari</title>
+      <description>null</description>
+      <latitude>41.383133</latitude>
+      <longitude>-82.64307</longitude>
+      <date>Thu Feb 28 18:24:13 GMT 2008</date>
+      <dominantcolor>#606040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2300975746</ID>
+      <path>Images/indoor/img_21.jpg</path>
+      <title>Liv slides</title>
+      <description>null</description>
+      <latitude>41.383133</latitude>
+      <longitude>-82.64307</longitude>
+      <date>Thu Feb 28 15:52:28 GMT 2008</date>
+      <dominantcolor>#604000</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2300182847</ID>
+      <path>Images/indoor/img_22.jpg</path>
+      <title>Kade and the elephant</title>
+      <description>null</description>
+      <latitude>41.383133</latitude>
+      <longitude>-82.64307</longitude>
+      <date>Thu Feb 28 15:49:16 GMT 2008</date>
+      <dominantcolor>#608040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2300970170</ID>
+      <path>Images/indoor/img_23.jpg</path>
+      <title>Kade</title>
+      <description>null</description>
+      <latitude>41.383133</latitude>
+      <longitude>-82.64307</longitude>
+      <date>Thu Feb 28 15:44:09 GMT 2008</date>
+      <dominantcolor>#408040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2300971110</ID>
+      <path>Images/indoor/img_24.jpg</path>
+      <title>Sweet Liv</title>
+      <description>null</description>
+      <latitude>41.383133</latitude>
+      <longitude>-82.64307</longitude>
+      <date>Thu Feb 28 15:45:02 GMT 2008</date>
+      <dominantcolor>#C06040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2300181601</ID>
+      <path>Images/indoor/img_25.jpg</path>
+      <title>Liv and the tortoise</title>
+      <description>null</description>
+      <latitude>41.383133</latitude>
+      <longitude>-82.64307</longitude>
+      <date>Thu Feb 28 15:46:27 GMT 2008</date>
+      <dominantcolor>#A0A040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2300180693</ID>
+      <path>Images/indoor/img_26.jpg</path>
+      <title>Giraffes</title>
+      <description>null</description>
+      <latitude>41.383133</latitude>
+      <longitude>-82.64307</longitude>
+      <date>Thu Feb 28 15:46:14 GMT 2008</date>
+      <dominantcolor>#402040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2300175629</ID>
+      <path>Images/indoor/img_27.jpg</path>
+      <title>Inside Inside</title>
+      <description>null</description>
+      <latitude>51.530476</latitude>
+      <longitude>-0.125574</longitude>
+      <date>Wed Feb 27 16:17:02 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2300966362</ID>
+      <path>Images/indoor/img_28.jpg</path>
+      <title>Hello Goodbye</title>
+      <description>null</description>
+      <latitude>51.530457</latitude>
+      <longitude>-0.125402</longitude>
+      <date>Wed Feb 27 16:16:04 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2300969246</ID>
+      <path>Images/indoor/img_29.jpg</path>
+      <title>Mama and Liv</title>
+      <description>null</description>
+      <latitude>41.383133</latitude>
+      <longitude>-82.64307</longitude>
+      <date>Thu Feb 28 15:43:30 GMT 2008</date>
+      <dominantcolor>#606040</dominantcolor>
+   </image>
+   <image class="indoor">
+      <ID>2299369673</ID>
+      <path>Images/indoor/img_30.jpg</path>
+      <title>St Pancras</title>
+      <description>null</description>
+      <latitude>51.53035</latitude>
+      <longitude>-0.125298</longitude>
+      <date>Wed Feb 27 16:16:18 GMT 2008</date>
+      <dominantcolor>#608080</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2317795309</ID>
+      <path>Images/manmade/artificial/img_1.jpg</path>
+      <title>Subterraneous</title>
+      <description>null</description>
+      <latitude>51.449444</latitude>
+      <longitude>-2.600501</longitude>
+      <date>Sat Feb 09 17:44:57 GMT 2008</date>
+      <dominantcolor>#008000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2317790843</ID>
+      <path>Images/manmade/artificial/img_2.jpg</path>
+      <title>Convergent vision</title>
+      <description>null</description>
+      <latitude>51.449448</latitude>
+      <longitude>-2.600493</longitude>
+      <date>Sat Feb 09 17:46:19 GMT 2008</date>
+      <dominantcolor>#204000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2318599884</ID>
+      <path>Images/manmade/artificial/img_3.jpg</path>
+      <title>Neon fencing</title>
+      <description>null</description>
+      <latitude>51.450256</latitude>
+      <longitude>-2.599243</longitude>
+      <date>Sat Feb 09 17:56:39 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2317787233</ID>
+      <path>Images/manmade/artificial/img_4.jpg</path>
+      <title>Wibbly wobbly</title>
+      <description>null</description>
+      <latitude>51.450027</latitude>
+      <longitude>-2.600091</longitude>
+      <date>Sat Feb 09 17:38:14 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2318596900</ID>
+      <path>Images/manmade/artificial/img_5.jpg</path>
+      <title>\coruscate\corrugate\collapse\</title>
+      <description>null</description>
+      <latitude>51.44932</latitude>
+      <longitude>-2.600133</longitude>
+      <date>Sat Feb 09 17:52:04 GMT 2008</date>
+      <dominantcolor>#E02000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2317792789</ID>
+      <path>Images/manmade/artificial/img_6.jpg</path>
+      <title>I'm spinning around</title>
+      <description>null</description>
+      <latitude>63.44452</latitude>
+      <longitude>10.90413</longitude>
+      <date>Sat Feb 09 17:50:27 GMT 2008</date>
+      <dominantcolor>#002000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2282930945</ID>
+      <path>Images/manmade/artificial/img_7.jpg</path>
+      <title>Luke's Artificial Hand</title>
+      <description>null</description>
+      <latitude>39.95818</latitude>
+      <longitude>-75.172844</longitude>
+      <date>Sat Feb 16 05:20:56 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2278236266</ID>
+      <path>Images/manmade/artificial/img_8.jpg</path>
+      <title>Plastic Jungle</title>
+      <description>null</description>
+      <latitude>41.014935</latitude>
+      <longitude>28.96939</longitude>
+      <date>Fri Mar 02 11:54:11 GMT 2007</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2274968685</ID>
+      <path>Images/manmade/artificial/img_9.jpg</path>
+      <title>Route 92 out of Half Moon Bay, July 4, 2006</title>
+      <description>null</description>
+      <latitude>37.4883</latitude>
+      <longitude>-122.3708</longitude>
+      <date>Tue Jul 04 15:51:40 BST 2006</date>
+      <dominantcolor>#408040</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2263161375</ID>
+      <path>Images/manmade/artificial/img_10.jpg</path>
+      <title>DSC09200</title>
+      <description>null</description>
+      <latitude>40.500217</latitude>
+      <longitude>-111.90217</longitude>
+      <date>Wed Feb 13 11:21:41 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2259951651</ID>
+      <path>Images/manmade/artificial/img_11.jpg</path>
+      <title>Dwarf Self</title>
+      <description>null</description>
+      <latitude>48.89441</latitude>
+      <longitude>2.344701</longitude>
+      <date>Wed Feb 06 16:44:25 GMT 2008</date>
+      <dominantcolor>#806040</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2258828634</ID>
+      <path>Images/manmade/artificial/img_12.jpg</path>
+      <title>Shimmer</title>
+      <description>null</description>
+      <latitude>51.450005</latitude>
+      <longitude>-2.600141</longitude>
+      <date>Sat Feb 09 17:39:29 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2258835430</ID>
+      <path>Images/manmade/artificial/img_13.jpg</path>
+      <title>Vertebrae</title>
+      <description>null</description>
+      <latitude>51.44933</latitude>
+      <longitude>-2.600096</longitude>
+      <date>Sat Feb 09 17:48:43 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2254983611</ID>
+      <path>Images/manmade/artificial/img_14.jpg</path>
+      <title>Tricolore</title>
+      <description>null</description>
+      <latitude>51.44934</latitude>
+      <longitude>-2.600092</longitude>
+      <date>Sat Feb 09 17:49:51 GMT 2008</date>
+      <dominantcolor>#002000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2255777582</ID>
+      <path>Images/manmade/artificial/img_15.jpg</path>
+      <title>|||||||||||||||||||||||||||||||||</title>
+      <description>null</description>
+      <latitude>51.449413</latitude>
+      <longitude>-2.600406</longitude>
+      <date>Sat Feb 09 17:42:28 GMT 2008</date>
+      <dominantcolor>#208000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2254975773</ID>
+      <path>Images/manmade/artificial/img_16.jpg</path>
+      <title>Crinkle-cut</title>
+      <description>null</description>
+      <latitude>51.44932</latitude>
+      <longitude>-2.600132</longitude>
+      <date>Sat Feb 09 17:52:16 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2250982394</ID>
+      <path>Images/manmade/artificial/img_17.jpg</path>
+      <title>Artificial</title>
+      <description>null</description>
+      <latitude>50.847393</latitude>
+      <longitude>4.360456</longitude>
+      <date>Fri Oct 12 16:28:38 BST 2007</date>
+      <dominantcolor>#606040</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2249345685</ID>
+      <path>Images/manmade/artificial/img_18.jpg</path>
+      <title>Night Falls</title>
+      <description>null</description>
+      <latitude>47.619995</latitude>
+      <longitude>-122.33002</longitude>
+      <date>Thu Feb 07 20:14:17 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2248671608</ID>
+      <path>Images/manmade/artificial/img_19.jpg</path>
+      <title>Artificial Suns</title>
+      <description>null</description>
+      <latitude>50.438873</latitude>
+      <longitude>2.807307</longitude>
+      <date>Thu Feb 07 14:25:21 GMT 2008</date>
+      <dominantcolor>#402000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2242884086</ID>
+      <path>Images/manmade/artificial/img_20.jpg</path>
+      <title>Number 1</title>
+      <description>null</description>
+      <latitude>51.48014</latitude>
+      <longitude>-2.612842</longitude>
+      <date>Sat Feb 02 14:00:00 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2206103716</ID>
+      <path>Images/manmade/artificial/img_21.jpg</path>
+      <title>Artificial Rainbow!!</title>
+      <description>null</description>
+      <latitude>22.427422</latitude>
+      <longitude>114.23131</longitude>
+      <date>Fri Jan 04 15:14:10 GMT 2008</date>
+      <dominantcolor>#200000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2193541976</ID>
+      <path>Images/manmade/artificial/img_22.jpg</path>
+      <title>A</title>
+      <description>null</description>
+      <latitude>50.359806</latitude>
+      <longitude>-4.741614</longitude>
+      <date>Wed Jan 02 18:17:59 GMT 2008</date>
+      <dominantcolor>#000040</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2183587924</ID>
+      <path>Images/manmade/artificial/img_23.jpg</path>
+      <title>Take me to the other side</title>
+      <description>null</description>
+      <latitude>50.359802</latitude>
+      <longitude>-4.741781</longitude>
+      <date>Wed Jan 02 18:14:32 GMT 2008</date>
+      <dominantcolor>#002080</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2160381072</ID>
+      <path>Images/manmade/artificial/img_24.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>48.891872</latitude>
+      <longitude>2.346332</longitude>
+      <date>Thu Dec 07 11:03:31 GMT 2006</date>
+      <dominantcolor>#002040</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2160379706</ID>
+      <path>Images/manmade/artificial/img_25.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>48.891872</latitude>
+      <longitude>2.346332</longitude>
+      <date>Wed Dec 06 19:04:49 GMT 2006</date>
+      <dominantcolor>#402040</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2159581687</ID>
+      <path>Images/manmade/artificial/img_26.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>48.891872</latitude>
+      <longitude>2.346332</longitude>
+      <date>Thu Dec 07 10:58:59 GMT 2006</date>
+      <dominantcolor>#808040</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2156208522</ID>
+      <path>Images/manmade/artificial/img_27.jpg</path>
+      <title>Artificial Flower</title>
+      <description>null</description>
+      <latitude>32.759766</latitude>
+      <longitude>-117.16822</longitude>
+      <date>Tue Dec 11 07:10:52 GMT 2007</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2143523525</ID>
+      <path>Images/manmade/artificial/img_28.jpg</path>
+      <title>Hong Kong - Waterfall@BoC</title>
+      <description>null</description>
+      <latitude>22.279408</latitude>
+      <longitude>114.16123</longitude>
+      <date>Fri Dec 28 17:09:49 GMT 2007</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2134414980</ID>
+      <path>Images/manmade/artificial/img_29.jpg</path>
+      <title>Christmas Eve</title>
+      <description>null</description>
+      <latitude>43.05042</latitude>
+      <longitude>-89.45462</longitude>
+      <date>Sun Dec 23 23:38:39 GMT 2007</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="manmade/artificial">
+      <ID>2127878524</ID>
+      <path>Images/manmade/artificial/img_30.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>48.8678</latitude>
+      <longitude>2.386769</longitude>
+      <date>Sun Jan 21 13:25:22 GMT 2007</date>
+      <dominantcolor>#E02000</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2321407719</ID>
+      <path>Images/manmade/manmade/img_1.jpg</path>
+      <title>Cairns Lagoon</title>
+      <description>null</description>
+      <latitude>-16.919771</latitude>
+      <longitude>145.778</longitude>
+      <date>Sat Mar 08 21:10:33 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2316232839</ID>
+      <path>Images/manmade/manmade/img_2.jpg</path>
+      <title>Illuminated Hymnbooks</title>
+      <description>null</description>
+      <latitude>51.785282</latitude>
+      <longitude>-2.195307</longitude>
+      <date>Sat Mar 01 10:55:48 GMT 2008</date>
+      <dominantcolor>#200000</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2317043690</ID>
+      <path>Images/manmade/manmade/img_3.jpg</path>
+      <title>Mary &amp; St Andrew (HDR)</title>
+      <description>null</description>
+      <latitude>51.785244</latitude>
+      <longitude>-2.195264</longitude>
+      <date>Sun Mar 02 23:44:19 GMT 2008</date>
+      <dominantcolor>#806040</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2316230577</ID>
+      <path>Images/manmade/manmade/img_4.jpg</path>
+      <title>Communicating with the Clergy</title>
+      <description>null</description>
+      <latitude>51.785004</latitude>
+      <longitude>-2.194899</longitude>
+      <date>Sat Mar 01 10:43:16 GMT 2008</date>
+      <dominantcolor>#C0C080</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2316234375</ID>
+      <path>Images/manmade/manmade/img_5.jpg</path>
+      <title>Interior (HDR)</title>
+      <description>null</description>
+      <latitude>51.785244</latitude>
+      <longitude>-2.195479</longitude>
+      <date>Sun Mar 02 23:44:11 GMT 2008</date>
+      <dominantcolor>#806040</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2313474428</ID>
+      <path>Images/manmade/manmade/img_6.jpg</path>
+      <title>Wooden Texture</title>
+      <description>null</description>
+      <latitude>47.47726</latitude>
+      <longitude>19.13799</longitude>
+      <date>Thu Feb 28 15:58:25 GMT 2008</date>
+      <dominantcolor>#608040</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2313313128</ID>
+      <path>Images/manmade/manmade/img_7.jpg</path>
+      <title>Stairs</title>
+      <description>null</description>
+      <latitude>51.517956</latitude>
+      <longitude>-0.09009</longitude>
+      <date>Wed Mar 05 18:00:54 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2313293858</ID>
+      <path>Images/manmade/manmade/img_8.jpg</path>
+      <title>Beware, pedestrians, some goon will photograph you. (Aren't low-pressure sodium lamps pretty?)</title>
+      <description>null</description>
+      <latitude>51.51571</latitude>
+      <longitude>-0.09245</longitude>
+      <date>Wed Mar 05 17:45:51 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2313278860</ID>
+      <path>Images/manmade/manmade/img_9.jpg</path>
+      <title>City Lights</title>
+      <description>null</description>
+      <latitude>51.51644</latitude>
+      <longitude>-0.089896</longitude>
+      <date>Wed Mar 05 17:39:09 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2252589113</ID>
+      <path>Images/manmade/manmade/img_10.jpg</path>
+      <title>Infinite Curve</title>
+      <description>null</description>
+      <latitude>37.011097</latitude>
+      <longitude>-122.19609</longitude>
+      <date>Fri Feb 08 17:59:30 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2252583579</ID>
+      <path>Images/manmade/manmade/img_11.jpg</path>
+      <title>Smoke on the Water</title>
+      <description>null</description>
+      <latitude>37.00995</latitude>
+      <longitude>-122.19631</longitude>
+      <date>Fri Feb 08 17:39:59 GMT 2008</date>
+      <dominantcolor>#404080</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2245314707</ID>
+      <path>Images/manmade/manmade/img_12.jpg</path>
+      <title>Infinity</title>
+      <description>null</description>
+      <latitude>37.004875</latitude>
+      <longitude>-122.18496</longitude>
+      <date>Fri Feb 01 14:57:09 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2229788104</ID>
+      <path>Images/manmade/manmade/img_13.jpg</path>
+      <title>Trendy Fire Escape</title>
+      <description>null</description>
+      <latitude>51.515858</latitude>
+      <longitude>-0.094853</longitude>
+      <date>Tue Jan 29 20:02:45 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2229001347</ID>
+      <path>Images/manmade/manmade/img_14.jpg</path>
+      <title>Plant and Window</title>
+      <description>null</description>
+      <latitude>51.516327</latitude>
+      <longitude>-0.096548</longitude>
+      <date>Tue Jan 29 20:06:48 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2229778148</ID>
+      <path>Images/manmade/manmade/img_15.jpg</path>
+      <title>Alleyway towards Old Doctor Butler's Head</title>
+      <description>null</description>
+      <latitude>51.51585</latitude>
+      <longitude>-0.09098</longitude>
+      <date>Tue Jan 29 19:57:15 GMT 2008</date>
+      <dominantcolor>#404000</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2229785052</ID>
+      <path>Images/manmade/manmade/img_16.jpg</path>
+      <title>Guildhall #1</title>
+      <description>null</description>
+      <latitude>51.51562</latitude>
+      <longitude>-0.092825</longitude>
+      <date>Tue Jan 29 20:00:30 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2228990697</ID>
+      <path>Images/manmade/manmade/img_17.jpg</path>
+      <title>Guildhall #2</title>
+      <description>null</description>
+      <latitude>51.51569</latitude>
+      <longitude>-0.092096</longitude>
+      <date>Tue Jan 29 19:59:30 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2223272555</ID>
+      <path>Images/manmade/manmade/img_18.jpg</path>
+      <title>Canary Wharf #3</title>
+      <description>null</description>
+      <latitude>51.501118</latitude>
+      <longitude>-0.040463</longitude>
+      <date>Sun Jan 27 17:07:27 GMT 2008</date>
+      <dominantcolor>#404000</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2223283601</ID>
+      <path>Images/manmade/manmade/img_19.jpg</path>
+      <title>Canary Wharf #1</title>
+      <description>null</description>
+      <latitude>51.501118</latitude>
+      <longitude>-0.040463</longitude>
+      <date>Sun Jan 27 17:17:33 GMT 2008</date>
+      <dominantcolor>#402040</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2224069640</ID>
+      <path>Images/manmade/manmade/img_20.jpg</path>
+      <title>Canada Water at sunset</title>
+      <description>null</description>
+      <latitude>51.501118</latitude>
+      <longitude>-0.040463</longitude>
+      <date>Sun Jan 27 17:14:15 GMT 2008</date>
+      <dominantcolor>#606080</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2223280567</ID>
+      <path>Images/manmade/manmade/img_21.jpg</path>
+      <title>Canary Wharf #2</title>
+      <description>null</description>
+      <latitude>51.501118</latitude>
+      <longitude>-0.040463</longitude>
+      <date>Sun Jan 27 17:16:19 GMT 2008</date>
+      <dominantcolor>#604040</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2224061022</ID>
+      <path>Images/manmade/manmade/img_22.jpg</path>
+      <title>View towards The City</title>
+      <description>null</description>
+      <latitude>51.501118</latitude>
+      <longitude>-0.040463</longitude>
+      <date>Sun Jan 27 17:05:56 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2224058494</ID>
+      <path>Images/manmade/manmade/img_23.jpg</path>
+      <title>Canary Wharf #4</title>
+      <description>null</description>
+      <latitude>51.501118</latitude>
+      <longitude>-0.040463</longitude>
+      <date>Sun Jan 27 17:00:28 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2221077173</ID>
+      <path>Images/manmade/manmade/img_24.jpg</path>
+      <title>Flight</title>
+      <description>null</description>
+      <latitude>36.962402</latitude>
+      <longitude>-122.00632</longitude>
+      <date>Sat Jan 26 08:00:36 GMT 2008</date>
+      <dominantcolor>#404080</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2221075849</ID>
+      <path>Images/manmade/manmade/img_25.jpg</path>
+      <title>Seafoam?</title>
+      <description>null</description>
+      <latitude>36.962402</latitude>
+      <longitude>-122.00632</longitude>
+      <date>Sat Jan 26 07:56:00 GMT 2008</date>
+      <dominantcolor>#808080</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2221866172</ID>
+      <path>Images/manmade/manmade/img_26.jpg</path>
+      <title>Golden Hour</title>
+      <description>null</description>
+      <latitude>36.962402</latitude>
+      <longitude>-122.00632</longitude>
+      <date>Sat Jan 26 07:49:04 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2221069751</ID>
+      <path>Images/manmade/manmade/img_27.jpg</path>
+      <title>Golden Lace</title>
+      <description>null</description>
+      <latitude>36.95177</latitude>
+      <longitude>-122.034</longitude>
+      <date>Sat Jan 26 07:20:54 GMT 2008</date>
+      <dominantcolor>#E06040</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2217616476</ID>
+      <path>Images/manmade/manmade/img_28.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>53.34293</latitude>
+      <longitude>-6.277441</longitude>
+      <date>Sat Jan 19 15:41:07 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2211987559</ID>
+      <path>Images/manmade/manmade/img_29.jpg</path>
+      <title>Glasgow Science Centre and Tower (No IMAX, it's hiding)</title>
+      <description>null</description>
+      <latitude>55.859455</latitude>
+      <longitude>-4.290279</longitude>
+      <date>Wed Jan 16 16:55:24 GMT 2008</date>
+      <dominantcolor>#004040</dominantcolor>
+   </image>
+   <image class="manmade/manmade">
+      <ID>2142892271</ID>
+      <path>Images/manmade/manmade/img_30.jpg</path>
+      <title>Man-made snow for skiing</title>
+      <description>null</description>
+      <latitude>60.255585</latitude>
+      <longitude>24.918762</longitude>
+      <date>Tue Dec 25 11:59:47 GMT 2007</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2331058811</ID>
+      <path>Images/manmade/urban/img_1.jpg</path>
+      <title>Spatial Planning</title>
+      <description>null</description>
+      <latitude>52.080418</latitude>
+      <longitude>4.323992</longitude>
+      <date>Thu Feb 14 11:37:12 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2331749502</ID>
+      <path>Images/manmade/urban/img_2.jpg</path>
+      <title>Those Bloody Whittle Arches</title>
+      <description>null</description>
+      <latitude>52.410442</latitude>
+      <longitude>-1.508646</longitude>
+      <date>Wed Mar 12 16:21:24 GMT 2008</date>
+      <dominantcolor>#E0E040</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2330488627</ID>
+      <path>Images/manmade/urban/img_3.jpg</path>
+      <title>funston ave</title>
+      <description>null</description>
+      <latitude>37.772182</latitude>
+      <longitude>-122.46803</longitude>
+      <date>Fri Feb 15 15:52:45 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2331046728</ID>
+      <path>Images/manmade/urban/img_4.jpg</path>
+      <title>Grosvenor Waterside 1</title>
+      <description>null</description>
+      <latitude>51.486214</latitude>
+      <longitude>-0.149919</longitude>
+      <date>Wed Feb 27 11:11:18 GMT 2008</date>
+      <dominantcolor>#608080</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2330218447</ID>
+      <path>Images/manmade/urban/img_5.jpg</path>
+      <title>Grosvenor Waterside 2</title>
+      <description>null</description>
+      <latitude>51.486214</latitude>
+      <longitude>-0.149919</longitude>
+      <date>Wed Feb 27 11:10:47 GMT 2008</date>
+      <dominantcolor>#406080</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2331040878</ID>
+      <path>Images/manmade/urban/img_6.jpg</path>
+      <title>Grosvenor Waterside 4</title>
+      <description>null</description>
+      <latitude>51.4865</latitude>
+      <longitude>-0.148985</longitude>
+      <date>Wed Feb 27 11:06:59 GMT 2008</date>
+      <dominantcolor>#A08040</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2331043054</ID>
+      <path>Images/manmade/urban/img_7.jpg</path>
+      <title>Grosvenor Waterside 3</title>
+      <description>null</description>
+      <latitude>51.4865</latitude>
+      <longitude>-0.148985</longitude>
+      <date>Wed Feb 27 11:07:20 GMT 2008</date>
+      <dominantcolor>#A08040</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2331033966</ID>
+      <path>Images/manmade/urban/img_8.jpg</path>
+      <title>Grosvenor Waterside 7</title>
+      <description>null</description>
+      <latitude>51.4865</latitude>
+      <longitude>-0.148985</longitude>
+      <date>Wed Feb 27 11:05:14 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2331035790</ID>
+      <path>Images/manmade/urban/img_9.jpg</path>
+      <title>Grosvenor Waterside 6</title>
+      <description>null</description>
+      <latitude>51.4865</latitude>
+      <longitude>-0.148985</longitude>
+      <date>Wed Feb 27 11:05:50 GMT 2008</date>
+      <dominantcolor>#402040</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2330206629</ID>
+      <path>Images/manmade/urban/img_10.jpg</path>
+      <title>Grosvenor Waterside 8</title>
+      <description>null</description>
+      <latitude>51.4865</latitude>
+      <longitude>-0.148985</longitude>
+      <date>Wed Feb 27 11:04:54 GMT 2008</date>
+      <dominantcolor>#A08040</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2330211697</ID>
+      <path>Images/manmade/urban/img_11.jpg</path>
+      <title>Grosvenor Waterside 5</title>
+      <description>null</description>
+      <latitude>51.4865</latitude>
+      <longitude>-0.148985</longitude>
+      <date>Wed Feb 27 11:06:46 GMT 2008</date>
+      <dominantcolor>#A08040</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2331030712</ID>
+      <path>Images/manmade/urban/img_12.jpg</path>
+      <title>Grosvenor Waterside 9</title>
+      <description>null</description>
+      <latitude>51.486313</latitude>
+      <longitude>-0.148878</longitude>
+      <date>Wed Feb 27 11:04:16 GMT 2008</date>
+      <dominantcolor>#608080</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2330199437</ID>
+      <path>Images/manmade/urban/img_13.jpg</path>
+      <title>Grosvenor Waterside 12</title>
+      <description>null</description>
+      <latitude>51.48586</latitude>
+      <longitude>-0.148674</longitude>
+      <date>Wed Feb 27 11:02:52 GMT 2008</date>
+      <dominantcolor>#406040</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2331028928</ID>
+      <path>Images/manmade/urban/img_14.jpg</path>
+      <title>Grosvenor Waterside 10</title>
+      <description>null</description>
+      <latitude>51.486313</latitude>
+      <longitude>-0.148878</longitude>
+      <date>Wed Feb 27 11:03:28 GMT 2008</date>
+      <dominantcolor>#402040</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2330197339</ID>
+      <path>Images/manmade/urban/img_15.jpg</path>
+      <title>Grosvenor Waterside 13</title>
+      <description>null</description>
+      <latitude>51.48586</latitude>
+      <longitude>-0.148674</longitude>
+      <date>Wed Feb 27 10:58:54 GMT 2008</date>
+      <dominantcolor>#608040</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2330201053</ID>
+      <path>Images/manmade/urban/img_16.jpg</path>
+      <title>Grosvenor Waterside 11</title>
+      <description>null</description>
+      <latitude>51.486313</latitude>
+      <longitude>-0.148878</longitude>
+      <date>Wed Feb 27 11:03:16 GMT 2008</date>
+      <dominantcolor>#206080</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2329815819</ID>
+      <path>Images/manmade/urban/img_17.jpg</path>
+      <title>The Yellow Structure on the River [Fisheye Priojection]</title>
+      <description>null</description>
+      <latitude>36.162174</latitude>
+      <longitude>-86.77111</longitude>
+      <date>Sun Nov 11 19:46:31 GMT 2007</date>
+      <dominantcolor>#002000</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2330535020</ID>
+      <path>Images/manmade/urban/img_18.jpg</path>
+      <title>Moon, Clock, Contrail, and P&amp;L Building</title>
+      <description>null</description>
+      <latitude>39.09783</latitude>
+      <longitude>-94.582664</longitude>
+      <date>Wed Mar 12 18:09:14 GMT 2008</date>
+      <dominantcolor>#80A080</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2329708287</ID>
+      <path>Images/manmade/urban/img_19.jpg</path>
+      <title>Power &amp; Light District sign</title>
+      <description>null</description>
+      <latitude>39.097668</latitude>
+      <longitude>-94.581215</longitude>
+      <date>Wed Mar 12 16:20:38 GMT 2008</date>
+      <dominantcolor>#808080</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2329706167</ID>
+      <path>Images/manmade/urban/img_20.jpg</path>
+      <title>KC welcomes Big 12 Fans</title>
+      <description>null</description>
+      <latitude>39.09733</latitude>
+      <longitude>-94.582954</longitude>
+      <date>Wed Mar 12 15:14:39 GMT 2008</date>
+      <dominantcolor>#C0C0C0</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2330534518</ID>
+      <path>Images/manmade/urban/img_21.jpg</path>
+      <title>Power &amp; Light District</title>
+      <description>null</description>
+      <latitude>39.097668</latitude>
+      <longitude>-94.581215</longitude>
+      <date>Wed Mar 12 17:56:29 GMT 2008</date>
+      <dominantcolor>#C0C0C0</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2176060335</ID>
+      <path>Images/manmade/urban/img_22.jpg</path>
+      <title>dublin in colour</title>
+      <description>null</description>
+      <latitude>53.344162</latitude>
+      <longitude>-6.267319</longitude>
+      <date>Fri Sep 28 17:35:23 BST 2007</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2329545515</ID>
+      <path>Images/manmade/urban/img_23.jpg</path>
+      <title>John Hancock Tower and Zakim Bridge from Bunker Hill Monument</title>
+      <description>null</description>
+      <latitude>42.37593</latitude>
+      <longitude>-71.06115</longitude>
+      <date>Sun Mar 09 15:49:14 GMT 2008</date>
+      <dominantcolor>#00C0C0</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2329599138</ID>
+      <path>Images/manmade/urban/img_24.jpg</path>
+      <title>Early morning Teignmouth</title>
+      <description>null</description>
+      <latitude>50.54644</latitude>
+      <longitude>-3.494628</longitude>
+      <date>Wed Apr 18 07:01:18 BST 2007</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2329599346</ID>
+      <path>Images/manmade/urban/img_25.jpg</path>
+      <title>Early morning Teignmouth</title>
+      <description>null</description>
+      <latitude>50.54644</latitude>
+      <longitude>-3.494628</longitude>
+      <date>Wed Apr 18 07:01:40 BST 2007</date>
+      <dominantcolor>#000040</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2328368479</ID>
+      <path>Images/manmade/urban/img_26.jpg</path>
+      <title>Reach / Snak</title>
+      <description>null</description>
+      <latitude>39.97911</latitude>
+      <longitude>-75.13254</longitude>
+      <date>Sat Oct 06 16:14:05 BST 2007</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2328303243</ID>
+      <path>Images/manmade/urban/img_27.jpg</path>
+      <title>Lines</title>
+      <description>null</description>
+      <latitude>45.00497</latitude>
+      <longitude>7.665952</longitude>
+      <date>Sat Mar 08 09:13:58 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2328966890</ID>
+      <path>Images/manmade/urban/img_28.jpg</path>
+      <title>Hinge</title>
+      <description>null</description>
+      <latitude>27.94916</latitude>
+      <longitude>-82.4581</longitude>
+      <date>Sat Mar 05 21:54:55 GMT 2005</date>
+      <dominantcolor>#C0C0C0</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2327966867</ID>
+      <path>Images/manmade/urban/img_29.jpg</path>
+      <title>Balfron Tower, Poplar</title>
+      <description>null</description>
+      <latitude>51.513577</latitude>
+      <longitude>-0.008862</longitude>
+      <date>Fri Mar 07 14:48:20 GMT 2008</date>
+      <dominantcolor>#408080</dominantcolor>
+   </image>
+   <image class="manmade/urban">
+      <ID>2327924169</ID>
+      <path>Images/manmade/urban/img_30.jpg</path>
+      <title>Genii Loci...</title>
+      <description>null</description>
+      <latitude>37.827606</latitude>
+      <longitude>23.787374</longitude>
+      <date>Wed Feb 14 17:19:30 GMT 2007</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2331759622</ID>
+      <path>Images/marriage/img_1.jpg</path>
+      <title>Inscripció d'un matrimoni de lliberts, British Museum</title>
+      <description>null</description>
+      <latitude>51.519276</latitude>
+      <longitude>-0.126954</longitude>
+      <date>Sun Jul 30 12:32:40 BST 2006</date>
+      <dominantcolor>#C0A080</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2303895447</ID>
+      <path>Images/marriage/img_2.jpg</path>
+      <title>Hilde &amp; Marc register</title>
+      <description>null</description>
+      <latitude>52.957684</latitude>
+      <longitude>-1.150335</longitude>
+      <date>Fri Feb 29 15:15:03 GMT 2008</date>
+      <dominantcolor>#C02040</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2291361922</ID>
+      <path>Images/marriage/img_3.jpg</path>
+      <title>Rice &amp; Roses</title>
+      <description>null</description>
+      <latitude>41.400337</latitude>
+      <longitude>2.15788</longitude>
+      <date>Sat Feb 23 14:15:06 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2290571789</ID>
+      <path>Images/marriage/img_4.jpg</path>
+      <title>Wedding in Gracia</title>
+      <description>null</description>
+      <latitude>41.400337</latitude>
+      <longitude>2.15788</longitude>
+      <date>Sat Feb 23 14:15:32 GMT 2008</date>
+      <dominantcolor>#406040</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2286148695</ID>
+      <path>Images/marriage/img_5.jpg</path>
+      <title>Multi Kulti in Löffingen</title>
+      <description>null</description>
+      <latitude>47.900074</latitude>
+      <longitude>8.330544</longitude>
+      <date>Sat Feb 23 16:12:37 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2286127619</ID>
+      <path>Images/marriage/img_6.jpg</path>
+      <title>Multi Kulti in Löffingen</title>
+      <description>null</description>
+      <latitude>47.900074</latitude>
+      <longitude>8.330544</longitude>
+      <date>Sat Feb 23 16:10:30 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2283950439</ID>
+      <path>Images/marriage/img_7.jpg</path>
+      <title>493734-R1-022-9A_012</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:05:42 GMT 2008</date>
+      <dominantcolor>#002000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2283949829</ID>
+      <path>Images/marriage/img_8.jpg</path>
+      <title>493734-R1-020-8A_011</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:05:55 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2284743900</ID>
+      <path>Images/marriage/img_9.jpg</path>
+      <title>493734-R1-036-16A_019</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:06:11 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2283956183</ID>
+      <path>Images/marriage/img_10.jpg</path>
+      <title>493734-R1-038-17A_020</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:05:56 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2284742672</ID>
+      <path>Images/marriage/img_11.jpg</path>
+      <title>493734-R1-032-14A_017</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:04:45 GMT 2008</date>
+      <dominantcolor>#C02000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2283952135</ID>
+      <path>Images/marriage/img_12.jpg</path>
+      <title>493734-R1-026-11A_014</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:04:39 GMT 2008</date>
+      <dominantcolor>#002000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2283951245</ID>
+      <path>Images/marriage/img_13.jpg</path>
+      <title>493734-R1-024-10A_013</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:05:38 GMT 2008</date>
+      <dominantcolor>#002000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2283955145</ID>
+      <path>Images/marriage/img_14.jpg</path>
+      <title>493734-R1-034-15A_018</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:06:09 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2284748530</ID>
+      <path>Images/marriage/img_15.jpg</path>
+      <title>493734-R1-E001_025</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:05:27 GMT 2008</date>
+      <dominantcolor>#204040</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2283953113</ID>
+      <path>Images/marriage/img_16.jpg</path>
+      <title>493734-R1-028-12A_015</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:05:25 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2283953813</ID>
+      <path>Images/marriage/img_17.jpg</path>
+      <title>493734-R1-030-13A_016</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:06:14 GMT 2008</date>
+      <dominantcolor>#606040</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2284737692</ID>
+      <path>Images/marriage/img_18.jpg</path>
+      <title>493734-R1-018-7A_010</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:05:45 GMT 2008</date>
+      <dominantcolor>#002000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2284733414</ID>
+      <path>Images/marriage/img_19.jpg</path>
+      <title>493734-R1-004-0A_004</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:05:46 GMT 2008</date>
+      <dominantcolor>#C02000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2284723740</ID>
+      <path>Images/marriage/img_20.jpg</path>
+      <title>493736-R1-050-23A_021_0001</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:05:10 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2284735508</ID>
+      <path>Images/marriage/img_21.jpg</path>
+      <title>493734-R1-012-4A_007</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:05:54 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2283943729</ID>
+      <path>Images/marriage/img_22.jpg</path>
+      <title>493734-R1-000-XXA_002</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:06:16 GMT 2008</date>
+      <dominantcolor>#204040</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2284736976</ID>
+      <path>Images/marriage/img_23.jpg</path>
+      <title>493734-R1-016-6A_009</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:04:46 GMT 2008</date>
+      <dominantcolor>#002000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2283937633</ID>
+      <path>Images/marriage/img_24.jpg</path>
+      <title>493736-R1-054-25A_023_0001</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:05:39 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2284721422</ID>
+      <path>Images/marriage/img_25.jpg</path>
+      <title>493736-R1-046-21A_019_0001</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:05:03 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2284720138</ID>
+      <path>Images/marriage/img_26.jpg</path>
+      <title>493736-R1-044-20A_018_0001</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:04:52 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2284722484</ID>
+      <path>Images/marriage/img_27.jpg</path>
+      <title>493736-R1-048-22A_020_0001</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:05:58 GMT 2008</date>
+      <dominantcolor>#C02080</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2283942913</ID>
+      <path>Images/marriage/img_28.jpg</path>
+      <title>493734-R1-000-XA_001</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:05:44 GMT 2008</date>
+      <dominantcolor>#002000</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2283939205</ID>
+      <path>Images/marriage/img_29.jpg</path>
+      <title>493736-R1-056-26A_024_0001</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:05:40 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="marriage">
+      <ID>2284724804</ID>
+      <path>Images/marriage/img_30.jpg</path>
+      <title>493736-R1-052-24A_022_0001</title>
+      <description>null</description>
+      <latitude>27.384794</latitude>
+      <longitude>-82.56476</longitude>
+      <date>Sat Feb 16 00:05:17 GMT 2008</date>
+      <dominantcolor>#002000</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2332106923</ID>
+      <path>Images/nature/img_1.jpg</path>
+      <title>Tree #1 Updated</title>
+      <description>null</description>
+      <latitude>55.721695</latitude>
+      <longitude>14.192428</longitude>
+      <date>Mon Feb 25 14:42:12 GMT 2008</date>
+      <dominantcolor>#C0C080</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2332083945</ID>
+      <path>Images/nature/img_2.jpg</path>
+      <title>Orchid</title>
+      <description>null</description>
+      <latitude>32.3503</latitude>
+      <longitude>35.0197</longitude>
+      <date>Sat Mar 01 10:21:25 GMT 2008</date>
+      <dominantcolor>#A00000</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2332080137</ID>
+      <path>Images/nature/img_3.jpg</path>
+      <title>Orchid</title>
+      <description>null</description>
+      <latitude>32.3503</latitude>
+      <longitude>35.0197</longitude>
+      <date>Sat Mar 01 10:02:56 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2332020663</ID>
+      <path>Images/nature/img_4.jpg</path>
+      <title>sunsetoversportsfield</title>
+      <description>null</description>
+      <latitude>41.906254</latitude>
+      <longitude>-87.634605</longitude>
+      <date>Mon Oct 08 16:57:11 BST 2007</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2332021769</ID>
+      <path>Images/nature/img_5.jpg</path>
+      <title>LPZ Fence</title>
+      <description>null</description>
+      <latitude>41.917023</latitude>
+      <longitude>-87.63409</longitude>
+      <date>Fri Nov 02 11:08:01 GMT 2007</date>
+      <dominantcolor>#A0C0C0</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2332843768</ID>
+      <path>Images/nature/img_6.jpg</path>
+      <title>rooster</title>
+      <description>null</description>
+      <latitude>32.3503</latitude>
+      <longitude>35.0197</longitude>
+      <date>Sat Mar 01 08:08:15 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331838869</ID>
+      <path>Images/nature/img_7.jpg</path>
+      <title>Ol Virgina!</title>
+      <description>null</description>
+      <latitude>38.967793</latitude>
+      <longitude>-77.9498</longitude>
+      <date>Fri Feb 08 17:13:35 GMT 2008</date>
+      <dominantcolor>#A0C000</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2332467106</ID>
+      <path>Images/nature/img_8.jpg</path>
+      <title>Fairy Falls</title>
+      <description>null</description>
+      <latitude>44.53171</latitude>
+      <longitude>-110.87623</longitude>
+      <date>Fri Aug 24 13:17:19 BST 2007</date>
+      <dominantcolor>#A0C080</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331624791</ID>
+      <path>Images/nature/img_9.jpg</path>
+      <title>Fairy Falls</title>
+      <description>null</description>
+      <latitude>44.531082</latitude>
+      <longitude>-110.87508</longitude>
+      <date>Fri Aug 24 13:03:16 BST 2007</date>
+      <dominantcolor>#606040</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331622963</ID>
+      <path>Images/nature/img_10.jpg</path>
+      <title>Fairy Falls</title>
+      <description>null</description>
+      <latitude>44.530106</latitude>
+      <longitude>-110.87159</longitude>
+      <date>Fri Aug 24 12:58:01 BST 2007</date>
+      <dominantcolor>#004080</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331630849</ID>
+      <path>Images/nature/img_11.jpg</path>
+      <title>Fairy Falls</title>
+      <description>null</description>
+      <latitude>44.53171</latitude>
+      <longitude>-110.87623</longitude>
+      <date>Fri Aug 24 13:10:36 BST 2007</date>
+      <dominantcolor>#A0A000</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331636313</ID>
+      <path>Images/nature/img_12.jpg</path>
+      <title>Fairy Falls</title>
+      <description>null</description>
+      <latitude>44.53171</latitude>
+      <longitude>-110.87623</longitude>
+      <date>Fri Aug 24 13:13:06 BST 2007</date>
+      <dominantcolor>#60A080</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331632471</ID>
+      <path>Images/nature/img_13.jpg</path>
+      <title>Fairy Falls</title>
+      <description>null</description>
+      <latitude>44.53171</latitude>
+      <longitude>-110.87623</longitude>
+      <date>Fri Aug 24 13:10:47 BST 2007</date>
+      <dominantcolor>#80A080</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331627337</ID>
+      <path>Images/nature/img_14.jpg</path>
+      <title>Fairy Falls</title>
+      <description>null</description>
+      <latitude>44.531082</latitude>
+      <longitude>-110.87508</longitude>
+      <date>Fri Aug 24 13:10:15 BST 2007</date>
+      <dominantcolor>#608080</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2332448898</ID>
+      <path>Images/nature/img_15.jpg</path>
+      <title>Fairy Falls</title>
+      <description>null</description>
+      <latitude>44.52503</latitude>
+      <longitude>-110.87003</longitude>
+      <date>Fri Aug 24 12:40:39 BST 2007</date>
+      <dominantcolor>#208080</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331616789</ID>
+      <path>Images/nature/img_16.jpg</path>
+      <title>Fairy Falls</title>
+      <description>null</description>
+      <latitude>44.52503</latitude>
+      <longitude>-110.87003</longitude>
+      <date>Fri Aug 24 12:37:05 BST 2007</date>
+      <dominantcolor>#604040</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331605079</ID>
+      <path>Images/nature/img_17.jpg</path>
+      <title>Fairy Falls</title>
+      <description>null</description>
+      <latitude>44.524612</latitude>
+      <longitude>-110.84079</longitude>
+      <date>Fri Aug 24 11:45:10 BST 2007</date>
+      <dominantcolor>#C0C080</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331611473</ID>
+      <path>Images/nature/img_18.jpg</path>
+      <title>Fairy Falls</title>
+      <description>null</description>
+      <latitude>44.52531</latitude>
+      <longitude>-110.86039</longitude>
+      <date>Fri Aug 24 12:31:53 BST 2007</date>
+      <dominantcolor>#006080</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331606419</ID>
+      <path>Images/nature/img_19.jpg</path>
+      <title>Fairy Falls</title>
+      <description>null</description>
+      <latitude>44.52531</latitude>
+      <longitude>-110.86039</longitude>
+      <date>Fri Aug 24 12:27:11 BST 2007</date>
+      <dominantcolor>#608080</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2332446476</ID>
+      <path>Images/nature/img_20.jpg</path>
+      <title>Fairy Falls</title>
+      <description>null</description>
+      <latitude>44.52503</latitude>
+      <longitude>-110.87003</longitude>
+      <date>Fri Aug 24 12:39:28 BST 2007</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2332429448</ID>
+      <path>Images/nature/img_21.jpg</path>
+      <title>Fairy Falls</title>
+      <description>null</description>
+      <latitude>44.51627</latitude>
+      <longitude>-110.832794</longitude>
+      <date>Fri Aug 24 11:18:36 BST 2007</date>
+      <dominantcolor>#A0A080</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2332430904</ID>
+      <path>Images/nature/img_22.jpg</path>
+      <title>Fairy Falls</title>
+      <description>null</description>
+      <latitude>44.51627</latitude>
+      <longitude>-110.832794</longitude>
+      <date>Fri Aug 24 11:26:05 BST 2007</date>
+      <dominantcolor>#40C000</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331604133</ID>
+      <path>Images/nature/img_23.jpg</path>
+      <title>Fairy Falls</title>
+      <description>null</description>
+      <latitude>44.51627</latitude>
+      <longitude>-110.832794</longitude>
+      <date>Fri Aug 24 11:28:03 BST 2007</date>
+      <dominantcolor>#808080</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331547481</ID>
+      <path>Images/nature/img_24.jpg</path>
+      <title>sunset</title>
+      <description>null</description>
+      <latitude>39.044437</latitude>
+      <longitude>-76.94031</longitude>
+      <date>Tue Mar 11 18:54:12 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331410283</ID>
+      <path>Images/nature/img_25.jpg</path>
+      <title>Rusty Blackbird, Euphagus carolinus (@ Frozen Head)</title>
+      <description>null</description>
+      <latitude>36.12454</latitude>
+      <longitude>-84.51288</longitude>
+      <date>Sat Mar 08 13:27:51 GMT 2008</date>
+      <dominantcolor>#C06040</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331408383</ID>
+      <path>Images/nature/img_26.jpg</path>
+      <title>American Pipit, Anthus rubescens (@ Frozen Head)</title>
+      <description>null</description>
+      <latitude>36.12544</latitude>
+      <longitude>-84.50457</longitude>
+      <date>Sat Mar 08 11:24:33 GMT 2008</date>
+      <dominantcolor>#E0E0C0</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331407513</ID>
+      <path>Images/nature/img_27.jpg</path>
+      <title>American Pipit, Anthus rubescens (@ Frozen Head)</title>
+      <description>null</description>
+      <latitude>36.12544</latitude>
+      <longitude>-84.50457</longitude>
+      <date>Sat Mar 08 11:15:54 GMT 2008</date>
+      <dominantcolor>#C0C040</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2332236760</ID>
+      <path>Images/nature/img_28.jpg</path>
+      <title>American Pipit, Anthus rubescens (@ Frozen Head)</title>
+      <description>null</description>
+      <latitude>36.12544</latitude>
+      <longitude>-84.50457</longitude>
+      <date>Sat Mar 08 11:26:19 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331406495</ID>
+      <path>Images/nature/img_29.jpg</path>
+      <title>American Pipit, Anthus rubescens (@ Frozen Head)</title>
+      <description>null</description>
+      <latitude>36.12544</latitude>
+      <longitude>-84.50457</longitude>
+      <date>Sat Mar 08 11:14:13 GMT 2008</date>
+      <dominantcolor>#808080</dominantcolor>
+   </image>
+   <image class="nature">
+      <ID>2331145349</ID>
+      <path>Images/nature/img_30.jpg</path>
+      <title>Cave</title>
+      <description>null</description>
+      <latitude>31.316101</latitude>
+      <longitude>34.60144</longitude>
+      <date>Sat Mar 11 11:58:18 GMT 2006</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2260134094</ID>
+      <path>Images/no_people/img_1.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>60.15182</latitude>
+      <longitude>24.952719</longitude>
+      <date>Sat Nov 17 13:16:50 GMT 2007</date>
+      <dominantcolor>#608080</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2168438869</ID>
+      <path>Images/no_people/img_2.jpg</path>
+      <title>Jan 5</title>
+      <description>null</description>
+      <latitude>53.212162</latitude>
+      <longitude>6.566412</longitude>
+      <date>Sat Jan 05 14:08:41 GMT 2008</date>
+      <dominantcolor>#C0A080</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2121515896</ID>
+      <path>Images/no_people/img_3.jpg</path>
+      <title>Braybrook Melbourne Victoria Australia 2007:12:14 20:38:11</title>
+      <description>null</description>
+      <latitude>-37.793507</latitude>
+      <longitude>144.86032</longitude>
+      <date>Fri Dec 14 20:38:11 GMT 2007</date>
+      <dominantcolor>#808080</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2106238314</ID>
+      <path>Images/no_people/img_4.jpg</path>
+      <title>113 ...E il giorno si fa da parte</title>
+      <description>null</description>
+      <latitude>44.924225</latitude>
+      <longitude>11.727197</longitude>
+      <date>Sun Jul 22 20:40:39 BST 2007</date>
+      <dominantcolor>#E00000</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2105459783</ID>
+      <path>Images/no_people/img_5.jpg</path>
+      <title>110 Il cuore del tramonto</title>
+      <description>null</description>
+      <latitude>44.924225</latitude>
+      <longitude>11.727197</longitude>
+      <date>Sun Jul 22 20:37:20 BST 2007</date>
+      <dominantcolor>#006000</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2106239652</ID>
+      <path>Images/no_people/img_6.jpg</path>
+      <title>112 La sera chiede permesso al giorno</title>
+      <description>null</description>
+      <latitude>44.924225</latitude>
+      <longitude>11.727197</longitude>
+      <date>Sun Jul 22 20:38:14 BST 2007</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2105460215</ID>
+      <path>Images/no_people/img_7.jpg</path>
+      <title>111 Leggerezza</title>
+      <description>null</description>
+      <latitude>44.924225</latitude>
+      <longitude>11.727197</longitude>
+      <date>Sun Jul 22 20:37:46 BST 2007</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2105454659</ID>
+      <path>Images/no_people/img_8.jpg</path>
+      <title>106 Architettura sacra o civile... basta che sia in mattoni!</title>
+      <description>null</description>
+      <latitude>44.95897</latitude>
+      <longitude>11.82219</longitude>
+      <date>Sun Jul 22 19:56:40 BST 2007</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2105456233</ID>
+      <path>Images/no_people/img_9.jpg</path>
+      <title>107 La fontana della salvezza</title>
+      <description>null</description>
+      <latitude>44.95897</latitude>
+      <longitude>11.82219</longitude>
+      <date>Sun Jul 22 19:57:09 BST 2007</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2106236170</ID>
+      <path>Images/no_people/img_10.jpg</path>
+      <title>108 La chiesa di Guarda</title>
+      <description>null</description>
+      <latitude>44.973297</latitude>
+      <longitude>11.803854</longitude>
+      <date>Sun Jul 22 20:13:43 BST 2007</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2106237418</ID>
+      <path>Images/no_people/img_11.jpg</path>
+      <title>109 Micio affumicato</title>
+      <description>null</description>
+      <latitude>44.973297</latitude>
+      <longitude>11.803854</longitude>
+      <date>Sun Jul 22 20:15:00 BST 2007</date>
+      <dominantcolor>#A08040</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2062568842</ID>
+      <path>Images/no_people/img_12.jpg</path>
+      <title>79 Lidi scintillanti</title>
+      <description>null</description>
+      <latitude>44.888012</latitude>
+      <longitude>11.60801</longitude>
+      <date>Fri Jul 20 20:17:18 BST 2007</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2062566126</ID>
+      <path>Images/no_people/img_13.jpg</path>
+      <title>77 Riflessi di tramonto</title>
+      <description>null</description>
+      <latitude>44.88744</latitude>
+      <longitude>11.607903</longitude>
+      <date>Fri Jul 20 20:12:46 BST 2007</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2062561012</ID>
+      <path>Images/no_people/img_14.jpg</path>
+      <title>74 Riva destra con tramonto</title>
+      <description>null</description>
+      <latitude>44.88717</latitude>
+      <longitude>11.608933</longitude>
+      <date>Fri Jul 20 20:08:53 BST 2007</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2061773557</ID>
+      <path>Images/no_people/img_15.jpg</path>
+      <title>75 Chiatta ristorante</title>
+      <description>null</description>
+      <latitude>44.887497</latitude>
+      <longitude>11.608192</longitude>
+      <date>Fri Jul 20 20:09:32 BST 2007</date>
+      <dominantcolor>#204040</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2062565024</ID>
+      <path>Images/no_people/img_16.jpg</path>
+      <title>76 Ponte sul Po</title>
+      <description>null</description>
+      <latitude>44.887497</latitude>
+      <longitude>11.608192</longitude>
+      <date>Fri Jul 20 20:11:42 BST 2007</date>
+      <dominantcolor>#608080</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2062560118</ID>
+      <path>Images/no_people/img_17.jpg</path>
+      <title>87 Sole, nuvole e ponte</title>
+      <description>null</description>
+      <latitude>44.887363</latitude>
+      <longitude>11.608697</longitude>
+      <date>Fri Jul 20 20:34:31 BST 2007</date>
+      <dominantcolor>#C04040</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2062567472</ID>
+      <path>Images/no_people/img_18.jpg</path>
+      <title>78 Il tramonto ha inizio</title>
+      <description>null</description>
+      <latitude>44.888012</latitude>
+      <longitude>11.60801</longitude>
+      <date>Fri Jul 20 20:14:52 BST 2007</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2062571446</ID>
+      <path>Images/no_people/img_19.jpg</path>
+      <title>80 Un fiume d'oro</title>
+      <description>null</description>
+      <latitude>44.888012</latitude>
+      <longitude>11.60801</longitude>
+      <date>Fri Jul 20 20:20:13 BST 2007</date>
+      <dominantcolor>#A08040</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2061769081</ID>
+      <path>Images/no_people/img_20.jpg</path>
+      <title>86 Il Re del cielo e la sua corte salutano il Po</title>
+      <description>null</description>
+      <latitude>44.88852</latitude>
+      <longitude>11.60815</longitude>
+      <date>Fri Jul 20 20:31:34 BST 2007</date>
+      <dominantcolor>#804040</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2062550412</ID>
+      <path>Images/no_people/img_21.jpg</path>
+      <title>83 Attracco</title>
+      <description>null</description>
+      <latitude>44.889595</latitude>
+      <longitude>11.608353</longitude>
+      <date>Fri Jul 20 20:24:32 BST 2007</date>
+      <dominantcolor>#E0C080</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2061761895</ID>
+      <path>Images/no_people/img_22.jpg</path>
+      <title>84 Tramonto dietro l'attracco - HDR</title>
+      <description>null</description>
+      <latitude>44.88881</latitude>
+      <longitude>11.608203</longitude>
+      <date>Fri Jul 20 20:27:57 BST 2007</date>
+      <dominantcolor>#A08040</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2061728405</ID>
+      <path>Images/no_people/img_23.jpg</path>
+      <title>65 Corte Ovale</title>
+      <description>null</description>
+      <latitude>44.837616</latitude>
+      <longitude>11.62052</longitude>
+      <date>Fri Jul 20 19:20:00 BST 2007</date>
+      <dominantcolor>#406040</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2061723589</ID>
+      <path>Images/no_people/img_24.jpg</path>
+      <title>63 Hanno quasi divelto il palo!</title>
+      <description>null</description>
+      <latitude>44.86945</latitude>
+      <longitude>11.598601</longitude>
+      <date>Fri Jul 20 18:35:25 BST 2007</date>
+      <dominantcolor>#606040</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2062501340</ID>
+      <path>Images/no_people/img_25.jpg</path>
+      <title>60 E' saltata un po' di vernice</title>
+      <description>null</description>
+      <latitude>44.86945</latitude>
+      <longitude>11.598601</longitude>
+      <date>Fri Jul 20 18:33:42 BST 2007</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2061716007</ID>
+      <path>Images/no_people/img_26.jpg</path>
+      <title>61 Anche il copricatena è danneggiato</title>
+      <description>null</description>
+      <latitude>44.86945</latitude>
+      <longitude>11.598601</longitude>
+      <date>Fri Jul 20 18:34:16 BST 2007</date>
+      <dominantcolor>#608040</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2061708385</ID>
+      <path>Images/no_people/img_27.jpg</path>
+      <title>59 Per fortuna il lucchetto ha resistito</title>
+      <description>null</description>
+      <latitude>44.86945</latitude>
+      <longitude>11.598601</longitude>
+      <date>Fri Jul 20 18:33:11 BST 2007</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2062508668</ID>
+      <path>Images/no_people/img_28.jpg</path>
+      <title>62 Hanno fatto saltare il sottosella ma la borsa no</title>
+      <description>null</description>
+      <latitude>44.86945</latitude>
+      <longitude>11.598601</longitude>
+      <date>Fri Jul 20 18:34:58 BST 2007</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2062494478</ID>
+      <path>Images/no_people/img_29.jpg</path>
+      <title>58 Volevano rubarmela!</title>
+      <description>null</description>
+      <latitude>44.86945</latitude>
+      <longitude>11.598601</longitude>
+      <date>Fri Jul 20 18:32:43 BST 2007</date>
+      <dominantcolor>#606000</dominantcolor>
+   </image>
+   <image class="no_people">
+      <ID>2053127045</ID>
+      <path>Images/no_people/img_30.jpg</path>
+      <title>50 Il fossato di notte</title>
+      <description>null</description>
+      <latitude>44.83827</latitude>
+      <longitude>11.619608</longitude>
+      <date>Wed Jul 18 22:14:23 BST 2007</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2309906650</ID>
+      <path>Images/outdoor/img_1.jpg</path>
+      <title>04032008063</title>
+      <description>null</description>
+      <latitude>45.467346</latitude>
+      <longitude>6.90211</longitude>
+      <date>Tue Mar 04 08:53:57 GMT 2008</date>
+      <dominantcolor>#808080</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2309086508</ID>
+      <path>Images/outdoor/img_2.jpg</path>
+      <title>traviesas / railroad ties</title>
+      <description>null</description>
+      <latitude>40.397533</latitude>
+      <longitude>-3.687082</longitude>
+      <date>Sun Mar 02 17:44:46 GMT 2008</date>
+      <dominantcolor>#602000</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2308955626</ID>
+      <path>Images/outdoor/img_3.jpg</path>
+      <title>S.B. Burnett Park</title>
+      <description>null</description>
+      <latitude>32.75081</latitude>
+      <longitude>-97.333595</longitude>
+      <date>Tue Feb 27 12:50:07 GMT 2007</date>
+      <dominantcolor>#204080</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2308782688</ID>
+      <path>Images/outdoor/img_4.jpg</path>
+      <title>DSC_1335 - Version 2</title>
+      <description>null</description>
+      <latitude>45.46724</latitude>
+      <longitude>6.900891</longitude>
+      <date>Mon Mar 03 23:06:36 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2307956241</ID>
+      <path>Images/outdoor/img_5.jpg</path>
+      <title>DSC_1335</title>
+      <description>null</description>
+      <latitude>45.467175</latitude>
+      <longitude>6.901453</longitude>
+      <date>Mon Mar 03 23:06:36 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2308724324</ID>
+      <path>Images/outdoor/img_6.jpg</path>
+      <title>DSC_1329 - Version 2</title>
+      <description>null</description>
+      <latitude>45.467175</latitude>
+      <longitude>6.901453</longitude>
+      <date>Mon Mar 03 22:55:36 GMT 2008</date>
+      <dominantcolor>#608040</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2307905179</ID>
+      <path>Images/outdoor/img_7.jpg</path>
+      <title>DSC_1328</title>
+      <description>null</description>
+      <latitude>45.467175</latitude>
+      <longitude>6.901453</longitude>
+      <date>Mon Mar 03 22:55:21 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2307488713</ID>
+      <path>Images/outdoor/img_8.jpg</path>
+      <title>Bridge 243</title>
+      <description>null</description>
+      <latitude>51.75612</latitude>
+      <longitude>-1.269429</longitude>
+      <date>Sat Mar 01 14:43:28 GMT 2008</date>
+      <dominantcolor>#002000</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2306822774</ID>
+      <path>Images/outdoor/img_9.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>33.709812</latitude>
+      <longitude>-118.29382</longitude>
+      <date>Sun Mar 02 16:32:34 GMT 2008</date>
+      <dominantcolor>#C0C0C0</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2306819642</ID>
+      <path>Images/outdoor/img_10.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>33.706383</latitude>
+      <longitude>-118.29187</longitude>
+      <date>Sun Mar 02 16:21:18 GMT 2008</date>
+      <dominantcolor>#204040</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2306817422</ID>
+      <path>Images/outdoor/img_11.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>33.705715</latitude>
+      <longitude>-118.29385</longitude>
+      <date>Sun Mar 02 16:06:23 GMT 2008</date>
+      <dominantcolor>#80A0C0</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2306820834</ID>
+      <path>Images/outdoor/img_12.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>33.709812</latitude>
+      <longitude>-118.29382</longitude>
+      <date>Sun Mar 02 16:38:19 GMT 2008</date>
+      <dominantcolor>#E02000</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2306015857</ID>
+      <path>Images/outdoor/img_13.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>33.705715</latitude>
+      <longitude>-118.29385</longitude>
+      <date>Sun Mar 02 16:06:07 GMT 2008</date>
+      <dominantcolor>#80A080</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2306019149</ID>
+      <path>Images/outdoor/img_14.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>33.709812</latitude>
+      <longitude>-118.29382</longitude>
+      <date>Sun Mar 02 16:27:09 GMT 2008</date>
+      <dominantcolor>#E0E0C0</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2306822022</ID>
+      <path>Images/outdoor/img_15.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>33.709812</latitude>
+      <longitude>-118.29382</longitude>
+      <date>Sun Mar 02 16:37:02 GMT 2008</date>
+      <dominantcolor>#C0A080</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2306016877</ID>
+      <path>Images/outdoor/img_16.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>33.70634</latitude>
+      <longitude>-118.29427</longitude>
+      <date>Sun Mar 02 16:11:34 GMT 2008</date>
+      <dominantcolor>#C0C040</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2306821680</ID>
+      <path>Images/outdoor/img_17.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>33.70503</latitude>
+      <longitude>-118.29394</longitude>
+      <date>Sun Mar 02 16:07:49 GMT 2008</date>
+      <dominantcolor>#C0C0C0</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2306017245</ID>
+      <path>Images/outdoor/img_18.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>33.706177</latitude>
+      <longitude>-118.294624</longitude>
+      <date>Sun Mar 02 16:13:04 GMT 2008</date>
+      <dominantcolor>#A0A0C0</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2306820110</ID>
+      <path>Images/outdoor/img_19.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>33.71035</latitude>
+      <longitude>-118.29495</longitude>
+      <date>Sun Mar 02 16:30:21 GMT 2008</date>
+      <dominantcolor>#A0A040</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2306019367</ID>
+      <path>Images/outdoor/img_20.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>33.71035</latitude>
+      <longitude>-118.29495</longitude>
+      <date>Sun Mar 02 16:31:22 GMT 2008</date>
+      <dominantcolor>#A0C0C0</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2306020011</ID>
+      <path>Images/outdoor/img_21.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>33.709812</latitude>
+      <longitude>-118.29382</longitude>
+      <date>Sun Mar 02 16:34:30 GMT 2008</date>
+      <dominantcolor>#806040</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2306021211</ID>
+      <path>Images/outdoor/img_22.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>33.709812</latitude>
+      <longitude>-118.29382</longitude>
+      <date>Sun Mar 02 16:36:52 GMT 2008</date>
+      <dominantcolor>#C0C0C0</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2306021819</ID>
+      <path>Images/outdoor/img_23.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>33.710835</latitude>
+      <longitude>-118.2947</longitude>
+      <date>Sun Mar 02 16:28:47 GMT 2008</date>
+      <dominantcolor>#C0C080</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2306819024</ID>
+      <path>Images/outdoor/img_24.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>33.707016</latitude>
+      <longitude>-118.29491</longitude>
+      <date>Sun Mar 02 16:13:53 GMT 2008</date>
+      <dominantcolor>#A0A080</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2303841976</ID>
+      <path>Images/outdoor/img_25.jpg</path>
+      <title>not actually thomas vanek</title>
+      <description>null</description>
+      <latitude>42.77405</latitude>
+      <longitude>-78.78665</longitude>
+      <date>Sat Mar 01 22:16:45 GMT 2008</date>
+      <dominantcolor>#C0C0C0</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2303585702</ID>
+      <path>Images/outdoor/img_26.jpg</path>
+      <title>center stage</title>
+      <description>null</description>
+      <latitude>33.894653</latitude>
+      <longitude>-117.826096</longitude>
+      <date>Fri Feb 29 07:45:16 GMT 2008</date>
+      <dominantcolor>#A0A080</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2301992857</ID>
+      <path>Images/outdoor/img_27.jpg</path>
+      <title>DSC_1325</title>
+      <description>null</description>
+      <latitude>45.466976</latitude>
+      <longitude>6.901158</longitude>
+      <date>Sat Mar 01 19:12:53 GMT 2008</date>
+      <dominantcolor>#408080</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2302796452</ID>
+      <path>Images/outdoor/img_28.jpg</path>
+      <title>DSC_1327 - Version 2</title>
+      <description>null</description>
+      <latitude>45.466976</latitude>
+      <longitude>6.901158</longitude>
+      <date>Sat Mar 01 18:47:19 GMT 2008</date>
+      <dominantcolor>#204080</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2302792766</ID>
+      <path>Images/outdoor/img_29.jpg</path>
+      <title>DSC_1326 - Version 2</title>
+      <description>null</description>
+      <latitude>45.466976</latitude>
+      <longitude>6.901158</longitude>
+      <date>Sat Mar 01 18:45:07 GMT 2008</date>
+      <dominantcolor>#204080</dominantcolor>
+   </image>
+   <image class="outdoor">
+      <ID>2301970571</ID>
+      <path>Images/outdoor/img_30.jpg</path>
+      <title>DSC_1321</title>
+      <description>null</description>
+      <latitude>45.466976</latitude>
+      <longitude>6.901158</longitude>
+      <date>Sat Mar 01 18:31:18 GMT 2008</date>
+      <dominantcolor>#404080</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2338342061</ID>
+      <path>Images/party/img_1.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sun Mar 16 00:01:02 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2338349163</ID>
+      <path>Images/party/img_2.jpg</path>
+      <title>sweet :P</title>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sun Mar 16 00:01:29 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2339189364</ID>
+      <path>Images/party/img_3.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sun Mar 16 02:11:36 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2339179750</ID>
+      <path>Images/party/img_4.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sun Mar 16 00:01:07 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2338352533</ID>
+      <path>Images/party/img_5.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sun Mar 16 00:10:09 GMT 2008</date>
+      <dominantcolor>#402040</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2339154720</ID>
+      <path>Images/party/img_6.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 23:53:42 GMT 2008</date>
+      <dominantcolor>#002000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2338316193</ID>
+      <path>Images/party/img_7.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 23:50:20 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2338327857</ID>
+      <path>Images/party/img_8.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 23:59:55 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2338334209</ID>
+      <path>Images/party/img_9.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 23:59:59 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2338316079</ID>
+      <path>Images/party/img_10.jpg</path>
+      <title>Bonefire</title>
+      <description>null</description>
+      <latitude>41.014923</latitude>
+      <longitude>-75.244286</longitude>
+      <date>Sat Sep 29 19:08:47 BST 2007</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2338324109</ID>
+      <path>Images/party/img_11.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 23:59:42 GMT 2008</date>
+      <dominantcolor>#600040</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2339164950</ID>
+      <path>Images/party/img_12.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 23:59:58 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2339131500</ID>
+      <path>Images/party/img_13.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 23:37:03 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2338301195</ID>
+      <path>Images/party/img_14.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 23:43:10 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2338311181</ID>
+      <path>Images/party/img_15.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 23:50:01 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2338313401</ID>
+      <path>Images/party/img_16.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 23:50:04 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2339143352</ID>
+      <path>Images/party/img_17.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 23:49:50 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2338291161</ID>
+      <path>Images/party/img_18.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 23:35:40 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2339140364</ID>
+      <path>Images/party/img_19.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 23:49:49 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2338287345</ID>
+      <path>Images/party/img_20.jpg</path>
+      <title>foxy lady :)</title>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 23:31:30 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2338284111</ID>
+      <path>Images/party/img_21.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 22:50:22 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2338269939</ID>
+      <path>Images/party/img_22.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 22:37:42 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2338274747</ID>
+      <path>Images/party/img_23.jpg</path>
+      <title>The only escape...</title>
+      <description>null</description>
+      <latitude>40.73599</latitude>
+      <longitude>-73.99397</longitude>
+      <date>Thu Aug 31 15:54:32 BST 2006</date>
+      <dominantcolor>#E0E000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2339114836</ID>
+      <path>Images/party/img_24.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 22:46:49 GMT 2008</date>
+      <dominantcolor>#000040</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2339106966</ID>
+      <path>Images/party/img_25.jpg</path>
+      <title>Manhattan Penthouse</title>
+      <description>null</description>
+      <latitude>40.73599</latitude>
+      <longitude>-73.99397</longitude>
+      <date>Thu Aug 31 12:49:23 BST 2006</date>
+      <dominantcolor>#C02000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2339111318</ID>
+      <path>Images/party/img_26.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 22:46:48 GMT 2008</date>
+      <dominantcolor>#000040</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2339107242</ID>
+      <path>Images/party/img_27.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 22:37:45 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2339086564</ID>
+      <path>Images/party/img_28.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 22:15:57 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2339074696</ID>
+      <path>Images/party/img_29.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 22:12:32 GMT 2008</date>
+      <dominantcolor>#002000</dominantcolor>
+   </image>
+   <image class="party">
+      <ID>2339090284</ID>
+      <path>Images/party/img_30.jpg</path>
+      <title/>
+      <description>null</description>
+      <latitude>52.23913</latitude>
+      <longitude>21.011578</longitude>
+      <date>Sat Mar 15 22:17:13 GMT 2008</date>
+      <dominantcolor>#808040</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2309329219</ID>
+      <path>Images/people/img_1.jpg</path>
+      <title>Japanese dancer hailing cab #4488</title>
+      <description>null</description>
+      <latitude>35.664806</latitude>
+      <longitude>139.69864</longitude>
+      <date>Sun May 13 16:24:45 BST 2007</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2310134834</ID>
+      <path>Images/people/img_2.jpg</path>
+      <title>roller skater #4477</title>
+      <description>null</description>
+      <latitude>35.665974</latitude>
+      <longitude>139.6981</longitude>
+      <date>Sun May 13 16:16:25 BST 2007</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2309329017</ID>
+      <path>Images/people/img_3.jpg</path>
+      <title>Japanese dancers #4476</title>
+      <description>null</description>
+      <latitude>35.666138</latitude>
+      <longitude>139.6982</longitude>
+      <date>Sun May 13 16:14:53 BST 2007</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2310134760</ID>
+      <path>Images/people/img_4.jpg</path>
+      <title>Japanese dancers #4474</title>
+      <description>null</description>
+      <latitude>35.666306</latitude>
+      <longitude>139.69794</longitude>
+      <date>Sun May 13 16:13:49 BST 2007</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2310134918</ID>
+      <path>Images/people/img_5.jpg</path>
+      <title>Japanese dancers #4485</title>
+      <description>null</description>
+      <latitude>35.664886</latitude>
+      <longitude>139.69872</longitude>
+      <date>Sun May 13 16:23:47 BST 2007</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2310134672</ID>
+      <path>Images/people/img_6.jpg</path>
+      <title>people watching #4473</title>
+      <description>null</description>
+      <latitude>35.666332</latitude>
+      <longitude>139.69789</longitude>
+      <date>Sun May 13 16:13:26 BST 2007</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2309329293</ID>
+      <path>Images/people/img_7.jpg</path>
+      <title>Japanese dancers #4489</title>
+      <description>null</description>
+      <latitude>35.66447</latitude>
+      <longitude>139.69861</longitude>
+      <date>Sun May 13 16:25:41 BST 2007</date>
+      <dominantcolor>#802040</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2310134964</ID>
+      <path>Images/people/img_8.jpg</path>
+      <title>Japanese dancers #4487</title>
+      <description>null</description>
+      <latitude>35.664886</latitude>
+      <longitude>139.69864</longitude>
+      <date>Sun May 13 16:24:23 BST 2007</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2309931648</ID>
+      <path>Images/people/img_9.jpg</path>
+      <title>On the Bridge #1</title>
+      <description>null</description>
+      <latitude>45.76868</latitude>
+      <longitude>4.839209</longitude>
+      <date>Sat Mar 01 16:24:47 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2309127755</ID>
+      <path>Images/people/img_10.jpg</path>
+      <title>On the Bridge #2</title>
+      <description>null</description>
+      <latitude>45.76868</latitude>
+      <longitude>4.839209</longitude>
+      <date>Sat Mar 01 16:24:43 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2309932208</ID>
+      <path>Images/people/img_11.jpg</path>
+      <title>La Fresque des Lyonnais</title>
+      <description>null</description>
+      <latitude>45.768105</latitude>
+      <longitude>4.829531</longitude>
+      <date>Sat Mar 01 16:57:20 GMT 2008</date>
+      <dominantcolor>#40C080</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2308925561</ID>
+      <path>Images/people/img_12.jpg</path>
+      <title>Sandvika</title>
+      <description>null</description>
+      <latitude>59.889137</latitude>
+      <longitude>10.522992</longitude>
+      <date>Sun Mar 02 14:09:31 GMT 2008</date>
+      <dominantcolor>#80A080</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2308587887</ID>
+      <path>Images/people/img_13.jpg</path>
+      <title>Downtown Manhattan &amp; Hudson Waterfront</title>
+      <description>null</description>
+      <latitude>40.713543</latitude>
+      <longitude>-74.00669</longitude>
+      <date>Sun Mar 02 14:56:32 GMT 2008</date>
+      <dominantcolor>#406040</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2308218219</ID>
+      <path>Images/people/img_14.jpg</path>
+      <title>200801251943</title>
+      <description>null</description>
+      <latitude>51.512814</latitude>
+      <longitude>-0.133423</longitude>
+      <date>Fri Jan 25 19:43:00 GMT 2008</date>
+      <dominantcolor>#200040</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>1849585992</ID>
+      <path>Images/people/img_15.jpg</path>
+      <title>Gente (menuda)</title>
+      <description>null</description>
+      <latitude>41.386806</latitude>
+      <longitude>2.170314</longitude>
+      <date>Tue Mar 04 00:25:00 GMT 2008</date>
+      <dominantcolor>#408040</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2308055323</ID>
+      <path>Images/people/img_16.jpg</path>
+      <title>Waiting</title>
+      <description>null</description>
+      <latitude>46.16445</latitude>
+      <longitude>14.306613</longitude>
+      <date>Sun Mar 02 19:05:44 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2308068067</ID>
+      <path>Images/people/img_17.jpg</path>
+      <title>A smile</title>
+      <description>null</description>
+      <latitude>46.165768</latitude>
+      <longitude>14.306661</longitude>
+      <date>Sun Mar 02 20:23:47 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2308062241</ID>
+      <path>Images/people/img_18.jpg</path>
+      <title>One half</title>
+      <description>null</description>
+      <latitude>46.165768</latitude>
+      <longitude>14.306661</longitude>
+      <date>Sun Mar 02 20:20:02 GMT 2008</date>
+      <dominantcolor>#A0A080</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2307961497</ID>
+      <path>Images/people/img_19.jpg</path>
+      <title>Christina Pike Place</title>
+      <description>null</description>
+      <latitude>47.608795</latitude>
+      <longitude>-122.34106</longitude>
+      <date>Sat Sep 09 11:30:33 BST 2006</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2307384985</ID>
+      <path>Images/people/img_20.jpg</path>
+      <title>Spring is in the Air</title>
+      <description>null</description>
+      <latitude>51.746273</latitude>
+      <longitude>-1.261923</longitude>
+      <date>Sat Mar 01 14:18:51 GMT 2008</date>
+      <dominantcolor>#002000</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2307359597</ID>
+      <path>Images/people/img_21.jpg</path>
+      <title>drunk folks</title>
+      <description>null</description>
+      <latitude>33.76444</latitude>
+      <longitude>-84.35055</longitude>
+      <date>Sun Mar 02 16:00:24 GMT 2008</date>
+      <dominantcolor>#602000</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2307112157</ID>
+      <path>Images/people/img_22.jpg</path>
+      <title>view north east from Nottingham Eye</title>
+      <description>null</description>
+      <latitude>52.953407</latitude>
+      <longitude>-1.149873</longitude>
+      <date>Mon Mar 03 11:35:09 GMT 2008</date>
+      <dominantcolor>#A0C080</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2307096009</ID>
+      <path>Images/people/img_23.jpg</path>
+      <title>shadow on shops from Nottingham Eye</title>
+      <description>null</description>
+      <latitude>52.953407</latitude>
+      <longitude>-1.149873</longitude>
+      <date>Mon Mar 03 11:36:57 GMT 2008</date>
+      <dominantcolor>#A08080</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2307098631</ID>
+      <path>Images/people/img_24.jpg</path>
+      <title>shadows and people from Nottingham Eye</title>
+      <description>null</description>
+      <latitude>52.953407</latitude>
+      <longitude>-1.149873</longitude>
+      <date>Mon Mar 03 11:37:37 GMT 2008</date>
+      <dominantcolor>#204080</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2307809846</ID>
+      <path>Images/people/img_25.jpg</path>
+      <title>Bassano</title>
+      <description>null</description>
+      <latitude>45.766872</latitude>
+      <longitude>11.734482</longitude>
+      <date>Sun Mar 02 16:56:19 GMT 2008</date>
+      <dominantcolor>#000000</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2306965971</ID>
+      <path>Images/people/img_26.jpg</path>
+      <title>Robin Hood being interviewed bw</title>
+      <description>null</description>
+      <latitude>52.953407</latitude>
+      <longitude>-1.149873</longitude>
+      <date>Mon Mar 03 11:37:19 GMT 2008</date>
+      <dominantcolor>#C0C0C0</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2306967483</ID>
+      <path>Images/people/img_27.jpg</path>
+      <title>people and shadows bw</title>
+      <description>null</description>
+      <latitude>52.953407</latitude>
+      <longitude>-1.149873</longitude>
+      <date>Mon Mar 03 11:37:03 GMT 2008</date>
+      <dominantcolor>#A0A080</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2306944671</ID>
+      <path>Images/people/img_28.jpg</path>
+      <title>Me on Jumeirah Open Beach</title>
+      <description>null</description>
+      <latitude>25.233456</latitude>
+      <longitude>55.261013</longitude>
+      <date>Thu Feb 28 13:51:38 GMT 2008</date>
+      <dominantcolor>#C0A080</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2306888465</ID>
+      <path>Images/people/img_29.jpg</path>
+      <title>Tayler</title>
+      <description>null</description>
+      <latitude>37.5616</latitude>
+      <longitude>-122.324585</longitude>
+      <date>Wed Sep 19 12:53:44 BST 2007</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="people">
+      <ID>2306882113</ID>
+      <path>Images/people/img_30.jpg</path>
+      <title>Rua da Praia II IMG_3633_fhdr</title>
+      <description>null</description>
+      <latitude>-30.029968</latitude>
+      <longitude>-51.22704</longitude>
+      <date>Mon Mar 03 05:16:53 GMT 2008</date>
+      <dominantcolor>#A04040</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2332901942</ID>
+      <path>Images/snow/img_1.jpg</path>
+      <title>gruttenhutte</title>
+      <description>null</description>
+      <latitude>47.5541</latitude>
+      <longitude>12.3111</longitude>
+      <date>Sun Mar 09 14:34:44 GMT 2008</date>
+      <dominantcolor>#E0E0C0</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331995011</ID>
+      <path>Images/snow/img_2.jpg</path>
+      <title>The afternoon glow</title>
+      <description>null</description>
+      <latitude>43.56435</latitude>
+      <longitude>-110.733154</longitude>
+      <date>Fri Mar 14 01:21:19 GMT 2008</date>
+      <dominantcolor>#606040</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2332787900</ID>
+      <path>Images/snow/img_3.jpg</path>
+      <title>A view upon the City.</title>
+      <description>null</description>
+      <latitude>44.95509</latitude>
+      <longitude>-93.27536</longitude>
+      <date>Fri Feb 29 11:22:18 GMT 2008</date>
+      <dominantcolor>#C0C080</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2332787310</ID>
+      <path>Images/snow/img_4.jpg</path>
+      <title>Tattered tarpaulin is upon some chainlink.</title>
+      <description>null</description>
+      <latitude>44.95479</latitude>
+      <longitude>-93.275406</longitude>
+      <date>Fri Feb 29 11:22:46 GMT 2008</date>
+      <dominantcolor>#808040</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331960703</ID>
+      <path>Images/snow/img_5.jpg</path>
+      <title>A view upon a snowpile, in Minneapolis.</title>
+      <description>null</description>
+      <latitude>44.95673</latitude>
+      <longitude>-93.27823</longitude>
+      <date>Fri Feb 29 10:48:35 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331904961</ID>
+      <path>Images/snow/img_6.jpg</path>
+      <title>Trees in winter III</title>
+      <description>null</description>
+      <latitude>45.426716</latitude>
+      <longitude>-73.8228</longitude>
+      <date>Wed Mar 12 14:21:25 GMT 2008</date>
+      <dominantcolor>#C0C0C0</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331885627</ID>
+      <path>Images/snow/img_7.jpg</path>
+      <title>Steve McQueen's bicycle</title>
+      <description>null</description>
+      <latitude>60.218487</latitude>
+      <longitude>24.882</longitude>
+      <date>Wed Mar 05 17:38:20 GMT 2008</date>
+      <dominantcolor>#608080</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331884423</ID>
+      <path>Images/snow/img_8.jpg</path>
+      <title>Steve McQueen's bicycle</title>
+      <description>null</description>
+      <latitude>60.218536</latitude>
+      <longitude>24.881916</longitude>
+      <date>Wed Mar 05 17:39:58 GMT 2008</date>
+      <dominantcolor>#A0A0C0</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2332711928</ID>
+      <path>Images/snow/img_9.jpg</path>
+      <title>Steve McQueen's bicycle</title>
+      <description>null</description>
+      <latitude>60.218605</latitude>
+      <longitude>24.882057</longitude>
+      <date>Wed Mar 05 17:39:08 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2332559764</ID>
+      <path>Images/snow/img_10.jpg</path>
+      <title>Spring Is In The Air</title>
+      <description>null</description>
+      <latitude>49.88215</latitude>
+      <longitude>-97.16602</longitude>
+      <date>Thu Mar 13 22:38:55 GMT 2008</date>
+      <dominantcolor>#202000</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331436897</ID>
+      <path>Images/snow/img_11.jpg</path>
+      <title>Upper Flat Fork</title>
+      <description>null</description>
+      <latitude>36.134975</latitude>
+      <longitude>-84.49363</longitude>
+      <date>Sat Mar 08 17:13:26 GMT 2008</date>
+      <dominantcolor>#604040</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2332265746</ID>
+      <path>Images/snow/img_12.jpg</path>
+      <title>Flat For Creek</title>
+      <description>null</description>
+      <latitude>36.12359</latitude>
+      <longitude>-84.510345</longitude>
+      <date>Sat Mar 08 18:12:57 GMT 2008</date>
+      <dominantcolor>#606040</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331435723</ID>
+      <path>Images/snow/img_13.jpg</path>
+      <title>Crocus</title>
+      <description>null</description>
+      <latitude>36.12628</latitude>
+      <longitude>-84.50124</longitude>
+      <date>Mon Mar 10 17:43:00 GMT 2008</date>
+      <dominantcolor>#202040</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2332261320</ID>
+      <path>Images/snow/img_14.jpg</path>
+      <title>Frozen Head View</title>
+      <description>null</description>
+      <latitude>36.125484</latitude>
+      <longitude>-84.50531</longitude>
+      <date>Sat Mar 08 17:22:37 GMT 2008</date>
+      <dominantcolor>#2020C0</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331410283</ID>
+      <path>Images/snow/img_15.jpg</path>
+      <title>Rusty Blackbird, Euphagus carolinus (@ Frozen Head)</title>
+      <description>null</description>
+      <latitude>36.12454</latitude>
+      <longitude>-84.51288</longitude>
+      <date>Sat Mar 08 13:27:51 GMT 2008</date>
+      <dominantcolor>#C06040</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331408383</ID>
+      <path>Images/snow/img_16.jpg</path>
+      <title>American Pipit, Anthus rubescens (@ Frozen Head)</title>
+      <description>null</description>
+      <latitude>36.12544</latitude>
+      <longitude>-84.50457</longitude>
+      <date>Sat Mar 08 11:24:33 GMT 2008</date>
+      <dominantcolor>#E0E0C0</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331407513</ID>
+      <path>Images/snow/img_17.jpg</path>
+      <title>American Pipit, Anthus rubescens (@ Frozen Head)</title>
+      <description>null</description>
+      <latitude>36.12544</latitude>
+      <longitude>-84.50457</longitude>
+      <date>Sat Mar 08 11:15:54 GMT 2008</date>
+      <dominantcolor>#C0C040</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2332236760</ID>
+      <path>Images/snow/img_18.jpg</path>
+      <title>American Pipit, Anthus rubescens (@ Frozen Head)</title>
+      <description>null</description>
+      <latitude>36.12544</latitude>
+      <longitude>-84.50457</longitude>
+      <date>Sat Mar 08 11:26:19 GMT 2008</date>
+      <dominantcolor>#404040</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331406495</ID>
+      <path>Images/snow/img_19.jpg</path>
+      <title>American Pipit, Anthus rubescens (@ Frozen Head)</title>
+      <description>null</description>
+      <latitude>36.12544</latitude>
+      <longitude>-84.50457</longitude>
+      <date>Sat Mar 08 11:14:13 GMT 2008</date>
+      <dominantcolor>#808080</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2332226076</ID>
+      <path>Images/snow/img_20.jpg</path>
+      <title>Codeman &amp; Jellybean</title>
+      <description>null</description>
+      <latitude>39.49254</latitude>
+      <longitude>-84.46847</longitude>
+      <date>Sat Mar 08 04:49:05 GMT 2008</date>
+      <dominantcolor>#C0C0C0</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331393985</ID>
+      <path>Images/snow/img_21.jpg</path>
+      <title>final morning 2</title>
+      <description>null</description>
+      <latitude>45.57559</latitude>
+      <longitude>6.785227</longitude>
+      <date>Sat Mar 08 07:37:28 GMT 2008</date>
+      <dominantcolor>#606080</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2332228538</ID>
+      <path>Images/snow/img_22.jpg</path>
+      <title>final morning 4</title>
+      <description>null</description>
+      <latitude>45.57559</latitude>
+      <longitude>6.785227</longitude>
+      <date>Sat Mar 08 07:38:18 GMT 2008</date>
+      <dominantcolor>#80A080</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2332226790</ID>
+      <path>Images/snow/img_23.jpg</path>
+      <title>My Beautiful Jellybean</title>
+      <description>null</description>
+      <latitude>39.49254</latitude>
+      <longitude>-84.46847</longitude>
+      <date>Sat Mar 08 04:52:37 GMT 2008</date>
+      <dominantcolor>#A0A080</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331397213</ID>
+      <path>Images/snow/img_24.jpg</path>
+      <title>Playtime</title>
+      <description>null</description>
+      <latitude>39.49254</latitude>
+      <longitude>-84.46847</longitude>
+      <date>Sat Mar 08 04:48:05 GMT 2008</date>
+      <dominantcolor>#C0C080</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331397377</ID>
+      <path>Images/snow/img_25.jpg</path>
+      <title>final morning 3</title>
+      <description>null</description>
+      <latitude>45.57559</latitude>
+      <longitude>6.785227</longitude>
+      <date>Sat Mar 08 07:37:38 GMT 2008</date>
+      <dominantcolor>#204080</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2332223420</ID>
+      <path>Images/snow/img_26.jpg</path>
+      <title>Big Ol' Snowball</title>
+      <description>null</description>
+      <latitude>39.49254</latitude>
+      <longitude>-84.46847</longitude>
+      <date>Sat Mar 08 04:48:32 GMT 2008</date>
+      <dominantcolor>#C0C0C0</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331397799</ID>
+      <path>Images/snow/img_27.jpg</path>
+      <title>Head First!!</title>
+      <description>null</description>
+      <latitude>39.49254</latitude>
+      <longitude>-84.46847</longitude>
+      <date>Sat Mar 08 04:52:49 GMT 2008</date>
+      <dominantcolor>#C0C0C0</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331383967</ID>
+      <path>Images/snow/img_28.jpg</path>
+      <title>sunset 12</title>
+      <description>null</description>
+      <latitude>45.57559</latitude>
+      <longitude>6.785227</longitude>
+      <date>Fri Mar 07 18:41:59 GMT 2008</date>
+      <dominantcolor>#000040</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2332214120</ID>
+      <path>Images/snow/img_29.jpg</path>
+      <title>sunset 13</title>
+      <description>null</description>
+      <latitude>45.57559</latitude>
+      <longitude>6.785227</longitude>
+      <date>Fri Mar 07 18:44:19 GMT 2008</date>
+      <dominantcolor>#204040</dominantcolor>
+   </image>
+   <image class="snow">
+      <ID>2331381083</ID>
+      <path>Images/snow/img_30.jpg</path>
+      <title>sunset sky</title>
+      <description>null</description>
+      <latitude>45.57559</latitude>
+      <longitude>6.785227</longitude>
+      <date>Fri Mar 07 18:41:50 GMT 2008</date>
+      <dominantcolor>#604040</dominantcolor>
+   </image>
+</images>
