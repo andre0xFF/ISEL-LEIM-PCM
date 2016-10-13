@@ -1,0 +1,61 @@
+.slideshow, .head, .articles, .footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navigation {
+  display: block;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+article {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 5px;
+}
+.article_chapter {
+  width: 90%;
+  margin-left: 10px;
+}
+.article_figure {
+  margin: 0px;
+}
+.banner {
+  width: 100%;
+  height: 20px;
+}
+.slideshow img {
+  min-width: 100px;
+  width: 100%;
+  height: 100%;
+}
+.logo {
+    display: none;
+}
+@media screen and (min-width: 500px) {
+  .logo {
+    display: block;
+    width: 10%;
+  }
+  .navigation {
+    width: 90%;
+  }
+  .content {
+    max-width: 100px;
+  }
+  .navigation {
+    text-align: right;
+  }
+}
+@media screen and (min-width: 700px) {
+  body {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  article {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
