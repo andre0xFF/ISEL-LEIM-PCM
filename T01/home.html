@@ -6,8 +6,24 @@
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/responsive.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/dropdown.css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript">
+      function getRandomArbitrary(min, max) {
+        return parseInt(Math.random() * (max - min) + min);
+      }
+      function nextSlide() {
+        var imgs = [
+          'https://i.ytimg.com/vi/eT9vmpE8WcY/maxresdefault.jpg',
+          'http://random42.com/sites/default/files/work/casestudies/Random42-Oculus-GearVR-Headset.jpg',
+          'https://d.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2015/01/3040366-poster-p-1-google-cardboard-is-the-right-virtual-reality-gadget-for-right-now-but-whats-nex.jpg'
+        ];
+        var slide = document.getElementsByClassName('slide')[0];
+        slide.src = imgs[getRandomArbitrary(0, 3)];
+
+        setTimeout(nextSlide, 3000);
+      }
+    </script>
   </head>
-  <body>
+  <body onload="nextSlide()">
 
     <header class="head">
       <div class="logo">
@@ -31,7 +47,7 @@
 
     <main class="container">
       <section class="slideshow">
-        <img src="https://i.ytimg.com/vi/eT9vmpE8WcY/maxresdefault.jpg" alt="" />
+        <img class="slide" src="https://i.ytimg.com/vi/eT9vmpE8WcY/maxresdefault.jpg" style="display: block"/>
       </section>
       <div class="banner orange"></div>
 
