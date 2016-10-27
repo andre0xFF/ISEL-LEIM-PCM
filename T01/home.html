@@ -1,87 +1,90 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PCM T01 HTML5 CSS3</title>
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/responsive.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/dropdown.css" media="screen" title="no title" charset="utf-8">
     <script type="text/javascript">
-      function getRandomArbitrary(min, max) {
-        return parseInt(Math.random() * (max - min) + min);
-      }
-      function nextSlide() {
-        var imgs = [
-          'https://i.ytimg.com/vi/eT9vmpE8WcY/maxresdefault.jpg',
-          'http://random42.com/sites/default/files/work/casestudies/Random42-Oculus-GearVR-Headset.jpg',
-          'https://d.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2015/01/3040366-poster-p-1-google-cardboard-is-the-right-virtual-reality-gadget-for-right-now-but-whats-nex.jpg'
-        ];
-        var slide = document.getElementsByClassName('slide')[0];
-        slide.src = imgs[getRandomArbitrary(0, 3)];
+        function nextSlide() {
+            var imgs = [
+                'https://i.ytimg.com/vi/eT9vmpE8WcY/maxresdefault.jpg',
+                'http://random42.com/sites/default/files/work/casestudies/Random42-Oculus-GearVR-Headset.jpg',
+                'https://d.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2015/01/3040366-poster-p-1-google-cardboard-is-the-right-virtual-reality-gadget-for-right-now-but-whats-nex.jpg'
+            ];
+            var slide = document.getElementsByClassName('slide')[0];
+            r = function(min, max) {
+                return parseInt(Math.random() * (max - min) + min);
+            }(0, 3);
+            slide.src = imgs[r];
 
-        setTimeout(nextSlide, 3000);
-      }
+            setTimeout(nextSlide, 2500);
+        }
     </script>
-  </head>
-  <body onload="nextSlide()">
+</head>
+
+<body onload="nextSlide()">
 
     <header class="head">
-      <div class="logo">
-        <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="" />
-      </div>
-      <nav class="navigation">
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="portfolio.html">Porfolio</a>
+        <div class="logo">
+            <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="" />
+        </div>
+        <nav class="navigation">
             <ul>
-              <li><a href="portfolio.html#applications">Multimedia Applications </a></li>
-              <li><a href="portfolio.html#retrieval">Information Retrieval</a></li>
-              <li><a href="portfolio.html#games">Computer Games</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="portfolio.html">Porfolio</a>
+                    <ul>
+                        <li><a href="portfolio.html#applications">Multimedia Applications </a></li>
+                        <li><a href="portfolio.html#retrieval">Information Retrieval</a></li>
+                        <li><a href="portfolio.html#games">Computer Games</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-          </li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+        </nav>
     </header>
 
-    <main class="container">
-      <section class="slideshow">
-        <img class="slide" src="https://i.ytimg.com/vi/eT9vmpE8WcY/maxresdefault.jpg" style="display: block"/>
-      </section>
-      <div class="banner orange"></div>
+    <main>
+        <section class="slideshow">
+            <img class="slide" src="https://i.ytimg.com/vi/eT9vmpE8WcY/maxresdefault.jpg" style="display: block" />
+        </section>
+        <div class="banner orange"></div>
 
-      <section class="articles">
-        <article>
-          <figure class="article_figure">
-            <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="" />
-          </figure>
-          <section class="article_chapter">
-            Bacon ipsum dolor amet kevin picanha venison meatball biltong, pig ball tip ground round.
-          </section>
-        </article>
-        <article>
-          <figure class="article_figure">
-            <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="" />
-          </figure>
-          <section class="article_chapter">
-            Bacon ipsum dolor amet kevin picanha venison meatball biltong, pig ball tip ground round.
-          </section>
-        </article>
-        <article>
-          <figure class="article_figure">
-            <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="" />
-          </figure>
-          <section class="article_chapter">
-            Bacon ipsum dolor amet kevin picanha venison meatball biltong, pig ball tip ground round.
-          </section>
-        </article>
-      </section>
+        <section class="articles">
+            <article class="article_horizontal">
+                <figure class="article_figure">
+                    <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="" />
+                </figure>
+                <section class="article_chapter">
+                    Bacon ipsum dolor amet kevin picanha venison meatball biltong, pig ball tip ground round.
+                </section>
+            </article>
+            <article class="article_horizontal">
+                <figure class="article_figure">
+                    <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="" />
+                </figure>
+                <section class="article_chapter">
+                    Bacon ipsum dolor amet kevin picanha venison meatball biltong, pig ball tip ground round.
+                </section>
+            </article>
+            <article class="article_horizontal">
+                <figure class="article_figure">
+                    <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="" />
+                </figure>
+                <section class="article_chapter">
+                    Bacon ipsum dolor amet kevin picanha venison meatball biltong, pig ball tip ground round.
+                </section>
+            </article>
+        </section>
     </main>
 
     <footer class="foot">
-      <div class="banner black"></div>
+        <div class="banner black"></div>
     </footer>
 
-  </body>
+</body>
+
 </html>
