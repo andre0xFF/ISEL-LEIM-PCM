@@ -10,3 +10,6 @@
 .content {
   text-align: center;
 }
+iframe {
+    overflow:hidden;
+}
