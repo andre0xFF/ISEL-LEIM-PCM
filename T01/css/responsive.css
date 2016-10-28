@@ -53,8 +53,13 @@ article {
     margin-left: auto;
     margin-right: auto;
   }
-  article {
+  .article_horizontal {
     width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .article_vertical {
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
   }
