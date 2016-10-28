@@ -27,7 +27,7 @@ article {
 .slideshow img {
   min-width: 100px;
   width: 100%;
-  height: 100%;
+  height: 300px;
 }
 .logo {
     display: none;
@@ -45,6 +45,9 @@ article {
   }
   .navigation {
     text-align: right;
+  }
+  .slideshow img {
+    height: 400px;
   }
 }
 @media screen and (min-width: 700px) {
