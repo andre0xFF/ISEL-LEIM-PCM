@@ -12,12 +12,13 @@
             var imgs = [
                 'https://i.ytimg.com/vi/eT9vmpE8WcY/maxresdefault.jpg',
                 'http://random42.com/sites/default/files/work/casestudies/Random42-Oculus-GearVR-Headset.jpg',
-                'https://d.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2015/01/3040366-poster-p-1-google-cardboard-is-the-right-virtual-reality-gadget-for-right-now-but-whats-nex.jpg'
+                'https://d.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2015/01/3040366-poster-p-1-google-cardboard-is-the-right-virtual-reality-gadget-for-right-now-but-whats-nex.jpg',
+                'https://d262ilb51hltx0.cloudfront.net/max/800/1*Z5hgUjKwcwk2A7B2YtgbNA.png'
             ];
             var slide = document.getElementsByClassName('slide')[0];
             r = function(min, max) {
                 return parseInt(Math.random() * (max - min) + min);
-            }(0, 3);
+            }(0, imgs.length);
             slide.src = imgs[r];
 
             setTimeout(nextSlide, 2500);
@@ -59,7 +60,7 @@
                     <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="" />
                 </figure>
                 <section class="article_chapter">
-                    Bacon ipsum dolor amet kevin picanha venison meatball biltong, pig ball tip ground round.
+                    The Nintendo “Virtual Boy” was released in the United States in 1995 and discontinued in 1996.
                 </section>
             </article>
             <article class="article_horizontal">
@@ -67,7 +68,7 @@
                     <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="" />
                 </figure>
                 <section class="article_chapter">
-                    Bacon ipsum dolor amet kevin picanha venison meatball biltong, pig ball tip ground round.
+                    The 3D effects are a result of two 1x224 linear arrays, each one directed to an eye that are presented to the player.
                 </section>
             </article>
             <article class="article_horizontal">
@@ -75,7 +76,7 @@
                     <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="" />
                 </figure>
                 <section class="article_chapter">
-                    Bacon ipsum dolor amet kevin picanha venison meatball biltong, pig ball tip ground round.
+                    Fifteen years later VR is back in a big way with Oculus, Samsung Gear VR, Project Morpheus, Google Cardboard, HTC Vive, OSVR.
                 </section>
             </article>
         </section>
