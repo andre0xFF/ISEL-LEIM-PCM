@@ -28,24 +28,36 @@ function novo_jogo() {
 }
 
 function jogada_player() {
-	if (jogo.playerPass)
+	if (jogo.playerPass) {
 		return;
+	}
 
 	jogo.jogada_player();
 	insertCardFace("player", jogo.cartas_player);
-	if (verifyScore(jogo.cartas_player)) {
-		document.getElementById("player").style.color = "#C5DB5F";
-		document.getElementById("dealer").style.color = "#FF4200";
+	var r = verifyScore(jogo.cartas_player);
+	if (r[0]) {
+		if (r[1]) {
+			document.getElementById("player").style.color = "#C5DB5F";
+			document.getElementById("dealer").style.color = "#FF4200";
+		} else {
+			document.getElementById("dealer").style.color = "#C5DB5F";
+			document.getElementById("player").style.color = "#FF4200";
+		}
 	}
-
 }
 
 function jogada_dealer() {
 	jogo.jogada_dealer();
 	insertCardFace("dealer", jogo.cartas_dealer);
-	if (verifyScore(jogo.cartas_dealer)) {
-		document.getElementById("dealer").style.color = "#C5DB5F";
-		document.getElementById("player").style.color = "#FF4200";
+	var r = verifyScore(jogo.cartas_dealer);
+	if (r[0]) {
+		if (r[1]) {
+			document.getElementById("dealer").style.color = "#C5DB5F";
+			document.getElementById("player").style.color = "#FF4200";
+		} else {
+			document.getElementById("player").style.color = "#C5DB5F";
+			document.getElementById("dealer").style.color = "#FF4200";
+		}
 	}
 }
 
@@ -58,10 +70,12 @@ function dealer_acaba() {
 function verifyScore(hand) {
 	var r = jogo.terminou(hand);
 
-	if (r[0] || r[1]) {
+	if (r[0]) {
 		finaliza_butoes();
-		return true;
+		return r;
 	}
+
+	return [false, false];
 
 }
 /*
