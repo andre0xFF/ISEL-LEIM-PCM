@@ -3,35 +3,25 @@ var N_RESPONSES_STRING = 'form_n_responses'
 
 function handle_form() {
 
-  var data = {}
-  var n_responses
-
   // get number of responses
-  this.n_responses = localStorage.getItem(N_RESPONSES_STRING)
-  this.n_responses = this.n_responses === null ? 0 : this.n_responses
-
+  var n_responses = parseInt(localStorage.getItem(N_RESPONSES_STRING)) || 0
   // get localStorage data
-  var data_string = localStorage.getItem(FORM_NAME)
-  try {
-
-    data = data_string === null ? {} : JSON.parse(data_string)
-  } catch(e) {
-    console.log(e)
-  }
+  var data = JSON.parse(localStorage.getItem(FORM_NAME)) || {}
 
   // get and join form data
-  data = join_form_data(data)
-
+  data = update_data(data)
   // save data to localStorage
   localStorage.setItem(FORM_NAME, JSON.stringify(data))
   localStorage.setItem(N_RESPONSES_STRING, ++n_responses)
 
   console.log(data)
 
+  read_data(data)
+
   // redirect to other page
 }
 
-function join_form_data(data) {
+function update_data(data) {
 
   var elements = document.forms['t03']
 
@@ -64,4 +54,19 @@ function join_form_data(data) {
   }
 
   return data
+}
+
+function read_data(data) {
+
+  for (key in data) {
+    if (Object.keys(data[key]).length > 0) {
+
+      read_data(data[key])
+    }
+    else {
+
+      console.log(key, data[key])
+    }
+  }
+
 }
