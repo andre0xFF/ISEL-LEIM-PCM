@@ -25,7 +25,7 @@
       </article>
     </header>
 
-    <form id="t03" action="" method="post">
+    <form id="t03" action="confirmation.html" method="post">
       <!-- Tab navigation -->
       <ul class="tab">
         <li>
@@ -46,7 +46,7 @@
 
       <section id="personal_data" class="tabcontent">
 
-        <h3>Qual e' a sua idade?</h3>
+        <h4>Qual e' a sua idade? *</h4>
 
         <label for="age_18">
           <input type="radio" name="age" value="18" id="age_18" onchange="increment_progress_bar(event)" required>
@@ -73,7 +73,7 @@
           <span>> 40</span>
         </label><br/>
 
-        <h3>Genero:</h3>
+        <h4>Genero? *</h4>
 
         <label for="gender_male">
           <input type="radio" name="gender" value="male" id="gender_male" onchange="increment_progress_bar(event)" required>
@@ -85,7 +85,7 @@
           <span>Feminino</span>
         </label><br/>
 
-        <h3>Com que frequencia usa a Internet?</h3>
+        <h4>Com que frequencia usa a Internet?</h4>
 
         <label for="internet_usage_daily">
           <input type="radio" name="internet_usage" value="daily" id="internet_usage_daily" onchange="increment_progress_bar(event)" required>
@@ -112,43 +112,43 @@
           <span>Nunca</span>
         </label><br/>
 
-        <h3>Web Browsers que mais utiliza</h3>
+        <h4>Web Browsers que mais utiliza: **</h4>
         Indique, por ordem de preferencia, do primeiro para o ultimo. 1 o mais preferido e 3 o menos.<br>
 
         <table>
           <tr>
             <td>Chrome</td>
-            <td><input type="radio" name="browser_preference" value="chrome_01" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference" value="chrome_02" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference" value="chrome_03" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference_01" value="chrome_01" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference_02" value="chrome_02" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference_03" value="chrome_03" onchange="increment_progress_bar(event)" required></td>
           </tr>
           <tr>
             <td>Firefox</td>
-            <td><input type="radio" name="browser_preference" value="firefox_01" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference" value="firefox_02" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference" value="firefox_03" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference_01" value="firefox_01" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference_02" value="firefox_02" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference_03" value="firefox_03" onchange="increment_progress_bar(event)" required></td>
           </tr>
           <tr>
             <td>Internet Explorer</td>
-            <td><input type="radio" name="browser_preference" value="internet_explorer_01" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference" value="internet_explorer_02" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference" value="internet_explorer_03" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference_01" value="internet_explorer_01" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference_02" value="internet_explorer_02" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference_03" value="internet_explorer_03" onchange="increment_progress_bar(event)" required></td>
           </tr>
           <tr>
             <td>Opera</td>
-            <td><input type="radio" name="browser_preference" value="opera_01" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference" value="opera_02" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference" value="opera_03" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference_01" value="opera_01" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference_02" value="opera_02" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference_03" value="opera_03" onchange="increment_progress_bar(event)" required></td>
           </tr>
           <tr>
             <td>Safari</td>
-            <td><input type="radio" name="browser_preference" value="safari_01" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference" value="safari_02" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference" value="safari_03" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference_01" value="safari_01" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference_02" value="safari_02" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference_03" value="safari_03" onchange="increment_progress_bar(event)" required></td>
           </tr>
         </table>
 
-        <h3>Conhece outros sites de pesquisa de imagem?</h3>
+        <h4>Conhece outros sites de pesquisa de imagem?</h4>
 
         <label for="other_search_engine_yes">
           <input type="radio" name="other_search_engine" value="yes" id="other_search_engine_yes" onchange="increment_progress_bar(event)">
@@ -163,29 +163,30 @@
       </section>
 
       <section id="tasks" class="tabcontent">
+
         <p>Por favor, realize as seguintes tarefas e descreva-nos os resultados obtidos.</p>
 
-        <h3>Tarefa 1 - Explorar</h3>
+        <h4>Tarefa 1 - Explorar</h4>
         <p>
           Explore o site livremente e indique se encontrou algum erro ou se sentiu alguma dificuldade em perceber a funcionalidade das opcoes.
         </p>
         <textarea name="task_01" cols="75" rows="5" oninput="increment_progress_bar(event)"></textarea>
 
-        <h3>Tarefa 2 - Pesquisa categorias</h3>
+        <h4>Tarefa 2 - Pesquisa categorias</h4>
         <p>
           Escolha a opcao de pesquisa por palavra chave, selecione uma categoria a' sua escolha e observe os resultados.<br><br>
           Que dificuldades encontrou?
         </p>
         <textarea name="task_02" cols="75" rows="5" oninput="increment_progress_bar(event)"></textarea>
 
-        <h3>Tarefa 3 - Pesquisa cor</h3>
+        <h4>Tarefa 3 - Pesquisa cor</h4>
         <p>
           Escolha a opcao de pesquisa por cor dominante, selecione uma cor a' sua escolha e observe os resultados.<br><br>
           Que dificuldades encontrou?
         </p>
         <textarea name="task_03" cols="75" rows="5" oninput="increment_progress_bar(event)"></textarea>
 
-        <h3>Tarefa 4 - Pesquisa imagens semelhantes</h3>
+        <h4>Tarefa 4 - Pesquisa imagens semelhantes</h4>
         <p>
           Escolha a opcao de pesquisa por imagens semelhantes, selecione uma imagem a' sua escolha e observe os resultados.<br><br>
           Que dificuldades encontrou?
@@ -195,86 +196,77 @@
           Qual o tipo de pesquisa que acha mais adequado?
         </p>
         <textarea name="task_05" cols="75" rows="5" oninput="increment_progress_bar(event)"></textarea>
+
       </section>
 
       <section id="global_evaluation" class="tabcontent">
-        <!-- TODO: Insert global evaluation here -->
+
+        <h4>1 - Para cada par de adjetivos, selecione a opção que melhor descreve a sua experiência de utilização deste site.</h4>
+        <div>
+          <span>Fantastica</span>
+          <input name="global_evaluation_01_01" type="range" min="1" max="100" value="0" oninput="increment_progress_bar(event)">
+          <span>Horrivel</span>
+        </div><br/><br/>
+        <div>
+          <span>Estimulante</span>
+          <input name="global_evaluation_01_02" type="range" min="1" max="100" value="0" oninput="increment_progress_bar(event)">
+          <span>Aborrecida</span>
+        </div><br/><br/>
+        <div>
+          <span>Gratificante</span>
+          <input name="global_evaluation_01_03" type="range" min="1" max="100" value="0" oninput="increment_progress_bar(event)">
+          <span>Frustante</span>
+        </div><br/><br/>
+        <div>
+          <span>Facil</span>
+          <input name="global_evaluation_01_04" type="range" min="1" max="100" value="0" oninput="increment_progress_bar(event)">
+          <span>Dificil</span>
+        </div><br/><br/>
+
+        <h4>2 - Como classifica o resultado obtido pela pesquisa por Categoria 1? *</h4>
+        <div>
+          <span>Mau</span>
+          <input name="global_evaluation_02" type="range" min="1" max="5" value="0" required oninput="increment_progress_bar(event)">
+          <span>Excelente</span>
+        </div><br/><br/>
+
+        <h4>3 - Como classifica o resultado obtido pela pesquisa por Cor 1? *</h4>
+        <div>
+          <span>Mau</span>
+          <input name="global_evaluation_03" type="range" min="1" max="5" value="0" required oninput="increment_progress_bar(event)">
+          <span>Excelente</span>
+        </div><br/><br/>
+
+        <h4>4 - Como classifica o resultado obtido pela pesquisa por Imagens Semelhantes? *</h4>
+        <div>
+          <span>Mau</span>
+          <input name="global_evaluation_04" type="range" min="1" max="5" value="0" required oninput="increment_progress_bar(event)">
+          <span>Excelente</span>
+        </div><br/><br/>
+
+        <h4>5 - Como classifica o resultado obtido pela pesquisa por Imagens Semelhantes? *</h4>
+        <div>
+          <span>Mau</span>
+          <input name="global_evaluation_05" type="range" min="1" max="5" value="0" required oninput="increment_progress_bar(event)">
+          <span>Excelente</span>
+        </div><br/><br/>
+
+        <h4>6 - Como classifica o sistema de navegacao do site? *</h4>
+        <div>
+          <span>Mau</span>
+          <input name="global_evaluation_06" type="range" min="1" max="5" value="0" required oninput="increment_progress_bar(event)">
+          <span>Excelente</span>
+        </div><br/><br/>
+
+        <h4>7 - Como classifica o design do site? *</h4>
+        <div>
+          <span>Mau</span>
+          <input name="global_evaluation_07" type="range" min="1" max="5" value="0" required oninput="increment_progress_bar(event)">
+          <span>Excelente</span>
+        </div><br/><br/>
+
       </section>
-
-      <!-- <input type="submit" name="submit" value="tyt" onclick="handle_form()"> -->
-
     </form>
-
-    <!--
-    <section>
-
-        <div class="tasks">
-            <h2>Tarefas</h2>
-            <p>Por favor, realize as seguintes tarefas e descreva-nos os resultados obtidos.</p>
-            <h3>Tarefa 1 - Explorar</h3>
-            <p>Explore o site livremente e indique se encontrou algum erro ou se sentiu alguma dificuldade em perceber as funcionalidades das opções</p>
-            <form>
-                <textarea name="task1text" cols="60" rows="5"></textarea>
-            </form>
-            <h3>Tarefa 2 - Pesquisa categorias</h3>
-            <p>Escolha a opção de pesquisa por palavra chave, selecione uma categoria à sua escolha e observe os resultados.</p>
-            <p>Que dificuldades encontrou?</p>
-            <form>
-                <textarea name="task2text" cols="60" rows="5"></textarea>
-            </form>
-            <h3>Tarefa 3 - Pesquisa Cor</h3>
-            <p>Escolha a opção de pesquisa por cor dominante, selecione uma cor à sua escolha e observe os resultados.</p>
-            <p>Que dificuldades encontrou?</p>
-            <form>
-                <textarea name="task3text" cols="60" rows="5"></textarea>
-            </form>
-            <h3>Tarefa 4 - Pesquisa imagens semelhantes</h3>
-            <p>Escolha a opção de pesquisa por imagens semelhantes, selecione uma imagem à sua escolha e observe os resultados</p>
-            <p>Que dificuldades encontrou?</p>
-            <form>
-                <textarea name="task4text" cols="60" rows="5"></textarea>
-            </form>
-            <p>Qual o tipo de pesquisas que acha mais adequado?</p>
-            <form>
-                <textarea name="task5text" cols="60" rows="5"></textarea>
-            </form>
-        </div>
-        <div class="globalEvaliation">
-            <h2>Avaliação global</h2>
-            <h3>1 - Para cada par de adjectivos, coloque uma cruz no ponto que melhor descreve a sua experiência de utilização deste site.</h3>
-            <form>
-                <p>Fantástica<input type="range" name="globaleval1_1" min="0" max="5">Horrível</p>
-                <p>Estimulante<input type="range" name="globaleval1_2" min="0" max="5">Aborrecida</p>
-                <p>Gratificante<input type="range" name="globaleval1_3" min="0" max="5">Frustante</p>
-                <p>Fácil<input type="range" name="globaleval1_4" min="1" max="5">Difícil</p>
-            </form>
-            <h3>2 - Como classifica a pesquisa por categoria?</h3>
-            <form>
-                <p>Mau<input type="range" name="globaleval2" min="0" max="5">Excelente</p>
-            </form>
-            <h3>3 - Como classifica a pesquisa por cor?</h3>
-            <form>
-                <p>Mau<input type="range" name="globaleval3" min="0" max="5">Excelente</p>
-            </form>
-            <h3>4 - Como classifica a pesquisa por imagens semelhantes?</h3>
-            <form>
-                <p>Mau<input type="range" name="globaleval4" min="0" max="5">Excelente</p>
-            </form>
-            <h3>5 - Como classifica os resultados das pesquisas?</h3>
-            <form>
-                <p>Mau<input type="range" name="globaleval5" min="0" max="5">Excelente</p>
-            </form>
-            <h3>6 - Como classifica a facilidade de navegação no site?</h3>
-            <form>
-                <p>Mau<input type="range" name="globaleval6" min="0" max="5">Excelente</p>
-            </form>
-            <h3>7 - Como classifica o design do site?</h3>
-            <form>
-                <p>Mau<input type="range" name="globaleval7" min="0" max="5">Excelente</p>
-            </form>
-            <p>Obrigado pela sua colaboração!</p>
-        </div>
-    </section> -->
 
     <script type="text/javascript">
       // Get the element with id="default_open" and click on it
