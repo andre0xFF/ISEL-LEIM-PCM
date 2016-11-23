@@ -1,8 +1,8 @@
 var FORM_NAME = 'form_data'
 var N_RESPONSES_STRING = 'form_n_responses'
-var PROGRESS_INCREMENT = 100/17
+var PROGRESS_INCREMENT = 100/22
 
-var filled_elements = []
+var elms_with_input = []
 
 function handle_form() {
 
@@ -31,7 +31,7 @@ function update_data(data) {
 
     var elm = elements[i]
 
-    if (elm.type === 'radio' && elm.checked) {
+    if ((elm.type === 'radio' && elm.checked || elm.type === 'range') && check_user_input(elm.name)) {
       // create keys
       if (data[elm.name] === undefined) {
 
@@ -44,7 +44,7 @@ function update_data(data) {
 
       data[elm.name][elm.value]++
     }
-    else if (elm.tagName === 'TEXTAREA' && elm.value !== '') {
+    else if (elm.tagName === 'TEXTAREA' && elm.value !== '' && check_user_input(elm.name)) {
       // create keys
       if (data[elm.name] === undefined) {
 
@@ -73,17 +73,26 @@ function read_data(data) {
 
 }
 
+function check_user_input(name) {
+
+  if (elms_with_input.indexOf(name) === -1) {
+    return false
+  }
+
+  return true
+}
+
 function increment_progress_bar(evt) {
 
-  if (filled_elements.indexOf(evt.target.name) === -1) {
+  if (!check_user_input(evt.target.name)) {
 
-    filled_elements.push(evt.target.name)
+    elms_with_input.push(evt.target.name)
     document.getElementById('progress_bar').value += PROGRESS_INCREMENT
   }
 
   if (evt.target.tagName === 'TEXTAREA' && evt.target.value === '') {
 
-    filled_elements.pop(evt.target.name)
+    elms_with_input.pop(evt.target.name)
     document.getElementById('progress_bar').value -= PROGRESS_INCREMENT
   }
 
