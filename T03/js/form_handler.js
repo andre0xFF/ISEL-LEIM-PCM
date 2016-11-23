@@ -1,5 +1,8 @@
 var FORM_NAME = 'form_data'
 var N_RESPONSES_STRING = 'form_n_responses'
+var PROGRESS_INCREMENT = 100/17
+
+var filled_elements = []
 
 function handle_form() {
 
@@ -7,7 +10,6 @@ function handle_form() {
   var n_responses = parseInt(localStorage.getItem(N_RESPONSES_STRING)) || 0
   // get localStorage data
   var data = JSON.parse(localStorage.getItem(FORM_NAME)) || {}
-
   // get and join form data
   data = update_data(data)
   // save data to localStorage
@@ -29,7 +31,7 @@ function update_data(data) {
 
     var elm = elements[i]
 
-    if (elm.tagName === 'INPUT' && elm.checked) {
+    if (elm.type === 'radio' && elm.checked) {
       // create keys
       if (data[elm.name] === undefined) {
 
@@ -67,6 +69,22 @@ function read_data(data) {
 
       console.log(key, data[key])
     }
+  }
+
+}
+
+function increment_progress_bar(evt) {
+
+  if (filled_elements.indexOf(evt.target.name) === -1) {
+
+    filled_elements.push(evt.target.name)
+    document.getElementById('progress_bar').value += PROGRESS_INCREMENT
+  }
+
+  if (evt.target.tagName === 'TEXTAREA' && evt.target.value === '') {
+
+    filled_elements.pop(evt.target.name)
+    document.getElementById('progress_bar').value -= PROGRESS_INCREMENT
   }
 
 }
