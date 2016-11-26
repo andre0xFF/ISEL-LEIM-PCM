@@ -5,7 +5,7 @@
     <title>Pesquisa de Imagens</title>
     <link rel="stylesheet" href="./css/tabs.css" media="screen">
     <link rel="stylesheet" href="./css/layout.css" media="screen">
-    <link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Proza+Libre">
     <script type="text/javascript" src="./js/form_handler.js"></script>
     <script type="text/javascript" src="./js/tab_manager.js"></script>
   </head>
@@ -15,11 +15,13 @@
     <header>
       <h2>Pesquisa de Imagens</h2>
       <article class="introduction">
-        O site My_Google_Images tem como objectivo apresentar imagens relevantes para o utilizador. Assim, são disponibilizados três métodos de pesquisa: por categoria, por cor e por semelhança. O utilizador pode procurar as imagens mais relevantes de uma
-        determinada categoria, as imagens com mais percentagem de certa cor, e as imagens mais parecidas com uma imagem introduzida pelo utilizador.
+        O site My_Google_Images tem como objectivo apresentar imagens relevantes para o utilizador. Assim, são disponibilizados três métodos de pesquisa:
+        por categoria, por cor e por semelhança. O utilizador pode procurar as imagens mais relevantes de uma determinada categoria, as imagens com mais
+        percentagem de certa cor, e as imagens mais parecidas com uma imagem introduzida pelo utilizador.
         <br/><br/>
-        Este questionário destina-se a avaliar a usabilidade do site. Pedimos-lhe que execute as tarefas abaixo descritas e, preenchendo este questionário, nos informe acerca das dificuldades que encontrou ao interagir com o sistema e nos dê a sua opinião
-        sincera da interface e das funcionalidades disponíveis.
+        Este questionário destina-se a avaliar a usabilidade do site. Pedimos-lhe que execute as tarefas abaixo descritas e, preenchendo este questionário,
+        nos informe acerca das dificuldades que encontrou ao interagir com o sistema e nos dê a sua opinião sincera da interface e das funcionalidades
+        disponíveis.
         <br/><br/>
         Obrigado pela sua participação.
       </article>
@@ -85,7 +87,7 @@
           <span>Feminino</span>
         </label><br/>
 
-        <h4>Com que frequencia usa a Internet?</h4>
+        <h4>Com que frequencia usa a Internet? *</h4>
 
         <label for="internet_usage_daily">
           <input type="radio" name="internet_usage" value="daily" id="internet_usage_daily" onchange="increment_progress_bar(event)" required>
@@ -118,33 +120,33 @@
         <table>
           <tr>
             <td>Chrome</td>
-            <td><input type="radio" name="browser_preference_01" value="chrome_01" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference_02" value="chrome_02" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference_03" value="chrome_03" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference" value="chrome_01" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="chrome_02" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="chrome_03" onchange="increment_progress_bar(event)"></td>
           </tr>
           <tr>
             <td>Firefox</td>
-            <td><input type="radio" name="browser_preference_01" value="firefox_01" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference_02" value="firefox_02" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference_03" value="firefox_03" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference" value="firefox_01" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="firefox_02" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="firefox_03" onchange="increment_progress_bar(event)"></td>
           </tr>
           <tr>
             <td>Internet Explorer</td>
-            <td><input type="radio" name="browser_preference_01" value="internet_explorer_01" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference_02" value="internet_explorer_02" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference_03" value="internet_explorer_03" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference" value="internet_explorer_01" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="internet_explorer_02" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="internet_explorer_03" onchange="increment_progress_bar(event)"></td>
           </tr>
           <tr>
             <td>Opera</td>
-            <td><input type="radio" name="browser_preference_01" value="opera_01" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference_02" value="opera_02" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference_03" value="opera_03" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference" value="opera_01" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="opera_02" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="opera_03" onchange="increment_progress_bar(event)"></td>
           </tr>
           <tr>
             <td>Safari</td>
-            <td><input type="radio" name="browser_preference_01" value="safari_01" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference_02" value="safari_02" onchange="increment_progress_bar(event)" required></td>
-            <td><input type="radio" name="browser_preference_03" value="safari_03" onchange="increment_progress_bar(event)" required></td>
+            <td><input type="radio" name="browser_preference" value="safari_01" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="safari_02" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="safari_03" onchange="increment_progress_bar(event)"></td>
           </tr>
         </table>
 
@@ -204,22 +206,22 @@
         <h4>1 - Para cada par de adjetivos, selecione a opção que melhor descreve a sua experiência de utilização deste site.</h4>
         <div>
           <span>Fantastica</span>
-          <input name="global_evaluation_01_01" type="range" min="1" max="100" value="0" oninput="increment_progress_bar(event)">
+          <input name="global_evaluation_01_01" type="range" min="1" max="5" value="0" oninput="increment_progress_bar(event)">
           <span>Horrivel</span>
         </div><br/><br/>
         <div>
           <span>Estimulante</span>
-          <input name="global_evaluation_01_02" type="range" min="1" max="100" value="0" oninput="increment_progress_bar(event)">
+          <input name="global_evaluation_01_02" type="range" min="1" max="5" value="0" oninput="increment_progress_bar(event)">
           <span>Aborrecida</span>
         </div><br/><br/>
         <div>
           <span>Gratificante</span>
-          <input name="global_evaluation_01_03" type="range" min="1" max="100" value="0" oninput="increment_progress_bar(event)">
+          <input name="global_evaluation_01_03" type="range" min="1" max="5" value="0" oninput="increment_progress_bar(event)">
           <span>Frustante</span>
         </div><br/><br/>
         <div>
           <span>Facil</span>
-          <input name="global_evaluation_01_04" type="range" min="1" max="100" value="0" oninput="increment_progress_bar(event)">
+          <input name="global_evaluation_01_04" type="range" min="1" max="5" value="0" oninput="increment_progress_bar(event)">
           <span>Dificil</span>
         </div><br/><br/>
 

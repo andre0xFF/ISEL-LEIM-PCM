@@ -5,11 +5,10 @@ var PROGRESS_INCREMENT = 100/22
 var elms_with_input = []
 
 function handle_form() {
-
   // get number of responses
   var n_responses = parseInt(localStorage.getItem(N_RESPONSES_STRING)) || 0
   // get localStorage data
-  var data = JSON.parse(localStorage.getItem(FORM_NAME)) || {}
+  var data = get_data()
   // get and join form data
   data = update_data(data)
   // save data to localStorage
@@ -18,9 +17,14 @@ function handle_form() {
 
   console.log(data)
 
-  read_data(data)
+  // read_data(data)
 
   // redirect to other page
+}
+
+function get_data() {
+
+  return JSON.parse(localStorage.getItem(FORM_NAME)) || {}
 }
 
 function update_data(data) {
@@ -51,9 +55,11 @@ function update_data(data) {
         data[elm.name] = []
       }
 
-      data[elm.name].push([elm.value])
+      data[elm.name].push(elm.value)
     }
   }
+
+  data = global_evaluation(data)
 
   return data
 }
@@ -61,6 +67,7 @@ function update_data(data) {
 function read_data(data) {
 
   for (key in data) {
+
     if (Object.keys(data[key]).length > 0) {
 
       read_data(data[key])
@@ -76,6 +83,7 @@ function read_data(data) {
 function check_user_input(name) {
 
   if (elms_with_input.indexOf(name) === -1) {
+
     return false
   }
 
@@ -96,4 +104,37 @@ function increment_progress_bar(evt) {
     document.getElementById('progress_bar').value -= PROGRESS_INCREMENT
   }
 
+}
+
+/**
+ * Calculates the average of each item in global evaluation
+ */
+function global_evaluation(data) {
+
+  var key_string = 'global_evaluation_01'
+  var keys = ['01', '02', '03', '04']
+
+  for (var i = 0; i < keys.length; i++) {
+
+    var total = 0
+    var weight = 0
+    var values = data[key_string + '_' + keys[i]]
+    delete data[key_string + '_' + keys[i]]
+
+    for (key in values) {
+
+      total += parseInt(key) * values[key]
+      weight += values[key]
+    }
+
+    if (data[key_string] === undefined) {
+
+      data[key_string] = {}
+    }
+
+    // data[key_string][i + 1] = data[key_string][i + 1] === undefined ? (total / weight) : ((data[key_string][i + 1] + weight) / 2)
+    data[key_string][i + 1] = ((data[key_string][i + 1] + total) / 2) || (total / weight)
+  }
+
+  return data
 }
