@@ -4,19 +4,20 @@ function populate_results() {
 
   for (key in data) {
 
-    node = create_node(data[key])
-
-    var parent = document.getElementById(key)
-    parent.appendChild(node)
+    append_childs(data[key], document.getElementById(key))
   }
 }
 
-function create_node(node) {
+function append_childs(childs, parent) {
 
-  for (key in node) {
+  for (key in childs) {
 
-    var elm = document.createElement('span')
-    var node = document.createTextNode(key + ' ' + node[key])
-    elm.appendChild(node)
-  }
+      var elm = document.createElement('span')
+      var child_elm = document.createTextNode(key + ': ' + childs[key])
+      var br = document.createElement('br')
+
+      elm.appendChild(child_elm)
+      elm.appendChild(br)
+      parent.appendChild(elm)
+    }
 }

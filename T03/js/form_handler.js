@@ -17,7 +17,7 @@ function handle_form() {
 
   console.log(data)
 
-  read_data(data)
+  // read_data(data)
 
   // redirect to other page
 }
@@ -55,7 +55,7 @@ function update_data(data) {
         data[elm.name] = []
       }
 
-      data[elm.name].push([elm.value])
+      data[elm.name].push(elm.value)
     }
   }
 
@@ -132,7 +132,8 @@ function global_evaluation(data) {
       data[key_string] = {}
     }
 
-    data[key_string][i + 1] = data[key_string][i + 1] === undefined ? (total / weight) : ((data[key_string] + weight) / 2)
+    // data[key_string][i + 1] = data[key_string][i + 1] === undefined ? (total / weight) : ((data[key_string][i + 1] + weight) / 2)
+    data[key_string][i + 1] = ((data[key_string][i + 1] + total) / 2) || (total / weight)
   }
 
   return data
