@@ -1,0 +1,33 @@
+body {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+header {
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+progress {
+    background-color: white;
+    width: 100%;
+    height: 10px;
+    color: #75bdc2;
+}
+
+section#global_evaluation div {
+
+    position: absolute;
+    left: 50%;
+    /*margin-right: -50%;*/
+    transform: translate(-50%, -50%)
+
+}
+
+section#global_evaluation div span {
+
+  padding: 15px;
+}

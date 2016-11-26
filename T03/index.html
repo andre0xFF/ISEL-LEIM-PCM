@@ -1,0 +1,279 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Pesquisa de Imagens</title>
+    <link rel="stylesheet" href="./css/tabs.css" media="screen">
+    <link rel="stylesheet" href="./css/layout.css" media="screen">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Proza+Libre">
+    <script type="text/javascript" src="./js/form_handler.js"></script>
+    <script type="text/javascript" src="./js/tab_manager.js"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <h2>Pesquisa de Imagens</h2>
+      <article class="introduction">
+        O site My_Google_Images tem como objectivo apresentar imagens relevantes para o utilizador. Assim, são disponibilizados três métodos de pesquisa:
+        por categoria, por cor e por semelhança. O utilizador pode procurar as imagens mais relevantes de uma determinada categoria, as imagens com mais
+        percentagem de certa cor, e as imagens mais parecidas com uma imagem introduzida pelo utilizador.
+        <br/><br/>
+        Este questionário destina-se a avaliar a usabilidade do site. Pedimos-lhe que execute as tarefas abaixo descritas e, preenchendo este questionário,
+        nos informe acerca das dificuldades que encontrou ao interagir com o sistema e nos dê a sua opinião sincera da interface e das funcionalidades
+        disponíveis.
+        <br/><br/>
+        Obrigado pela sua participação.
+      </article>
+    </header>
+
+    <form id="t03" action="confirmation.html" method="post">
+      <!-- Tab navigation -->
+      <ul class="tab">
+        <li>
+          <a href="javascript:void(0)" class="tablinks" onclick="open_tab(event, 'personal_data')" id="default_open">Personal data</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="tablinks" onclick="open_tab(event, 'tasks')">Tasks</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="tablinks" onclick="open_tab(event, 'global_evaluation')">Global evaluation</a>
+        </li>
+        <li style="float:right">
+          <input class="active" type="submit" name="submit" onclick="handle_form()" value="Submeter"></input>
+        </li>
+      </ul>
+
+      <progress id="progress_bar" value="1" max="100"></progress>
+
+      <section id="personal_data" class="tabcontent">
+
+        <h4>Qual e' a sua idade? *</h4>
+
+        <label for="age_18">
+          <input type="radio" name="age" value="18" id="age_18" onchange="increment_progress_bar(event)" required>
+          <span>< 18</span>
+        </label><br/>
+
+        <label for="age_18_25">
+          <input type="radio" name="age" value="18_25" id="age_18_25" onchange="increment_progress_bar(event)" required>
+          <span>18-25</span>
+        </label><br/>
+
+        <label for="age_26_33">
+          <input type="radio" name="age" value="26_33" id="age_26_33" onchange="increment_progress_bar(event)" required>
+          <span>26-33</span>
+        </label><br/>
+
+        <label for="age_34_40">
+          <input type="radio" name="age" value="34_40" id="age_34_40" onchange="increment_progress_bar(event)" required>
+          <span>34-40</span>
+        </label><br/>
+
+        <label for="age_40">
+          <input type="radio" name="age" value="40" id="age_40" onchange="increment_progress_bar(event)" required>
+          <span>> 40</span>
+        </label><br/>
+
+        <h4>Genero? *</h4>
+
+        <label for="gender_male">
+          <input type="radio" name="gender" value="male" id="gender_male" onchange="increment_progress_bar(event)" required>
+          <span>Masculino</span>
+        </label><br/>
+
+        <label for="gender_female">
+          <input type="radio" name="gender" value="female" id="gender_female" onchange="increment_progress_bar(event)" required>
+          <span>Feminino</span>
+        </label><br/>
+
+        <h4>Com que frequencia usa a Internet? *</h4>
+
+        <label for="internet_usage_daily">
+          <input type="radio" name="internet_usage" value="daily" id="internet_usage_daily" onchange="increment_progress_bar(event)" required>
+          <span>Diariamente</span>
+        </label><br/>
+
+        <label for="internet_usage_weekly">
+          <input type="radio" name="internet_usage" value="weekly" id="internet_usage_weekly" onchange="increment_progress_bar(event)" required>
+          <span>Algumas vezes por semana</span>
+        </label><br/>
+
+        <label for="internet_usage_monthly">
+          <input type="radio" name="internet_usage" value="monthly" id="internet_usage_monthly" onchange="increment_progress_bar(event)" required>
+          <span>Algumas vezes por mes</span>
+        </label><br/>
+
+        <label for="internet_usage_rarely">
+          <input type="radio" name="internet_usage" value="rarely" id="internet_usage_rarely" onchange="increment_progress_bar(event)" required>
+          <span>Raramente</span>
+        </label><br/>
+
+        <label for="internet_usage_never">
+          <input type="radio" name="internet_usage" value="never" id="internet_usage_never" onchange="increment_progress_bar(event)" required>
+          <span>Nunca</span>
+        </label><br/>
+
+        <h4>Web Browsers que mais utiliza: **</h4>
+        Indique, por ordem de preferencia, do primeiro para o ultimo. 1 o mais preferido e 3 o menos.<br>
+
+        <table>
+          <tr>
+            <td>Chrome</td>
+            <td><input type="radio" name="browser_preference" value="chrome_01" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="chrome_02" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="chrome_03" onchange="increment_progress_bar(event)"></td>
+          </tr>
+          <tr>
+            <td>Firefox</td>
+            <td><input type="radio" name="browser_preference" value="firefox_01" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="firefox_02" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="firefox_03" onchange="increment_progress_bar(event)"></td>
+          </tr>
+          <tr>
+            <td>Internet Explorer</td>
+            <td><input type="radio" name="browser_preference" value="internet_explorer_01" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="internet_explorer_02" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="internet_explorer_03" onchange="increment_progress_bar(event)"></td>
+          </tr>
+          <tr>
+            <td>Opera</td>
+            <td><input type="radio" name="browser_preference" value="opera_01" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="opera_02" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="opera_03" onchange="increment_progress_bar(event)"></td>
+          </tr>
+          <tr>
+            <td>Safari</td>
+            <td><input type="radio" name="browser_preference" value="safari_01" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="safari_02" onchange="increment_progress_bar(event)"></td>
+            <td><input type="radio" name="browser_preference" value="safari_03" onchange="increment_progress_bar(event)"></td>
+          </tr>
+        </table>
+
+        <h4>Conhece outros sites de pesquisa de imagem?</h4>
+
+        <label for="other_search_engine_yes">
+          <input type="radio" name="other_search_engine" value="yes" id="other_search_engine_yes" onchange="increment_progress_bar(event)">
+          <span>Sim</span>
+        </label><br/>
+
+        <label for="other_search_engine_no">
+          <input type="radio" name="other_search_engine" value="no" id="other_search_engine_no" onchange="increment_progress_bar(event)">
+          <span>Nao</span>
+        </label><br/>
+
+      </section>
+
+      <section id="tasks" class="tabcontent">
+
+        <p>Por favor, realize as seguintes tarefas e descreva-nos os resultados obtidos.</p>
+
+        <h4>Tarefa 1 - Explorar</h4>
+        <p>
+          Explore o site livremente e indique se encontrou algum erro ou se sentiu alguma dificuldade em perceber a funcionalidade das opcoes.
+        </p>
+        <textarea name="task_01" cols="75" rows="5" oninput="increment_progress_bar(event)"></textarea>
+
+        <h4>Tarefa 2 - Pesquisa categorias</h4>
+        <p>
+          Escolha a opcao de pesquisa por palavra chave, selecione uma categoria a' sua escolha e observe os resultados.<br><br>
+          Que dificuldades encontrou?
+        </p>
+        <textarea name="task_02" cols="75" rows="5" oninput="increment_progress_bar(event)"></textarea>
+
+        <h4>Tarefa 3 - Pesquisa cor</h4>
+        <p>
+          Escolha a opcao de pesquisa por cor dominante, selecione uma cor a' sua escolha e observe os resultados.<br><br>
+          Que dificuldades encontrou?
+        </p>
+        <textarea name="task_03" cols="75" rows="5" oninput="increment_progress_bar(event)"></textarea>
+
+        <h4>Tarefa 4 - Pesquisa imagens semelhantes</h4>
+        <p>
+          Escolha a opcao de pesquisa por imagens semelhantes, selecione uma imagem a' sua escolha e observe os resultados.<br><br>
+          Que dificuldades encontrou?
+        </p>
+        <textarea name="task_04" cols="75" rows="5" oninput="increment_progress_bar(event)"></textarea>
+        <p>
+          Qual o tipo de pesquisa que acha mais adequado?
+        </p>
+        <textarea name="task_05" cols="75" rows="5" oninput="increment_progress_bar(event)"></textarea>
+
+      </section>
+
+      <section id="global_evaluation" class="tabcontent">
+
+        <h4>1 - Para cada par de adjetivos, selecione a opção que melhor descreve a sua experiência de utilização deste site.</h4>
+        <div>
+          <span>Fantastica</span>
+          <input name="global_evaluation_01_01" type="range" min="1" max="5" value="0" oninput="increment_progress_bar(event)">
+          <span>Horrivel</span>
+        </div><br/><br/>
+        <div>
+          <span>Estimulante</span>
+          <input name="global_evaluation_01_02" type="range" min="1" max="5" value="0" oninput="increment_progress_bar(event)">
+          <span>Aborrecida</span>
+        </div><br/><br/>
+        <div>
+          <span>Gratificante</span>
+          <input name="global_evaluation_01_03" type="range" min="1" max="5" value="0" oninput="increment_progress_bar(event)">
+          <span>Frustante</span>
+        </div><br/><br/>
+        <div>
+          <span>Facil</span>
+          <input name="global_evaluation_01_04" type="range" min="1" max="5" value="0" oninput="increment_progress_bar(event)">
+          <span>Dificil</span>
+        </div><br/><br/>
+
+        <h4>2 - Como classifica o resultado obtido pela pesquisa por Categoria 1? *</h4>
+        <div>
+          <span>Mau</span>
+          <input name="global_evaluation_02" type="range" min="1" max="5" value="0" required oninput="increment_progress_bar(event)">
+          <span>Excelente</span>
+        </div><br/><br/>
+
+        <h4>3 - Como classifica o resultado obtido pela pesquisa por Cor 1? *</h4>
+        <div>
+          <span>Mau</span>
+          <input name="global_evaluation_03" type="range" min="1" max="5" value="0" required oninput="increment_progress_bar(event)">
+          <span>Excelente</span>
+        </div><br/><br/>
+
+        <h4>4 - Como classifica o resultado obtido pela pesquisa por Imagens Semelhantes? *</h4>
+        <div>
+          <span>Mau</span>
+          <input name="global_evaluation_04" type="range" min="1" max="5" value="0" required oninput="increment_progress_bar(event)">
+          <span>Excelente</span>
+        </div><br/><br/>
+
+        <h4>5 - Como classifica o resultado obtido pela pesquisa por Imagens Semelhantes? *</h4>
+        <div>
+          <span>Mau</span>
+          <input name="global_evaluation_05" type="range" min="1" max="5" value="0" required oninput="increment_progress_bar(event)">
+          <span>Excelente</span>
+        </div><br/><br/>
+
+        <h4>6 - Como classifica o sistema de navegacao do site? *</h4>
+        <div>
+          <span>Mau</span>
+          <input name="global_evaluation_06" type="range" min="1" max="5" value="0" required oninput="increment_progress_bar(event)">
+          <span>Excelente</span>
+        </div><br/><br/>
+
+        <h4>7 - Como classifica o design do site? *</h4>
+        <div>
+          <span>Mau</span>
+          <input name="global_evaluation_07" type="range" min="1" max="5" value="0" required oninput="increment_progress_bar(event)">
+          <span>Excelente</span>
+        </div><br/><br/>
+
+      </section>
+    </form>
+
+    <script type="text/javascript">
+      // Get the element with id="default_open" and click on it
+      document.getElementById("default_open").click();
+    </script>
+  </body>
+
+</html>
