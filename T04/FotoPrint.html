@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Family Photos</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styling.css">
+    <script src="js/FotoPrint_manager.js"></script>
+    <script src="js/FotoPrint.js"></script>
+    <script src="js/DrawingObjects.js"></script>
+    <script src="js/Cartoons.js"></script>
+
+  </head>
+  <body>
+    <canvas id="canvas" width="800" height="400">
+      Your browser doesn't recognize the canvas element
+    </canvas>
+    <button onclick="saveasimage();">
+      Save Image
+    </button>
+  </br>
+  <button onclick="remove();">
+    Delete
+  </button>
+
+  <script>
+    window.onload = main();
+  </script>
+</body>
+</html>
