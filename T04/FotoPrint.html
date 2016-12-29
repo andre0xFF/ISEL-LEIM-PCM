@@ -11,19 +11,27 @@
 
   </head>
   <body>
+    <button onclick="saveasimage();" style="width:100px">
+      Save image
+    </button>
+    <br>
+    <button onclick="remove();" style="width:100px">
+      Delete
+    </button>
+    <br>
+    <button onclick="insert_text();" style="width:100px">
+      Insert text
+    </button>
+    <br>
+    <input type="color" id="cartoon_color_picker" value="#4998f9" style="width:94px" alt="Cartoon color">
+    <br>
+    <input type="color" id="background_color_picker" value="#4998f9" style="width:94px" alt="Canvas background color">
+    <br>
     <canvas id="canvas" width="800" height="400">
       Your browser doesn't recognize the canvas element
     </canvas>
-    <button onclick="saveasimage();">
-      Save Image
-    </button>
-  </br>
-  <button onclick="remove();">
-    Delete
-  </button>
-
-  <script>
-    window.onload = main();
-  </script>
-</body>
+    <script>
+      window.onload = main();
+    </script>
+  </body>
 </html>

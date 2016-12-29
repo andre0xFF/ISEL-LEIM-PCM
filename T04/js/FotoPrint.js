@@ -26,7 +26,7 @@ class FotoPrint
     let bear = new Bear(500, 100, 75, "brown");
     this.shpinDrawing.insert(bear);
 
-    let ghost = new Ghost(700, 100, 150, "black");
+    let ghost = new Ghost(700, 100, 130, "green");
     this.shpinDrawing.insert(ghost);
   }
 

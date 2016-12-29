@@ -60,7 +60,6 @@ class Rect extends DrawingObjects
 
     ctx.fillStyle = this.color;
     ctx.fillRect(this.posx, this.posy, this.w, this.h);
-
   }
 
   mouseOver(mx, my) {
@@ -139,6 +138,13 @@ class Oval extends DrawingObjects
       return true;
     }
     return false;
+  }
+
+  update(x, y, radius) {
+
+    this.posx = x
+    this.posy = y
+    this.r = radius
   }
 
   draw(cnv) {

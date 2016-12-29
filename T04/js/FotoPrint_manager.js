@@ -14,9 +14,15 @@ function main() {
 }
 
 function drawCanvasRect(cnv) {
+
   let ctx = cnv.getContext("2d");
 
   ctx.clearRect(0, 0, cnv.width, cnv.height);
+
+  ctx.fillStyle = document.getElementById("background_color_picker").value
+  ctx.fillRect(0, 0, cnv.width, cnv.height);
+  ctx.fill();
+  
   ctx.strokeStyle = "black";
   ctx.lineWidth = 2;
   ctx.strokeRect(0, 0, cnv.width, cnv.height);
