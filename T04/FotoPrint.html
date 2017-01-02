@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Family Photos</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styling.css">
+    <script src="js/FotoPrint_manager.js"></script>
+    <script src="js/FotoPrint.js"></script>
+    <script src="js/DrawingObjects.js"></script>
+    <script src="js/Cartoons.js"></script>
+
+  </head>
+  <body>
+    <button onclick="saveasimage();" style="width:100px">
+      Save image
+    </button>
+    <br>
+    <button onclick="remove();" style="width:100px">
+      Delete
+    </button>
+    <br>
+    <button onclick="insert_text();" style="width:100px">
+      Insert text
+    </button>
+    <br>
+    <input type="color" id="cartoon_color_picker" value="#4998f9" style="width:94px" alt="Cartoon color">
+    <br>
+    <input type="color" id="background_color_picker" value="#4998f9" style="width:94px" alt="Canvas background color">
+    <br>
+    <canvas id="canvas" width="800" height="400">
+      Your browser doesn't recognize the canvas element
+    </canvas>
+    <script>
+      window.onload = main();
+    </script>
+  </body>
+</html>
