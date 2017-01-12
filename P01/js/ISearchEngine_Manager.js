@@ -1,4 +1,6 @@
-
+// This code is not of my authority. It was provided to develop the rest of the website
+// 1
+// example image histogram: 0 0 0 0 0 0 77 1477 1064 6546 1151 1652
 let app = null;
 
 function main() {
@@ -23,7 +25,3 @@ function Generate_Image(canvas) {
     ctx.putImageData(imgData, 150, 0);
     return imgData;
 }
-
-
-
-

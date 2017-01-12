@@ -1,3 +1,5 @@
+
+// This code is not of my authority. It was provided to develop the rest of the website
 class Picture {
 
     constructor(px, py, w, h, impath, cat) {
@@ -33,8 +35,8 @@ class Picture {
     }
 
     //method to apply the algorithms to the image.
-    //Because the image have to loaded from the server, the same strategy used in the method draw()
-    //is used here to access the image pixels. We do not exactly when the image in loaded and computed.
+    //Because the image have to be loaded from the server, the same strategy used in the method draw()
+    //is used here to access the image pixels. We do not know exactly when the image is loaded and computed.
     //For this reason the event "processed_picture" was created to alert the application (ISearchEngine)
     computation(cnv, histcol, colorMom, eventP) {
         let ctx = cnv.getContext("2d");
@@ -174,8 +176,3 @@ class ColorMoments {
 
     }
 }
-
-
-
-
-
