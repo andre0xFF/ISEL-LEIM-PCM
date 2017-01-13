@@ -5,7 +5,7 @@ let app = null;
 
 function main() {
     let canvas = document.querySelector("canvas");
-    app = new ISearchEngine("XML/Image_database.xml");
+    app = new ISearchEngine("./xml/Image_database.xml");
     app.init(canvas);
 
 }
