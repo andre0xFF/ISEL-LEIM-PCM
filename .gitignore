@@ -1,8 +1,7 @@
 /Enunciados_e_relatorios/
-*.pdf
 *jpg
-/Materia/
-/Exames/
+/Slides/
+/Exams/
 *.txt
 /Aulas/
 /2015/
