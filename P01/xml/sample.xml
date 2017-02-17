@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<images>
+	<image class="beach">
+	  <ID>2332997000</ID>
+	  <path>Images/beach/img_1.jpg</path>
+	  <title>........h..........O.......M......?.........................i....</title>
+	  <description>null</description>
+	  <latitude>52.109074</latitude>
+	  <longitude>4.271836</longitude>
+	  <date>Sun Feb 17 17:44:07 GMT 2008</date>
+	  <dominantcolor>#A04000</dominantcolor>
+	</image>
+	<image class="nature">
+	  <ID>2327754554</ID>
+	  <path>Images/nature/img_94.jpg</path>
+	  <title>Atlas moth II</title>
+	  <description>null</description>
+	  <latitude>32.740017</latitude>
+	  <longitude>-97.36401</longitude>
+	  <date>Sat Mar 08 15:24:07 GMT 2008</date>
+	  <dominantcolor>#606000</dominantcolor>
+	</image>
+	<image class="people">
+	  <ID>2306888465</ID>
+	  <path>Images/people/img_29.jpg</path>
+	  <title>Tayler</title>
+	  <description>null</description>
+	  <latitude>37.5616</latitude>
+	  <longitude>-122.324585</longitude>
+	  <date>Wed Sep 19 12:53:44 BST 2007</date>
+	  <dominantcolor>#202040</dominantcolor>
+	</image>
+	<image class="birthday">
+	  <ID>2330923862</ID>
+	  <path>Images/birthday/img_76.jpg</path>
+	  <title>??????</title>
+	  <description>null</description>
+	  <latitude>22.635893</latitude>
+	  <longitude>120.32345</longitude>
+	  <date>Sat Feb 16 19:00:41 GMT 2008</date>
+	  <dominantcolor>#202000</dominantcolor>
+	</image>
+	<image class="face">
+	   <ID>2321387953</ID>
+	   <path>Images/face/img_58.jpg</path>
+	   <title>KITTY</title>
+	   <description>null</description>
+	   <latitude>42.218723</latitude>
+	   <longitude>-8.741136</longitude>
+	   <date>Fri Nov 11 23:36:21 GMT 2005</date>
+	   <dominantcolor>#C06000</dominantcolor>
+	</image>
+	<image class="indoor">
+	  <ID>2303709365</ID>
+	  <path>Images/indoor/img_4.jpg</path>
+	  <title>Waiting for results</title>
+	  <description>null</description>
+	  <latitude>60.161438</latitude>
+	  <longitude>24.903206</longitude>
+	  <date>Sun Mar 02 14:38:35 GMT 2008</date>
+	  <dominantcolor>#402040</dominantcolor>
+	</image>
+	<image class="manmade/artificial">
+	  <ID>2318599884</ID>
+	  <path>Images/manmade/artificial/img_3.jpg</path>
+	  <title>Neon fencing</title>
+	  <description>null</description>
+	  <latitude>51.450256</latitude>
+	  <longitude>-2.599243</longitude>
+	  <date>Sat Feb 09 17:56:39 GMT 2008</date>
+	  <dominantcolor>#000000</dominantcolor>
+	</image>
+	<image class="manmade/manmade">
+	  <ID>2313474428</ID>
+	  <path>Images/manmade/manmade/img_6.jpg</path>
+	  <title>Wooden Texture</title>
+	  <description>null</description>
+	  <latitude>47.47726</latitude>
+	  <longitude>19.13799</longitude>
+	  <date>Thu Feb 28 15:58:25 GMT 2008</date>
+	  <dominantcolor>#608040</dominantcolor>
+	</image>
+	<image class="manmade/urban">
+	  <ID>2327827133</ID>
+	  <path>Images/manmade/urban/img_31.jpg</path>
+	  <title>In front of Coit Tower</title>
+	  <description>null</description>
+	  <latitude>37.80268</latitude>
+	  <longitude>-122.405846</longitude>
+	  <date>Sat Mar 08 04:42:40 GMT 2008</date>
+	  <dominantcolor>#80C0C0</dominantcolor>
+	</image>
+	<image class="marriage">
+	  <ID>2284734028</ID>
+	  <path>Images/marriage/img_34.jpg</path>
+	  <title>493734-R1-006-1A_005</title>
+	  <description>null</description>
+	  <latitude>27.384794</latitude>
+	  <longitude>-82.56476</longitude>
+	  <date>Sat Feb 16 00:06:22 GMT 2008</date>
+	  <dominantcolor>#202000</dominantcolor>
+	</image>
+	<image class="no_people">
+	  <ID>2106238314</ID>
+	  <path>Images/no_people/img_4.jpg</path>
+	  <title>113 ...E il giorno si fa da parte</title>
+	  <description>null</description>
+	  <latitude>44.924225</latitude>
+	  <longitude>11.727197</longitude>
+	  <date>Sun Jul 22 20:40:39 BST 2007</date>
+	  <dominantcolor>#E00000</dominantcolor>
+	</image>
+	<image class="outdoor">
+	  <ID>2306817422</ID>
+	  <path>Images/outdoor/img_11.jpg</path>
+	  <title/>
+	  <description>null</description>
+	  <latitude>33.705715</latitude>
+	  <longitude>-118.29385</longitude>
+	  <date>Sun Mar 02 16:06:23 GMT 2008</date>
+	  <dominantcolor>#80A0C0</dominantcolor>
+	</image>
+	<image class="party">
+	  <ID>2338311181</ID>
+	  <path>Images/party/img_15.jpg</path>
+	  <title/>
+	  <description>null</description>
+	  <latitude>52.23913</latitude>
+	  <longitude>21.011578</longitude>
+	  <date>Sat Mar 15 23:50:01 GMT 2008</date>
+	  <dominantcolor>#000000</dominantcolor>
+	</image>
+	<image class="snow">
+	  <ID>2331361671</ID>
+	  <path>Images/snow/img_32.jpg</path>
+	  <title>sunset 9</title>
+	  <description>null</description>
+	  <latitude>45.57559</latitude>
+	  <longitude>6.785227</longitude>
+	  <date>Fri Mar 07 18:40:39 GMT 2008</date>
+	  <dominantcolor>#404040</dominantcolor>
+	</image>
+</images>

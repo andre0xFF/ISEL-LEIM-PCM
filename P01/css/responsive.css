@@ -1,0 +1,14 @@
+#images_container {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-align-content: flex-start;
+	align-content: flex-start;
+}
+
+#images_container img {
+	height: 200px;
+	margin: 5px;
+}

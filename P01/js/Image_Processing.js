@@ -6,16 +6,26 @@ class Picture {
     this.posy = py;
     this.w = w;
     this.h = h;
+
     this.impath = impath;
     this.imgobj = new Image();
     this.imgobj.src = this.impath;
+
     this.original_w = this.imgobj.width;
     this.original_h = this.imgobj.height;
     this.category = cat;
-    this.hist = [];
-    this.color_moments = [];
-    this.manhattanDist = [];
+
+		this.histogram = new ColorHistogram()
+		this.moments = new ColorMoments()
   }
+
+	get_path() {
+		return this.imgobj.src
+	}
+
+	get_category() {
+		return this.category
+	}
 
   setPosition(px, py) {
     this.posx = px;
@@ -38,6 +48,19 @@ class Picture {
     }
   }
 
+	process(canvas, eventP) {
+		let ctx = canvas.getContext('2d')
+		let self = this
+
+		this.imgobj.addEventListener('load', function() {
+			ctx.drawImage(self.imgobj, 0, 0, self.imgobj.width, self.imgobj.height)
+			let pixels = ctx.getImageData(0, 0, self.imgobj.width, self.imgobj.height)
+			self.histogram.compute(pixels)
+			self.moments.compute(self.imgobj, canvas)
+			document.dispatchEvent(eventP)
+		}, false)
+	}
+
   //method to apply the algorithms to the image.
   //Because the image have to be loaded from the server, the same strategy used in the method draw()
   //is used here to access the image pixels. We do not know exactly when the image is loaded and computed.
@@ -49,10 +72,10 @@ class Picture {
       console.log("Debug: N Time");
       ctx.drawImage(this.imgobj, 0, 0, this.imgobj.width, this.imgobj.height);
       let pixels = ctx.getImageData(0, 0, this.imgobj.width, this.imgobj.height);
-      //let pixels = Generate_Image(cnv);
+      // let pixels = Generate_Image(cnv);
       this.hist = histcol.count_Pixels(pixels);
-      //this.build_Color_Rect(cnv, this.hist, histcol.redColor, histcol.greenColor, histcol.blueColor);
-      //this.color_moments = colorMom.moments(this.imgobj, cnv);
+      // this.build_Color_Rect(cnv, this.hist, histcol.redColor, histcol.greenColor, histcol.blueColor);
+      // this.color_moments = colorMom.moments(this.imgobj, cnv);
       document.dispatchEvent(eventP);
 
     } else {
@@ -61,9 +84,9 @@ class Picture {
       this.imgobj.addEventListener('load', function () {
         ctx.drawImage(self.imgobj, 0, 0, self.imgobj.width, self.imgobj.height);
         let pixels = ctx.getImageData(0, 0, self.imgobj.width, self.imgobj.height);
-        //let pixels = Generate_Image(cnv);
+        // let pixels = Generate_Image(cnv);
         self.hist = histcol.count_Pixels(pixels);
-        //self.build_Color_Rect(cnv, self.hist, histcol.redColor, histcol.greenColor, histcol.blueColor);
+        self.build_Color_Rect(cnv, self.hist, histcol.redColor, histcol.greenColor, histcol.blueColor);
         //self.color_moments = colorMom.moments(self.imgobj, cnv);
         document.dispatchEvent(eventP);
       }, false);

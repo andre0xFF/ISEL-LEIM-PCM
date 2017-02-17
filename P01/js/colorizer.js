@@ -1,63 +1,96 @@
-// Class to compute the Color Histogram algorithm. It receives the colors and computes the histogram
-class ColorHistogram {
+class Colorizer {
 
-  constructor(redColor, greenColor, blueColor) {
+  constructor() {}
 
-    this.redColor = redColor;
-    this.greenColor = greenColor;
-    this.blueColor = blueColor;
-    this.limits = {
-      rgb: 160,
-      red: 70,
-      green: 70,
-      blue: 70
+	// http://www.december.com/html/spec/color16codes.html
+  static get_colors_hex() {
+    return {
+			'black': '#000000',
+			'gray': '#808080',
+			'silver': '#C0C0C0',
+			'white': '#FFFFFF',
+			'maroon': '#800000',
+			'red': '#FF0000',
+			'olive': '#808000',
+			'yellow': '#FFFF00',
+			'green': '#008000',
+			'lime': '#00FF00',
+			'teal': '#008080',
+			'aqua': '#00FFFF',
+			'navy': '#000080',
+			'blue': '#0000FF',
+			'purple': '#800080',
+			'fuchsia': '#FF00FF'
     }
   }
 
-  count_Pixels(pixels) {
+	static get_colors_rgb() {
+		let hex = Colorizer.get_colors_hex()
+		let rgb = {}
 
-    let histogram = []
+		for (var i = 0; i < Object.keys(hex).length; i++) {
+			rgb[Object.keys(hex)[i]] = Colorizer.hex_to_rgb(hex[Object.keys(hex)[i]])
+		}
 
-    for (let i = 0; i < this.redColor.length; i++) {
-      histogram[i] = 0
-      let color = [this.redColor[i], this.greenColor[i], this.blueColor[i]]
+		return rgb
+	}
 
-      for (let j = 0; j < pixels.data.length; j += 4) {
-        let d = this.calc_manhattan_distance(color, [pixels.data[j + 0], pixels.data[j + 1], pixels.data[j + 2]])
+  static parse_hex(color_name) {
+    let colors = Colorizer.get_colors_hex()
 
-        if (this.check_limits(d)) { histogram[i] += 1 }
+    for (let i = 0; i < Object.keys(colors).length; i++) {
+      let k = Object.keys(colors)[i]
+
+      if (k === color_name) {
+        return colors[k]
       }
     }
 
-    return histogram
+		return ''
   }
 
-  check_limits(distance_array) {
+	static parse_rgb(color_name) {
+		let hex = Colorizer.parse_hex(color_name)
+		return Colorizer.hex_to_rgb(hex)
+	}
 
-    return (
-      (distance_array[0] + distance_array[1] + distance_array[2]) < this.limits.rgb &&
-      distance_array[0] < this.limits.red &&
-      distance_array[1] < this.limits.green &&
-      distance_array[2] < this.limits.blue
-    )
+	static rgb_to_hex(r, g, b) {
+    return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+	}
+
+	static hex_to_rgb(hex) {
+    var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i
+
+    hex = hex.replace(shorthandRegex, function(m, r, g, b) {
+        return r + r + g + g + b + b;
+    })
+
+    var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+
+    return result ? {
+        r: parseInt(result[1], 16),
+        g: parseInt(result[2], 16),
+        b: parseInt(result[3], 16)
+    } : null
+	}
+
+  static manhattan_distance(rgb_01, rgb_02) {
+    return {
+			r: Math.abs(rgb_02.r - rgb_01.r),
+			g: Math.abs(rgb_02.g - rgb_01.g),
+			b: Math.abs(rgb_02.b - rgb_01.b)
+		}
   }
 
-  calc_manhattan_distance(rgb_01, rgb_02) {
+	static get_color_properties(color_name) {
+		return {
+			name: color_name,
+			rgb: Colorizer.parse_rgb(color_name),
+			hex: Colorizer.parse_hex(color_name)
+		}
+	}
 
-    return [ Math.abs(rgb_02[0] - rgb_01[0]), Math.abs(rgb_02[1] - rgb_01[1]), Math.abs(rgb_02[2] - rgb_01[2]) ]
-  }
-}
-
-//Class to compute the Color Moments algorithm. It computes the statistics moments
-//through the method moments(). The moments are computed in the HSV color space. The method rgdToHsv is used
-//to translate the pixel into the HSV color space
-class ColorMoments {
-  constructor() {
-    this.h_block = 3;
-    this.v_block = 3;
-  }
-
-  rgbToHsv(rc, gc, bc) {
+  static rgb_to_hsv(rc, gc, bc) {
     let r = rc / 255;
     let g = gc / 255;
     let b = bc / 255;
@@ -91,8 +124,82 @@ class ColorMoments {
       }
       h /= 6;
     }
-    return [h, s, v];
+    return { h: h, s: s, v: v};
   }
+}
+
+// Class to compute the Color Histogram algorithm. It receives the colors and computes the histogram
+class ColorHistogram {
+
+  constructor() {
+		this.values = []
+		this.dominant = { name: '', rgb: {}, hex: '' }
+    this.limits = {
+      rgb: 160,
+      r: 70, g: 70, b: 70
+    }
+  }
+
+	get_dominant() {
+		return this.dominant
+	}
+
+	get_dominant_quantity() {
+		return this.values[this.dominant.name]
+	}
+
+	get_histogram() {
+		return this.values
+	}
+
+	compute(pixels) {
+		let colors = Colorizer.get_colors_rgb()
+		let dominant = 0
+
+		for (let i = 0; i < Object.keys(colors).length; i++) {
+			let color = Object.keys(colors)[i]
+			this.values[color] = 0
+
+			for (let j = 0; j < pixels.data.length; j += 4) {
+				let rgb = { r: pixels.data[j + 0], g: pixels.data[j + 1], b: pixels.data[j + 2]}
+				let d = Colorizer.manhattan_distance(colors[color], rgb)
+
+				if (this.check_limits(d)) {
+					this.values[color] += 1
+				}
+			}
+
+			if (this.values[color] > dominant) {
+				this.dominant.name = color
+				dominant = this.values[color]
+			}
+		}
+
+		this.dominant = Colorizer.get_color_properties(this.dominant.name)
+	}
+
+  check_limits(distance_array) {
+    return (
+      (distance_array.r + distance_array.g + distance_array.b) < this.limits.rgb &&
+      distance_array.r < this.limits.r &&
+      distance_array.g < this.limits.g &&
+      distance_array.b < this.limits.b
+    )
+  }
+}
+
+//Class to compute the Color Moments algorithm. It computes the statistics moments
+//through the method moments(). The moments are computed in the HSV color space. The method rgdToHsv is used
+//to translate the pixel into the HSV color space
+class ColorMoments {
+  constructor() {
+    this.h_block = 3;
+    this.v_block = 3;
+  }
+
+	compute() {
+		return ''
+	}
 
   moments(imgobj, cnv) {
     let wBlock = Math.floor(imgobj.width / this.h_block);
@@ -104,6 +211,5 @@ class ColorMoments {
     ctx.drawImage(imgobj, 0, 0);
 
     // this method should be completed by the students
-
   }
 }

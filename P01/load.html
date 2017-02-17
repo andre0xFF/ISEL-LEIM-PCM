@@ -5,6 +5,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-teal.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+		<script src="js/ISearchEngine_Manager.js"></script>
+		<script src="js/XML_Database.js"></script>
+		<script src="js/Image_Processing.js"></script>
+		<script src="js/colorizer.js"></script>
+		<script src="js/images_engine.js"></script>
     <style media="screen">
       #spinner-container {
         background-color: #0D3758;
@@ -21,7 +26,10 @@
     </style>
     <title></title>
   </head>
-  <body>
+  <body onload="main()">
+    <canvas id="canvas" width="1100" height="1100" style="display: none;">
+        Your browser doesn't recognize the canvas element
+    </canvas>
     <div id="spinner-container">
       <div class="mdl-spinner mdl-js-spinner is-active"></div>
     </div>

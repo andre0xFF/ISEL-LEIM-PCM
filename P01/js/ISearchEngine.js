@@ -3,14 +3,18 @@
 class ISearchEngine {
   constructor(dbase) {
     this.allpictures = new Pool(3000);
+		// this should be grouped
+		// ie: red [ 204, 0, 0 ]
     this.colors = ["red", "orange", "yellow", "green", "Blue-green", "blue", "purple", "pink", "white", "grey", "black", "brown"];
     this.redColor = [204, 251, 255, 0, 3, 0, 118, 255, 255, 153, 0, 136];
     this.greenColor = [0, 148, 255, 204, 192, 0, 44, 152, 255, 153, 0, 84];
     this.blueColor = [0, 11, 0, 0, 198, 255, 167, 191, 255, 153, 0, 24];
+		// categories of class elements
     this.categories = ["beach", "birthday", "face", "indoor", "manmade/artificial", "manmade/manmade","manmade/urban", "marriage", "nature", "no_people", "outdoor", "party", "people", "snow"];
     this.XML_file = dbase;
     this.XML_db = new XML_Database();
     this.LS_db = new LocalStorageXML();
+
     this.num_Images = 1;
     this.numshownpic = 35;
     this.imgWidth = 190;
@@ -19,7 +23,6 @@ class ISearchEngine {
 
   init(cnv) {
     this.databaseProcessing(cnv);
-
   }
 
   // method to build the database which is composed by all the pictures organized by the XML_Database file
@@ -168,34 +171,4 @@ class ISearchEngine {
 
   }
 
-}
-
-class Pool {
-  constructor(maxSize) {
-    this.size = maxSize;
-    this.stuff = [];
-
-  }
-
-  insert(obj) {
-    if (this.stuff.length < this.size) {
-      this.stuff.push(obj);
-    } else {
-      alert("The application is full: there isn't more memory space to include objects");
-    }
-  }
-
-  remove() {
-    if (this.stuff.length !== 0) {
-      this.stuff.pop();
-    } else {
-      alert("There aren't objects in the application to delete");
-    }
-  }
-
-  empty_Pool() {
-    while (this.stuff.length > 0) {
-      this.remove();
-    }
-  }
 }

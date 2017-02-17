@@ -1,6 +1,6 @@
 class XML_Database {
   constructor() {}
-
+	// loads and returns an XML file
   loadXMLfile(filename) {
     let xmlhttp = {};
     let xmlDoc = {};
@@ -8,12 +8,12 @@ class XML_Database {
     if (window.XMLHttpRequest) {
       xmlhttp = new XMLHttpRequest();
     }
-    xmlhttp.open("POST", filename, false);
+    xmlhttp.open("GET", filename, false);
     xmlhttp.send();
     xmlDoc = xmlhttp.responseXML;
     return xmlDoc;
   }
-
+	// searches for a class of an element in xmlDoc and returns path element child node
   SearchXML(query, xmlDoc, num_Img) {
     let Images_path = [];
     let x = xmlDoc.getElementsByClassName(query);
@@ -36,7 +36,7 @@ class XML_Database {
 class LocalStorageXML {
 
   constructor() {}
-
+	// writes to localstorage keyname : xmlRowString
   saveLS_XML(keyname, xmlRowString) {
     if (typeof(localStorage) == 'undefined')
       alert('Your browser does not support HTML5 localStorage. Try upgrading.');
@@ -50,7 +50,7 @@ class LocalStorageXML {
         }
       }
   }
-
+	// reads keyname from localstorage and returns the string parsed as XML type
   readLS_XML(keyname) {
     let localStorageRow = localStorage.getItem(keyname);
     let xmlDoc = null;

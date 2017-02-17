@@ -1,15 +1,14 @@
-// This code is not of my authority. It was provided to develop the rest of the website
-// 1
 // example image histogram: 0 0 0 0 0 0 77 1477 1064 6546 1151 1652
 let app = null;
 
 function main() {
-    let canvas = document.querySelector("canvas");
-    app = new ISearchEngine("./xml/Image_database.xml");
-    app.init(canvas);
-
+	let canvas = document.getElementById('canvas')
+	app = new Images_engine('./xml/Image_database.xml', canvas)
+	app.process()
 }
 
+// generates a red square with 4 yellow horizontal lines
+// used to test the color histogram
 function Generate_Image(canvas) {
     var ctx = canvas.getContext("2d");
     var imgData = ctx.createImageData(100, 100);
