@@ -1,160 +1,125 @@
 class UI {
 
-   constructor(images_element) {
+   constructor(images_element, colors_element) {
+		 this.dao = new DAO('./xml/Image_database.xml')
 		 this.query = {
+			 history: [],
 			 color_picker: '',
 			 image_path: '',
-			 tooltips: []
+			 tooltips: [
+	 			'beach', 'birthday', 'face', 'indoor', 'people', 'snow',
+	 			'manmade/artificial',	'manmade/manmade', 'manmade/urban',
+	 			'nature', 'no_people', 'outdoor', 'party'
+	 		]
 		 }
 		 this.images = {
 			 container: images_element,
-			 db: ''
+			 paths: []
 		 }
-		 this.engine = new Images_engine()
-     this.color_picker = ''
-     this.image_path = ''
-		 this.querys = []
-		 this.tooltips = engine.get_categories()
+
+		 // display initial images
 		 this.images_element = images_element
-		 this.add_images()
-   }
-
-   set_color(color) {
-     this.color_picker = color
-   }
-
-   set_image(path) {
-     this.image_path = path
+		 for (let i = 0; i < this.query.tooltips.length; i++) {
+		 	let paths = this.dao.get_images_paths(this.query.tooltips[i], 4)
+			this.add_images(paths)
+		 }
+		 // set available colors
+		 let colors = Colorizer.get_colors_hex()
+		 for (let i = 0; i < Object.keys(colors).length; i++) {
+				let name = Object.keys(colors)[i]
+				let option = document.createElement('option')
+				option.setAttribute('value', colors[name])
+				colors_element.append(option)
+		 }
    }
 
 	 get_last_query() {
-		 return this.querys[this.querys.length - 1]
+		 return this.query.history[this.query.history.length - 1]
 	 }
 
-	query(text) {
-		let colors = []
+	execute_query(textfield_element, color_picker_element, input_file_element) {
+		let text = textfield_element.value
+		if (text === '') { return }
 
-		if (this.color_picker !== '') {
-			text += ' ' + this.color_picker
+		this.query.history.push(text)
+		let file = input_file_element.value
+		let colors = Object.keys(Colorizer.get_colors_hex()).filter(function(color) {
+			return text.includes(color)
+		})
+		let query = this.query.tooltips.filter(function(tooltip) {
+			return text.includes(tooltip) || tooltip.includes(text)
+		})
+
+
+		while(this.images_element.firstChild) {
+			this.images_element.removeChild(this.images_element.firstChild)
 		}
 
-		let splited = text.split(' ')
-		let colors_list = new Decipher(Object.keys(Colorizer.get_colors_hex()))
+		if (query.length === 0) { return }
 
-		for (let i = 0; i < splited.length; i++) {
-			// check if word is a color word
-			let colors_name = colors_list.contains(splited[i])
+		if (color_picker_element.getAttribute('data-changed') === 'true' && colors.indexOf(Colorizer.get_color_name(color_picker_element.value) === -1)) {
+			colors.push(Colorizer.get_color_name(color_picker_element.value))
+		}
+		color_picker_element.setAttribute('data-changed', false)
 
-			for (let j = 0; j < colors_name.length; j++) {
-				// loop all colors match
-				let hex = Colorizer.parse_hex(colors_name[j])
-				colors.push(hex)
-			}
-
-			if (Colorizer.is_hex(splited[i])) {
-				// push color
-				colors.push(splited[i])
-			}
+		if (colors.length === 0) {
+			colors = Colorizer.get_colors_names()
 		}
 
-		this.querys.push(text)
-		// TODO execute query
+		for (let i = 0; i < query.length; i++) {
+			for (let j = 0; j < colors.length; j++) {
+				let paths = this.dao.get_from_ls(query[i], colors[j])
+				this.add_images(paths)
+			}
+		}
 	}
-
-	 push_color(color) {
-		 this.colors.push(color)
-	 }
-
-   reload_data() {
-     // delete local storage data if any
-     // load data to local storage
-
-     let redirect = function () {
-        window.location = './index.html'
-     }
-     setTimeout(redirect, 3000)
-   }
 
 	 get_tooltip_words(text) {
 		 if (text.length < 0) {
 		 	return
 		 }
 
-	   let decipher = new Decipher(this.tooltips)
-	   let tooltips = decipher.starts_with(text)
-
-		 return tooltips
+		 return this.query.tooltips.filter(function(tooltip) {
+		 	return tooltip.startsWith(text)
+		 })
 	 }
 
-	 add_images() {
-		 // TODO complete with images
-		 for (let i = 0; i < 20; i++) {
+	 add_images(paths) {
+		 if (paths.length === 0) { return }
+
+		 for (let i = 0; i < paths.length; i++) {
 			 let img = document.createElement('img')
 			 let anchor = document.createElement('a')
-			 img.setAttribute('src', './Images/beach/img_1.jpg')
-			 anchor.setAttribute('href', './Images/beach/img_1.jpg')
+			 img.setAttribute('src', paths[i])
+			 anchor.setAttribute('href', paths[i])
 			 anchor.append(img)
 			 this.images_element.append(anchor)
 		 }
-
 	 }
+
 }
 
-class Decipher {
-
-  constructor(set) {
-    this.set = set
-  }
-
-  contains(text) {
-    let results = []
-
-    for (let i = 0; i < this.set.length; i++) {
-      if (this.set[i].includes(text) || text.includes(this.set[i])) {
-        results.push(this.set[i])
-      }
-    }
-
-    return results
-  }
-
-	starts_with(text) {
-		let results = []
-
-		for (let i = 0; i < this.set.length; i++) {
-			if (this.set[i].startsWith(text)) {
-				results.push(this.set[i])
-			}
-		}
-
-		return results
-	}
-}
-
-let ui = new UI(document.getElementById('images_container'))
+let ui = new UI(
+	document.getElementById('images_container'),
+	document.getElementById('colors')
+)
 
 function handle_image_onChange() {
-  let input = document.getElementById('file-input').value
-  ui.set_image(input)
+	document.getElementById('file-input').setAttribute('data-changed', true)
 }
 
 function handle_color_onChange() {
-  let input = document.getElementById('color-picker').value
-  ui.set_color(input)
+  document.getElementById('color-picker').setAttribute('data-changed', true)
 }
 
 function handle_textfield_onChange() {
-  let input = document.getElementById('user-input').value
+	ui.execute_query(
+		document.getElementById('user-input'),
+		document.getElementById('color-picker'),
+		document.getElementById('file-input')
+	)
 
-  if (input.length < 1) {
-    return
-  }
-
-	ui.query(input)
-
-  let toast = document.getElementById('toast')
-
-  toast.MaterialSnackbar.showSnackbar({
+  document.getElementById('toast').MaterialSnackbar.showSnackbar({
     message: 'Searching for: ' + ui.get_last_query(),
     timeout: 2500
   })

@@ -24,6 +24,21 @@ class Colorizer {
     }
   }
 
+	static get_color_name(hex) {
+		hex = hex.toUpperCase()
+		let colors = Colorizer.get_colors_hex()
+		for (let i = 0; i < Object.keys(colors).length; i++) {
+			let name = Object.keys(colors)[i]
+			if (colors[name] === hex) {
+				return name
+			}
+		}
+	}
+
+	static get_colors_names() {
+		return Object.keys(Colorizer.get_colors_hex())
+	}
+
 	static get_colors_rgb() {
 		let hex = Colorizer.get_colors_hex()
 		let rgb = {}
@@ -36,22 +51,16 @@ class Colorizer {
 	}
 
   static parse_hex(color_name) {
-    let colors = Colorizer.get_colors_hex()
-
-    for (let i = 0; i < Object.keys(colors).length; i++) {
-      let k = Object.keys(colors)[i]
-
-      if (k === color_name) {
-        return colors[k]
-      }
-    }
-
-		return ''
+    return Colorizer.get_colors_hex()[color_name]
   }
 
+	static is_hex(hex) {
+		return /^#[0-9a-f]{3}(?:[0-9a-f]{3})?$/i.test(hex)
+	}
+
 	static parse_rgb(color_name) {
-		let hex = Colorizer.parse_hex(color_name)
-		return Colorizer.hex_to_rgb(hex)
+		let hex = Colorizer.get_colors_hex()
+		return Colorizer.hex_to_rgb(hex[color_name])
 	}
 
 	static rgb_to_hex(r, g, b) {
@@ -86,7 +95,7 @@ class Colorizer {
 		return {
 			name: color_name,
 			rgb: Colorizer.parse_rgb(color_name),
-			hex: Colorizer.parse_hex(color_name)
+			hex: Colorizer.get_colors_hex()[color_name]
 		}
 	}
 
@@ -128,7 +137,6 @@ class Colorizer {
   }
 }
 
-// Class to compute the Color Histogram algorithm. It receives the colors and computes the histogram
 class ColorHistogram {
 
   constructor() {

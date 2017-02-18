@@ -6,16 +6,17 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-teal.min.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+		<script defer src="./js/images_engine.js"></script>
+		<script defer src="./js/XML_Database.js"></script>
+		<script defer src="./js/Image_Processing.js"></script>
+		<script defer src="./js/colorizer.js"></script>
     <script defer src="./js/ui.js"></script>
-    <script defer src="./js/images_engine.js"></script>
-    <script defer src="./js/XML_Database.js"></script>
-    <script defer src="./js/Image_Processing.js"></script>
     <style media="screen">
       .container-header {
         max-height: 200px;
         min-height: 60px;
         height: 10%;
-        background: url('./background/planet_light_spots_space_86643_2560x1080.jpg') center / cover;
+        background: url('./backgrounds/stock-photo-147024847.jpg') center / cover;
       }
       .mdl-textfield__input {
         min-height: 20px;
@@ -67,7 +68,8 @@
 
             <button class="mdl-button mdl-js-button search-bar__colorlens">
               <label class="material-icons" for="color-picker">color_lens</label>
-              <input type="color" id="color-picker" style="display: none;" oninput="handle_color_onChange()">
+              <input type="color" id="color-picker" style="display: none;" oninput="handle_color_onChange()" list="colors" data-changed="false">
+							<datalist id="colors"></datalist>
             </button>
 
           </div>

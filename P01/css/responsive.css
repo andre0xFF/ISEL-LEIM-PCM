@@ -2,13 +2,17 @@
 	display: -webkit-flex;
 	display: flex;
 	flex-wrap: wrap;
-	-webkit-flex-flow: row wrap;
-	flex-flow: row wrap;
-	-webkit-align-content: flex-start;
-	align-content: flex-start;
+	-webkit-flex-direction: row /* works with row or column */
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+
 }
 
 #images_container img {
 	height: 200px;
 	margin: 5px;
+	margin-top: 20px;
 }
