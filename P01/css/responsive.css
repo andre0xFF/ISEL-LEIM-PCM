@@ -2,13 +2,12 @@
 	display: -webkit-flex;
 	display: flex;
 	flex-wrap: wrap;
-	-webkit-flex-direction: row /* works with row or column */
+	-webkit-flex-direction: row;
 	flex-direction: row;
 	-webkit-align-items: center;
 	align-items: center;
-	-webkit-justify-content: space-around;
-	justify-content: space-around;
-
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
 }
 
 #images_container img {

@@ -8,7 +8,7 @@ class Images_engine {
 
 	constructor(xml_path, canvas) {
 		this.canvas = canvas
-		this.pictures_per_category = 10
+		this.pictures_per_category = 50
 		this.categories = [
 			'beach', 'birthday', 'face', 'indoor', 'people', 'snow',
 			'manmade/artificial',	'manmade/manmade', 'manmade/urban',
