@@ -1,0 +1,17 @@
+#images_container {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+
+#images_container img {
+	height: 200px;
+	margin: 5px;
+	margin-top: 20px;
+}
